@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Definicoes locais do VS Code (especificas deste PC)
+.vscode/
+
+# Respostas em bruto do Media Cloud (so servem de cache local)
+data/mediacloud/cache/
+
+# Gerado automaticamente pelo collector/site/gerar_dados.py
+docs/dados.js

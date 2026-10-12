@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar GTA VI</title>
+<meta name="description" content="Quanto se fala do GTA VI, onde e porquê: imprensa, Reddit e internet medidos dia a dia até ao lançamento.">
+<meta property="og:title" content="Radar GTA VI">
+<meta property="og:description" content="Contagem para o lançamento, picos de atenção e quem está a falar do jogo agora. Atualiza-se todos os dias.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1626'/%3E%3Cpath d='M5 22 L11 16 L15 19 L21 9 L27 14' fill='none' stroke='%23e0527e' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: uma noite em Ocean Drive. Um só scroll: contagem e números no topo,
+   o gráfico de atenção ao centro, depois o radar de picos, quem fala e onde. */
+:root {
+  color-scheme: dark;
+  --noite: #0b1626;
+  --painel: #112036;
+  --linha: #1e3149;
+  --eixo: #2c4362;
+  --tinta: #f4efe7;
+  --tinta-2: #b8c3d1;
+  --tinta-3: #8593a8;
+  --flamingo: #e0527e;
+  --flamingo-wash: rgba(224, 82, 126, 0.13);
+  --sol: #c7850a;
+  --mar: #3a7ad0;
+  --neutro: #55667f;
+  --display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", Impact, sans-serif;
+  --texto: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --raio: 10px;
+}
+* { box-sizing: border-box; }
+html { background: var(--noite); }
+body {
+  margin: 0;
+  background: var(--noite);
+  color: var(--tinta);
+  font-family: var(--texto);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: clamp(16px, 4vw, 40px); }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+p { margin: 0; }
+:focus-visible { outline: 2px solid var(--flamingo); outline-offset: 3px; border-radius: 4px; }
+
+/* ---------- Topo ---------- */
+.topo { position: relative; padding-block: clamp(28px, 6vw, 64px) 0; }
+.topo-grelha { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: end; }
+.olho { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-3); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.olho .vivo { display: inline-flex; align-items: center; gap: 6px; color: var(--tinta-2); }
+.olho .vivo::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--flamingo); animation: pulso 2.4s ease-out infinite; }
+@keyframes pulso { 0% { box-shadow: 0 0 0 0 rgba(224,82,126,.6); } 70%, 100% { box-shadow: 0 0 0 9px rgba(224,82,126,0); } }
+h1 { font-family: var(--display); font-weight: 900; font-size: clamp(64px, 12vw, 148px); line-height: 0.86; letter-spacing: 0.005em; text-transform: uppercase; margin-top: 14px; }
+h1 .r { color: var(--flamingo); display: block; }
+.lead { color: var(--tinta-2); font-size: clamp(16px, 1.6vw, 19px); max-width: 36ch; margin-top: 18px; }
+.contagem-caixa { border: 1px solid var(--linha); background: linear-gradient(180deg, var(--painel) 0%, var(--noite) 100%); border-radius: var(--raio); padding: 20px 22px 18px; }
+.contagem-caixa h2 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-3); }
+.contagem { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+.contagem div { display: grid; gap: 2px; }
+.contagem b { font-family: var(--display); font-weight: 700; font-size: clamp(40px, 6vw, 64px); line-height: 1; font-variant-numeric: tabular-nums; }
+.contagem small { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinta-3); }
+.contagem-nota { margin-top: 12px; font-size: 13px; color: var(--tinta-3); }
+.partilhar { margin-top: 14px; display: inline-flex; align-items: center; gap: 8px; font: 600 14px/1 var(--texto); color: var(--tinta); background: transparent; border: 1px solid var(--eixo); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
+.partilhar:hover { border-color: var(--flamingo); }
+.partilhar svg { width: 16px; height: 16px; }
+.horizonte { height: 2px; margin-top: clamp(28px, 5vw, 48px); background: linear-gradient(90deg, transparent 0%, var(--flamingo) 25%, var(--sol) 60%, transparent 100%); background-size: 200% 100%; box-shadow: 0 0 24px 2px rgba(224, 82, 126, 0.35); animation: brilho 9s linear infinite; }
+@keyframes brilho { from { background-position: 0% 0; } to { background-position: 200% 0; } }
+
+/* ---------- Números ---------- */
+.numeros { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--linha); }
+.numeros > div { padding: 22px 20px 24px 0; display: grid; gap: 6px; align-content: start; }
+.numeros > div + div { padding-left: 20px; border-left: 1px solid var(--linha); }
+.numeros .v { font-size: clamp(30px, 3.6vw, 42px); font-weight: 700; line-height: 1.05; letter-spacing: -0.01em; }
+.numeros .v small { font-size: 0.5em; font-weight: 600; color: var(--tinta-2); margin-left: 3px; }
+.numeros .l { color: var(--tinta-2); font-size: 14px; line-height: 1.45; max-width: 27ch; }
+
+/* ---------- Secções ---------- */
+.secao { padding-block: clamp(40px, 6vw, 72px) 0; }
+.cab { display: grid; gap: 10px; max-width: 68ch; }
+.cab .etiqueta { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--flamingo); }
+h2 { font-family: var(--display); font-weight: 700; font-size: clamp(34px, 4.6vw, 52px); line-height: 0.98; text-transform: uppercase; letter-spacing: 0.01em; }
+.cab p { color: var(--tinta-2); }
+
+.filtros { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 22px; align-items: center; }
+.grupo { display: flex; flex-wrap: wrap; gap: 6px; }
+.grupo + .grupo { padding-left: 18px; border-left: 1px solid var(--linha); }
+.grupo button { font: 500 14px/1 var(--texto); color: var(--tinta-2); background: transparent; border: 1px solid var(--linha); border-radius: 999px; padding: 9px 14px; cursor: pointer; }
+.grupo button:hover { color: var(--tinta); border-color: var(--eixo); }
+.grupo button[aria-pressed="true"] { color: var(--noite); background: var(--tinta); border-color: var(--tinta); }
+
+.grafico-caixa { margin-top: 14px; background: var(--painel); border: 1px solid var(--linha); border-radius: var(--raio); padding: 8px 8px 4px; position: relative; }
+.grafico-titulo { padding: 8px 8px 0; font-size: 13px; color: var(--tinta-3); }
+.grafico-titulo b { color: var(--tinta); font-weight: 600; }
+#grafico { position: relative; outline: none; }
+#grafico svg { display: block; width: 100%; height: auto; overflow: visible; touch-action: pan-y; }
+#grafico:focus-visible { outline: 2px solid var(--flamingo); outline-offset: 4px; border-radius: 6px; }
+.eixo-txt { font-family: var(--mono); font-size: 11px; fill: var(--tinta-3); font-variant-numeric: tabular-nums; }
+.rotulo-pico { font-family: var(--texto); font-size: 12px; font-weight: 600; fill: var(--tinta); }
+.dica { position: absolute; pointer-events: none; z-index: 5; background: var(--noite); border: 1px solid var(--eixo); border-radius: 8px; padding: 10px 12px; min-width: 170px; max-width: 250px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35); font-size: 13px; line-height: 1.4; }
+.dica .dt { font-family: var(--mono); font-size: 11px; color: var(--tinta-3); letter-spacing: 0.04em; }
+.dica .tot { font-size: 22px; font-weight: 700; margin-top: 2px; }
+.dica .tot span { font-size: 13px; font-weight: 500; color: var(--tinta-2); margin-left: 4px; }
+.dica .pais { display: flex; justify-content: space-between; gap: 12px; color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.dica .pais b { color: var(--tinta); font-weight: 600; }
+.dica .ev { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--linha); color: var(--tinta); display: flex; gap: 8px; align-items: flex-start; }
+.dica .ev i { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--flamingo); margin-top: 5px; }
+
+details.tabela { margin-top: 14px; }
+details.tabela summary { cursor: pointer; color: var(--tinta-2); font-size: 14px; width: fit-content; }
+details.tabela summary:hover { color: var(--tinta); }
+.rolar { overflow-x: auto; margin-top: 10px; max-height: 360px; overflow-y: auto; border: 1px solid var(--linha); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--linha); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+thead th { position: sticky; top: 0; background: var(--painel); color: var(--tinta-3); font-weight: 500; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+/* ---------- Radar ---------- */
+.picos { list-style: none; margin: 22px 0 0; padding: 0; border-top: 1px solid var(--linha); }
+.picos li { display: grid; grid-template-columns: 116px minmax(90px, 200px) minmax(0, 1fr); gap: 6px 22px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--linha); }
+.picos time { font-family: var(--mono); font-size: 13px; color: var(--tinta-2); }
+.picos .medida { display: grid; gap: 6px; }
+.picos .medida .num { display: flex; align-items: baseline; gap: 8px; font-variant-numeric: tabular-nums; }
+.picos .medida .num b { font-size: 18px; }
+.picos .medida .num span { font-size: 12px; color: var(--tinta-3); font-family: var(--mono); }
+.picos .trilho { height: 6px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+.picos .trilho i { display: block; height: 100%; border-radius: 3px; background: var(--flamingo); transform-origin: left center; }
+.picos .desc { color: var(--tinta); min-width: 0; overflow-wrap: anywhere; }
+.picos .desc.vazio { color: var(--tinta-3); font-style: italic; }
+.picos .desc.manchete { color: var(--tinta-2); }
+.picos li.recente .desc::after { content: "recente"; margin-left: 10px; font: 500 11px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--noite); background: var(--flamingo); padding: 3px 7px; border-radius: 999px; vertical-align: 2px; }
+
+/* ---------- Quem fala ---------- */
+.quem-grelha { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 48px); margin-top: 26px; }
+.barra100 { display: flex; gap: 2px; height: 22px; margin-top: 24px; }
+.barra100 i { display: block; height: 100%; min-width: 3px; }
+.barra100 i:first-child { border-radius: 4px 0 0 4px; }
+.barra100 i:last-child { border-radius: 0 4px 4px 0; }
+.legenda { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-top: 14px; }
+.legenda div { display: grid; grid-template-columns: 12px auto; gap: 2px 8px; align-items: center; }
+.legenda .sw { width: 12px; height: 12px; border-radius: 3px; }
+.legenda b { font-size: 15px; }
+.legenda span { grid-column: 2; font-size: 13px; color: var(--tinta-3); }
+.lista-manchetes h3 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-3); padding-bottom: 10px; border-bottom: 1px solid var(--linha); }
+.lista-manchetes ul { list-style: none; margin: 0; padding: 0; }
+.lista-manchetes li { padding: 12px 0; border-bottom: 1px solid var(--linha); display: grid; gap: 4px; }
+.lista-manchetes .t { font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+.lista-manchetes .m { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--tinta-3); }
+.lista-manchetes .m i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.exemplos { margin-top: 16px; color: var(--tinta-2); font-size: 14px; }
+.exemplos b { color: var(--tinta); font-weight: 600; }
+.evolucao { margin-top: 26px; }
+.evolucao h3 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-3); }
+.evolucao svg { display: block; width: 100%; height: auto; margin-top: 10px; }
+
+/* ---------- Países ---------- */
+.paises { margin-top: 24px; display: grid; gap: 14px; max-width: 760px; }
+.pais { display: grid; grid-template-columns: 120px minmax(0, 1fr) auto; gap: 14px; align-items: center; }
+.pais .nome { font-weight: 600; }
+.pais .trilho { height: 22px; position: relative; }
+.pais .trilho i { position: absolute; inset: 0 auto 0 0; border-radius: 0 4px 4px 0; background: var(--flamingo); transform-origin: left center; }
+.pais .val { font-variant-numeric: tabular-nums; text-align: right; min-width: 9ch; }
+.pais .val b { font-size: 18px; }
+.pais .val span { display: block; font-size: 12px; color: var(--tinta-3); }
+.nota { margin-top: 16px; color: var(--tinta-3); font-size: 14px; max-width: 68ch; }
+
+/* ---------- Rodapé ---------- */
+.rodape { margin-top: clamp(48px, 7vw, 88px); border-top: 1px solid var(--linha); padding-block: 28px 40px; color: var(--tinta-3); font-size: 13px; }
+.rodape-grelha { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; }
+.rodape h3 { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-2); margin-bottom: 8px; }
+.rodape p + p { margin-top: 8px; }
+.rodape b { color: var(--tinta-2); font-weight: 600; }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--tinta); color: var(--noite); font-weight: 600; font-size: 14px; padding: 10px 16px; border-radius: 999px; z-index: 20; max-width: calc(100% - 32px); overflow-wrap: anywhere; }
+
+@media (max-width: 860px) {
+  .topo-grelha { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  .numeros { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .numeros > div:nth-child(3) { padding-left: 0; border-left: 0; }
+  .numeros > div:nth-child(n+3) { border-top: 1px solid var(--linha); }
+  .quem-grelha, .rodape-grelha { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .picos li { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .picos .desc { grid-column: 1 / -1; }
+  .pais { grid-template-columns: 86px minmax(0, 1fr) auto; gap: 10px; }
+  .numeros > div { padding-right: 12px; }
+  .numeros > div + div { padding-left: 12px; }
+  .numeros > div:nth-child(3) { padding-left: 0; }
+  .grupo + .grupo { padding-left: 0; border-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<header class="topo">
+  <div class="wrap">
+    <div class="topo-grelha">
+      <div>
+        <p class="olho"><span class="vivo">Projeto de fãs</span><span>·</span><span id="olho-data">atualiza-se todos os dias</span></p>
+        <h1><span class="r">Radar</span>GTA VI</h1>
+        <p class="lead">Quanto se fala do GTA VI, onde e porquê. Imprensa, Reddit e internet medidos dia a dia, até ao lançamento.</p>
+      </div>
+      <div class="contagem-caixa">
+        <h2>Faltam para o lançamento</h2>
+        <div class="contagem" aria-label="Contagem decrescente para 19 de novembro de 2026">
+          <div><b id="cd-d">38</b><small>dias</small></div>
+          <div><b id="cd-h">00</b><small>horas</small></div>
+          <div><b id="cd-m">00</b><small>min</small></div>
+          <div><b id="cd-s">00</b><small>seg</small></div>
+        </div>
+        <p class="contagem-nota">Até 19 de novembro de 2026, à meia-noite em Lisboa. PS5 e Xbox Series X|S.</p>
+        <button class="partilhar" id="partilhar" type="button">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6.5 9.5l3-3M7 4.5l1.2-1.2a2.6 2.6 0 013.6 3.6L10.6 8M9 11.5l-1.2 1.2a2.6 2.6 0 01-3.6-3.6L5.4 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          Copiar link para partilhar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="horizonte" aria-hidden="true"></div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="numeros" aria-label="Resumo">
+      <div><span class="v" id="k1">–</span><span class="l" id="k1-l">notícias sobre o GTA VI na imprensa nacional desde nov 2023</span></div>
+      <div><span class="v" id="k2">–</span><span class="l" id="k2-l">comentários no r/GTA6 desde nov 2023</span></div>
+      <div><span class="v" id="k3">–</span><span class="l" id="k3-l">notícias num só dia, o recorde</span></div>
+      <div><span class="v" id="k4">–</span><span class="l" id="k4-l">das notícias das últimas 48 horas vieram de fora do mundo dos jogos</span></div>
+    </section>
+
+    <section class="secao" id="atencao">
+      <div class="cab">
+        <span class="etiqueta" id="g-etiqueta">Imprensa · Media Cloud</span>
+        <h2>Atenção, dia a dia</h2>
+        <p id="g-texto">Notícias por dia que falam do GTA VI. Cada ponto marca um pico: um dia com pelo menos o dobro da média da semana anterior.</p>
+      </div>
+      <div class="filtros">
+        <div class="grupo" role="group" aria-label="Fonte do gráfico">
+          <button type="button" id="s-imprensa" data-fonte="imprensa" aria-pressed="true">Imprensa</button>
+          <button type="button" id="s-reddit" data-fonte="reddit" aria-pressed="false">Reddit r/GTA6</button>
+        </div>
+        <div class="grupo" role="group" aria-label="Período do gráfico">
+          <button type="button" id="f-tudo" data-periodo="tudo" aria-pressed="true">Desde nov 2023</button>
+          <button type="button" id="f-2026" data-periodo="2026" aria-pressed="false">2026</button>
+          <button type="button" id="f-90" data-periodo="90" aria-pressed="false">Últimos 90 dias</button>
+        </div>
+      </div>
+      <div class="grafico-caixa">
+        <p class="grafico-titulo" id="g-titulo"></p>
+        <div id="grafico" tabindex="0" role="img" aria-label="Gráfico de linha com os valores diários e os picos de atenção. Use as setas para percorrer os dias."></div>
+      </div>
+      <details class="tabela">
+        <summary>Ver os números por mês</summary>
+        <div class="rolar"><table id="tabela-mes"></table></div>
+      </details>
+    </section>
+
+    <section class="secao" id="radar">
+      <div class="cab">
+        <span class="etiqueta">Radar de picos · imprensa</span>
+        <h2>Os dias em que a conversa disparou</h2>
+        <p>Detetados automaticamente: pelo menos 10 notícias e o dobro (ou mais) da média dos 7 dias anteriores. Do mais recente para o mais antigo.</p>
+      </div>
+      <ol class="picos" id="lista-picos"></ol>
+    </section>
+
+    <section class="secao" id="quem">
+      <div class="cab">
+        <span class="etiqueta" id="quem-etiqueta">Internet · Google News, últimas 48 h</span>
+        <h2>Quem está a falar, agora</h2>
+        <p id="quem-resumo">A carregar…</p>
+      </div>
+      <div class="barra100" id="barra100" role="img" aria-label="Divisão das notícias por tipo de site"></div>
+      <div class="legenda" id="legenda"></div>
+      <p class="exemplos" id="exemplos"></p>
+      <div class="evolucao" id="evolucao" hidden>
+        <h3>Notícias de fora do gaming, por dia</h3>
+        <div id="evolucao-grafico"></div>
+      </div>
+      <div class="quem-grelha">
+        <div class="lista-manchetes">
+          <h3>Fora do mundo dos jogos</h3>
+          <ul id="lista-fora"></ul>
+        </div>
+        <div class="lista-manchetes">
+          <h3>Últimas manchetes</h3>
+          <ul id="lista-ultimas"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="paises">
+      <div class="cab">
+        <span class="etiqueta">Imprensa · por país</span>
+        <h2>Onde se fala mais</h2>
+        <p>Por cada 10 mil notícias publicadas pela imprensa nacional de cada país desde nov 2023, quantas falam do GTA VI.</p>
+      </div>
+      <div class="paises" id="lista-paises"></div>
+      <p class="nota">A Rockstar North, o estúdio principal do jogo, fica em Edimburgo.</p>
+    </section>
+  </div>
+
+  <footer class="rodape">
+    <div class="wrap rodape-grelha">
+      <div>
+        <h3>Como é feito</h3>
+        <p><b>Imprensa:</b> <span id="m-imprensa">Media Cloud, coleções de imprensa nacional.</span> Pesquisa: “GTA 6” OR “GTA VI” OR “Grand Theft Auto 6” OR “Grand Theft Auto VI”. Recolha única, não diária.</p>
+        <p><b>Reddit:</b> publicações e comentários por dia no r/GTA6, através do arquivo Arctic Shift. Atualizado todos os dias.</p>
+        <p><b>Internet:</b> Google News, pesquisa “GTA 6” OR “GTA VI” nas últimas 48 horas, todos os dias. Os sites são classificados numa lista mantida à mão.</p>
+        <p><b>Picos:</b> dias com o dobro (ou mais) da média dos 7 dias anteriores; um pico por acontecimento. As descrições foram confirmadas em notícias da altura; quando ainda não há, mostra-se uma manchete desse dia.</p>
+      </div>
+      <div>
+        <h3>Sobre</h3>
+        <p>Projeto pessoal de fãs, sem qualquer ligação à Rockstar Games ou à Take-Two Interactive. Mede a conversa à volta do jogo e não mostra nem liga a material vazado.</p>
+        <p id="rodape-atualizado">Atualiza-se sozinho todas as manhãs.</p>
+      </div>
+    </div>
+  </footer>
+</main>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="dados.js"></script>
+<script>
+(function () {
+  "use strict";
+  var D = window.DADOS;
+  if (!D) return;
+  var MC = D.mediacloud, RD = D.reddit, NW = D.noticias, COMP = D.composicao || [];
+  var MOV = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  var NOMES_PAIS = { US: "EUA", UK: "Reino Unido", PT: "Portugal", BR: "Brasil" };
+  var PAISES = Object.keys(MC.paises);
+  var CAT = {
+    gaming: { nome: "Jogos e tecnologia", cor: "var(--mar)" },
+    cultura: { nome: "Música, cinema e estilo de vida", cor: "var(--flamingo)" },
+    geral: { nome: "Informação geral e economia", cor: "var(--sol)" },
+    outros: { nome: "Por classificar", cor: "var(--neutro)" }
+  };
+  var NS = "http://www.w3.org/2000/svg";
+  var DIA = 86400000;
+
+  function fmt(n, dec) {
+    var s = (dec ? n.toFixed(dec) : Math.round(n).toString()).replace(".", ",");
+    var p = s.split(",");
+    if (p[0].length > 3) p[0] = p[0].replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    return p.join(",");
+  }
+  function listaPT(a) { return a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " e " + a[a.length - 1]; }
+  function dataUTC(iso) { var p = iso.slice(0, 10).split("-"); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
+  function fmtData(d) { return d.getUTCDate() + " " + MESES[d.getUTCMonth()] + " " + d.getUTCFullYear(); }
+  function fmtLocal(d) { return d.getDate() + " " + MESES[d.getMonth()] + " " + d.getFullYear(); }
+  function dois(n) { return (n < 10 ? "0" : "") + n; }
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  function svgEl(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+  function contar(elem, fim, formatar, sufixo) {
+    function pintar(v) { elem.textContent = formatar(v); if (sufixo) elem.appendChild(el("small", null, sufixo)); }
+    pintar(fim);
+    if (!MOV) return;
+    var t0 = null;
+    function passo(ts) { if (t0 === null) t0 = ts; var k = Math.min(1, (ts - t0) / 1300); pintar(fim * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(passo); }
+    requestAnimationFrame(passo);
+  }
+
+  /* ---------- Séries ---------- */
+  function serie(inicioIso, valores, picos) {
+    var inicio = dataUTC(inicioIso), porIdx = {};
+    picos.forEach(function (p) { p.idx = Math.round((dataUTC(p.data) - inicio) / DIA); porIdx[p.idx] = p; });
+    return { inicio: inicio, valores: valores, picos: picos, porIdx: porIdx, N: valores.length };
+  }
+  var nMC = MC.paises[PAISES[0]].diario.length, totalMC = [];
+  for (var i = 0; i < nMC; i++) { var t = 0; PAISES.forEach(function (p) { t += MC.paises[p].diario[i]; }); totalMC.push(t); }
+  var nomesPaises = listaPT(PAISES.map(function (p) { return NOMES_PAIS[p] || p; }));
+  var FONTES = {
+    imprensa: serie(MC.inicio, totalMC, MC.picos),
+    reddit: RD ? serie(RD.inicio, RD.publicacoes, RD.picos) : null
+  };
+  FONTES.imprensa.unidade = ["notícia", "notícias"];
+  FONTES.imprensa.etiqueta = "Imprensa · Media Cloud";
+  FONTES.imprensa.texto = "Notícias por dia que falam do GTA VI na imprensa nacional de " + nomesPaises + ". Cada ponto marca um pico: um dia com pelo menos o dobro da média da semana anterior.";
+  FONTES.imprensa.rotulo = "Notícias por dia";
+  FONTES.imprensa.linhas = function (idx) { return PAISES.map(function (p) { return [NOMES_PAIS[p] || p, MC.paises[p].diario[idx]]; }); };
+  if (RD) {
+    FONTES.reddit.unidade = ["publicação", "publicações"];
+    FONTES.reddit.etiqueta = "Comunidade · Reddit r/GTA6";
+    FONTES.reddit.texto = "Publicações por dia no r/GTA6, a maior comunidade do jogo no Reddit. Cada ponto marca um pico: um dia com pelo menos o dobro da média da semana anterior.";
+    FONTES.reddit.rotulo = "Publicações por dia";
+    FONTES.reddit.linhas = function (idx) { var c = RD.comentarios[idx]; return [["Comentários", c == null ? "–" : c]]; };
+  } else {
+    document.getElementById("s-reddit").hidden = true;
+  }
+
+  /* ---------- Topo ---------- */
+  document.getElementById("olho-data").textContent = "atualizado a " + fmtLocal(new Date(D.atualizado));
+  var alvo = Date.UTC(2026, 10, 19, 0, 0, 0); // meia-noite em Lisboa (UTC+0 em novembro)
+  var cd = { d: document.getElementById("cd-d"), h: document.getElementById("cd-h"), m: document.getElementById("cd-m"), s: document.getElementById("cd-s") };
+  function tique() {
+    var s = Math.floor(Math.max(0, alvo - Date.now()) / 1000);
+    cd.d.textContent = Math.floor(s / 86400); cd.h.textContent = dois(Math.floor(s % 86400 / 3600));
+    cd.m.textContent = dois(Math.floor(s % 3600 / 60)); cd.s.textContent = dois(s % 60);
+  }
+  tique(); setInterval(tique, 1000);
+
+  var toast = document.getElementById("toast"), toastT;
+  function avisar(msg) { toast.textContent = msg; toast.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { toast.hidden = true; }, 2600); }
+  document.getElementById("partilhar").addEventListener("click", function () {
+    var url = location.href.split("#")[0];
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(function () { avisar("Link copiado"); }, function () { avisar(url); });
+    else avisar(url);
+  });
+
+  /* ---------- Números ---------- */
+  contar(document.getElementById("k1"), MC.total, fmt);
+  document.getElementById("k1-l").textContent = "notícias sobre o GTA VI na imprensa nacional de " + nomesPaises + " desde nov 2023";
+  if (RD) {
+    var tc = RD.total_comentarios;
+    if (tc >= 1e6) contar(document.getElementById("k2"), tc, function (v) { return fmt(v / 1e6, 1); }, "milhões");
+    else contar(document.getElementById("k2"), tc, fmt);
+    document.getElementById("k2-l").textContent = "comentários no r/GTA6 desde nov 2023, em " + fmt(RD.total_publicacoes) + " publicações";
+  } else {
+    var a26 = MC.por_ano["2026"] || 0, a25 = MC.por_ano["2025"] || 0;
+    contar(document.getElementById("k2"), a26, fmt);
+    document.getElementById("k2-l").textContent = "notícias só em 2026, contra " + fmt(a25) + " em todo o ano de 2025";
+  }
+  var maxV = 0, maxI = 0;
+  totalMC.forEach(function (v, i) { if (v > maxV) { maxV = v; maxI = i; } });
+  var pkMax = FONTES.imprensa.porIdx[maxI];
+  contar(document.getElementById("k3"), maxV, fmt);
+  document.getElementById("k3-l").textContent = "notícias num só dia, o recorde: " + fmtData(new Date(FONTES.imprensa.inicio.getTime() + maxI * DIA)) + (pkMax && pkMax.curto ? " (" + pkMax.curto.toLowerCase() + ")" : "");
+  if (NW && NW.total) {
+    var pct = Math.round(100 * (NW.categorias.cultura + NW.categorias.geral) / NW.total);
+    contar(document.getElementById("k4"), pct, fmt, "%");
+  }
+
+  /* ---------- Gráfico principal ---------- */
+  var caixa = document.getElementById("grafico");
+  var fonte = "imprensa", periodo = "tudo", estado = null;
+  var dica = el("div", "dica"); dica.hidden = true; caixa.appendChild(dica);
+
+  function intervalo(S) {
+    if (periodo === "2026") return [Math.max(0, Math.round((Date.UTC(2026, 0, 1) - S.inicio) / DIA)), S.N - 1];
+    if (periodo === "90") return [Math.max(0, S.N - 90), S.N - 1];
+    return [0, S.N - 1];
+  }
+  function escala(v) {
+    var mag = Math.pow(10, Math.floor(Math.log(Math.max(v, 1)) / Math.LN10));
+    var passos = [1, 2, 2.5, 5, 10];
+    for (var i = 0; i < passos.length; i++) { var s = passos[i] * mag; if (Math.ceil(v / s) <= 5) return { max: Math.ceil(v / s) * s, passo: s }; }
+    return { max: Math.ceil(v / (10 * mag)) * 10 * mag, passo: 10 * mag };
+  }
+  function tickTxt(v) { return v >= 1000 ? fmt(v / 1000, v % 1000 ? 1 : 0) + " mil" : fmt(v); }
+
+  function desenhar(animar) {
+    var S = FONTES[fonte];
+    var W = Math.max(300, caixa.clientWidth), estreito = W < 560;
+    var H = estreito ? 280 : 360;
+    var m = { t: 46, r: 14, b: 28, l: estreito ? 40 : 48 };
+    var pw = W - m.l - m.r, ph = H - m.t - m.b;
+    var r = intervalo(S), i0 = r[0], i1 = r[1];
+    document.getElementById("g-titulo").textContent = S.rotulo + ", de " + fmtData(new Date(S.inicio.getTime() + i0 * DIA)) + " a " + fmtData(new Date(S.inicio.getTime() + i1 * DIA));
+    var vmax = 0; for (var i = i0; i <= i1; i++) vmax = Math.max(vmax, S.valores[i] || 0);
+    var esc = escala(vmax * 1.08);
+    function x(i) { return m.l + (i - i0) / Math.max(1, i1 - i0) * pw; }
+    function y(v) { return m.t + ph - v / esc.max * ph; }
+    var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, width: W, height: H, "aria-hidden": "true" });
+
+    for (var v = 0; v <= esc.max + 1e-9; v += esc.passo) {
+      svg.appendChild(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: v === 0 ? "var(--eixo)" : "var(--linha)", "stroke-width": 1, "shape-rendering": "crispEdges" }));
+      var tt = svgEl("text", { x: m.l - 8, y: y(v) + 4, "text-anchor": "end", "class": "eixo-txt" }); tt.textContent = tickTxt(v); svg.appendChild(tt);
+    }
+    var marcas = [];
+    function idxDe(ano, mes, dia) { return Math.round((Date.UTC(ano, mes, dia || 1) - S.inicio) / DIA); }
+    if (periodo === "tudo") {
+      for (var a = 2024; a <= 2026; a++) { marcas.push({ i: idxDe(a, 0), t: String(a) }); if (!estreito) marcas.push({ i: idxDe(a, 6), t: "jul" }); }
+    } else if (periodo === "2026") {
+      for (var mm = 0; mm < 12; mm += (estreito ? 3 : 1)) marcas.push({ i: idxDe(2026, mm), t: MESES[mm] });
+    } else {
+      for (var k = i1; k >= i0; k -= (estreito ? 28 : 14)) { var dd = new Date(S.inicio.getTime() + k * DIA); marcas.push({ i: k, t: dd.getUTCDate() + " " + MESES[dd.getUTCMonth()] }); }
+    }
+    marcas.forEach(function (mk) {
+      if (mk.i < i0 || mk.i > i1) return;
+      var xx = x(mk.i);
+      svg.appendChild(svgEl("line", { x1: xx, x2: xx, y1: m.t + ph, y2: m.t + ph + 5, stroke: "var(--eixo)", "stroke-width": 1 }));
+      var tx = svgEl("text", { x: Math.min(Math.max(xx, m.l + 14), W - m.r - 14), y: H - 8, "text-anchor": "middle", "class": "eixo-txt" }); tx.textContent = mk.t; svg.appendChild(tx);
+    });
+
+    var d = "", da = "M" + x(i0).toFixed(1) + " " + y(0).toFixed(1);
+    for (var j = i0; j <= i1; j++) {
+      var px = x(j).toFixed(1), py = y(S.valores[j] || 0).toFixed(1);
+      d += (j === i0 ? "M" : "L") + px + " " + py; da += "L" + px + " " + py;
+    }
+    da += "L" + x(i1).toFixed(1) + " " + y(0).toFixed(1) + "Z";
+    var area = svgEl("path", { d: da, fill: "var(--flamingo-wash)", stroke: "none" });
+    var linha = svgEl("path", { d: d, fill: "none", stroke: "var(--flamingo)", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+    svg.appendChild(area); svg.appendChild(linha);
+
+    var visiveis = S.picos.filter(function (p) { return p.idx >= i0 && p.idx <= i1; });
+    var gPicos = svgEl("g", {}), gRot = svgEl("g", {});
+    visiveis.forEach(function (p) {
+      var c = svgEl("circle", { cx: x(p.idx), cy: y(p.n), r: 5, fill: "var(--flamingo)", stroke: "var(--painel)", "stroke-width": 2 });
+      c.style.transformOrigin = x(p.idx) + "px " + y(p.n) + "px"; gPicos.appendChild(c);
+    });
+    var maxRot = estreito ? 2 : 5, colocados = [];
+    visiveis.filter(function (p) { return p.curto; }).sort(function (a, b) { return b.n - a.n; }).forEach(function (p) {
+      if (colocados.length >= maxRot) return;
+      var largura = p.curto.length * 6.6 + 8;
+      var cx = Math.min(Math.max(x(p.idx), m.l + largura / 2), W - m.r - largura / 2), cy = y(p.n) - 14;
+      for (var tent = 0; tent < 2; tent++) {
+        var choca = colocados.some(function (o) { return Math.abs(o.x - cx) < (o.w + largura) / 2 + 6 && Math.abs(o.y - cy) < 16; });
+        if (!choca) {
+          colocados.push({ x: cx, y: cy, w: largura });
+          var tx = svgEl("text", { x: cx, y: Math.max(14, cy), "text-anchor": "middle", "class": "rotulo-pico" }); tx.textContent = p.curto; gRot.appendChild(tx);
+          return;
+        }
+        cy -= 16;
+      }
+    });
+    svg.appendChild(gPicos); svg.appendChild(gRot);
+    var cruz = svgEl("line", { y1: m.t, y2: m.t + ph, stroke: "var(--tinta-3)", "stroke-width": 1, visibility: "hidden" });
+    var ponto = svgEl("circle", { r: 4.5, fill: "var(--tinta)", stroke: "var(--painel)", "stroke-width": 2, visibility: "hidden" });
+    svg.appendChild(cruz); svg.appendChild(ponto);
+
+    var velho = caixa.querySelector("svg"); if (velho) caixa.removeChild(velho);
+    caixa.insertBefore(svg, dica);
+    estado = { S: S, x: x, y: y, i0: i0, i1: i1, m: m, pw: pw, W: W, cruz: cruz, ponto: ponto, sel: null };
+
+    if (animar && MOV && linha.getTotalLength && linha.animate) {
+      var len = linha.getTotalLength();
+      linha.style.strokeDasharray = len;
+      linha.animate([{ strokeDashoffset: len }, { strokeDashoffset: 0 }], { duration: 1400, easing: "cubic-bezier(.3,.7,.2,1)" });
+      area.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 900, delay: 500, easing: "ease-out", fill: "backwards" });
+      Array.prototype.forEach.call(gPicos.childNodes, function (c) {
+        var atraso = 300 + (parseFloat(c.getAttribute("cx")) - m.l) / pw * 1100;
+        c.animate([{ transform: "scale(0)" }, { transform: "scale(1.6)", offset: 0.6 }, { transform: "scale(1)" }], { duration: 520, delay: atraso, easing: "ease-out", fill: "backwards" });
+      });
+      gRot.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 500, delay: 1300, fill: "backwards" });
+    }
+  }
+
+  function mostrar(idx) {
+    if (!estado) return;
+    var S = estado.S;
+    idx = Math.max(estado.i0, Math.min(estado.i1, idx)); estado.sel = idx;
+    var val = S.valores[idx] || 0, xx = estado.x(idx), yy = estado.y(val);
+    estado.cruz.setAttribute("x1", xx); estado.cruz.setAttribute("x2", xx); estado.cruz.setAttribute("visibility", "visible");
+    estado.ponto.setAttribute("cx", xx); estado.ponto.setAttribute("cy", yy); estado.ponto.setAttribute("visibility", "visible");
+    dica.textContent = "";
+    dica.appendChild(el("div", "dt", fmtData(new Date(S.inicio.getTime() + idx * DIA))));
+    var tot = el("div", "tot", fmt(val)); tot.appendChild(el("span", null, val === 1 ? S.unidade[0] : S.unidade[1])); dica.appendChild(tot);
+    S.linhas(idx).forEach(function (l) { var r = el("div", "pais"); r.appendChild(el("span", null, l[0])); r.appendChild(el("b", null, typeof l[1] === "number" ? fmt(l[1]) : l[1])); dica.appendChild(r); });
+    var pk = S.porIdx[idx];
+    if (pk) { var ev = el("div", "ev"); ev.appendChild(el("i")); ev.appendChild(el("span", null, (pk.longo || "Pico ainda por identificar") + " · " + fmt(pk.mult, 1) + "× a média")); dica.appendChild(ev); }
+    dica.hidden = false;
+    var cw = caixa.clientWidth, dw = dica.offsetWidth, dh = dica.offsetHeight;
+    var left = xx + 14; if (left + dw > cw) left = xx - dw - 14; if (left < 0) left = 0;
+    dica.style.left = left + "px"; dica.style.top = Math.max(0, Math.min(yy - dh / 2, caixa.clientHeight - dh)) + "px";
+  }
+  function esconder() { if (!estado) return; estado.cruz.setAttribute("visibility", "hidden"); estado.ponto.setAttribute("visibility", "hidden"); dica.hidden = true; }
+  function indicePorX(clientX) {
+    var rect = caixa.getBoundingClientRect(), px = (clientX - rect.left) * (estado.W / rect.width);
+    var idx = Math.round(estado.i0 + (px - estado.m.l) / estado.pw * (estado.i1 - estado.i0));
+    for (var k = -3; k <= 3; k++) if (estado.S.porIdx[idx + k] && Math.abs(estado.x(idx + k) - px) < 12) return idx + k;
+    return idx;
+  }
+  caixa.addEventListener("pointermove", function (e) { if (estado) mostrar(indicePorX(e.clientX)); });
+  caixa.addEventListener("pointerleave", esconder);
+  caixa.addEventListener("focus", function () { if (estado) mostrar(estado.sel != null ? estado.sel : estado.i1); });
+  caixa.addEventListener("blur", esconder);
+  caixa.addEventListener("keydown", function (e) {
+    if (!estado) return;
+    var cur = estado.sel != null ? estado.sel : estado.i1;
+    if (e.key === "ArrowLeft") { mostrar(cur - (e.shiftKey ? 7 : 1)); e.preventDefault(); }
+    else if (e.key === "ArrowRight") { mostrar(cur + (e.shiftKey ? 7 : 1)); e.preventDefault(); }
+    else if (e.key === "Escape") esconder();
+  });
+
+  function atualizarTextos() {
+    var S = FONTES[fonte];
+    document.getElementById("g-etiqueta").textContent = S.etiqueta;
+    document.getElementById("g-texto").textContent = S.texto;
+    preencherTabela();
+  }
+  function ligarGrupo(attr, aplicar) {
+    var botoes = document.querySelectorAll("[data-" + attr + "]");
+    Array.prototype.forEach.call(botoes, function (b) {
+      b.addEventListener("click", function () {
+        aplicar(b.getAttribute("data-" + attr));
+        Array.prototype.forEach.call(botoes, function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
+        esconder(); desenhar(true);
+      });
+    });
+  }
+  ligarGrupo("fonte", function (v) { fonte = v; atualizarTextos(); });
+  ligarGrupo("periodo", function (v) { periodo = v; });
+  var ultW = caixa.clientWidth;
+  if (window.ResizeObserver) new ResizeObserver(function () { var w = caixa.clientWidth; if (Math.abs(w - ultW) > 4) { ultW = w; esconder(); desenhar(false); } }).observe(caixa);
+
+  /* ---------- Tabela por mês (acompanha a fonte escolhida) ---------- */
+  function preencherTabela() {
+    var S = FONTES[fonte], tb = document.getElementById("tabela-mes");
+    tb.textContent = "";
+    var colunas = fonte === "imprensa" ? PAISES.map(function (p) { return NOMES_PAIS[p] || p; }).concat(["Total"]) : ["Publicações", "Comentários"];
+    var meses = {}, ordem = [];
+    for (var i = 0; i < S.N; i++) {
+      var dt = new Date(S.inicio.getTime() + i * DIA), k = dt.getUTCFullYear() + "-" + dois(dt.getUTCMonth() + 1);
+      if (!meses[k]) { meses[k] = colunas.map(function () { return 0; }); ordem.push(k); }
+      if (fonte === "imprensa") {
+        PAISES.forEach(function (p, n) { meses[k][n] += MC.paises[p].diario[i]; });
+        meses[k][PAISES.length] += totalMC[i];
+      } else { meses[k][0] += RD.publicacoes[i]; meses[k][1] += RD.comentarios[i] || 0; }
+    }
+    var th = el("thead"), tr = el("tr"); tr.appendChild(el("th", null, "Mês"));
+    colunas.forEach(function (c) { tr.appendChild(el("th", null, c)); }); th.appendChild(tr); tb.appendChild(th);
+    var corpo = el("tbody");
+    ordem.slice().reverse().forEach(function (k) {
+      var r = el("tr"), p = k.split("-"); r.appendChild(el("td", null, MESES[+p[1] - 1] + " " + p[0]));
+      meses[k].forEach(function (v) { r.appendChild(el("td", null, fmt(v))); }); corpo.appendChild(r);
+    });
+    tb.appendChild(corpo);
+  }
+  atualizarTextos();
+  desenhar(true);
+
+  /* ---------- Radar de picos ---------- */
+  (function () {
+    var lista = document.getElementById("lista-picos");
+    var maxN = Math.max.apply(null, MC.picos.map(function (p) { return p.n; }));
+    var hoje = Date.now();
+    MC.picos.slice().reverse().forEach(function (p, n) {
+      var li = el("li");
+      if (n === 0 && hoje - dataUTC(p.data).getTime() < 21 * DIA) li.className = "recente";
+      var tm = el("time", null, fmtData(dataUTC(p.data))); tm.setAttribute("datetime", p.data); li.appendChild(tm);
+      var med = el("div", "medida"), num = el("div", "num");
+      num.appendChild(el("b", null, fmt(p.n))); num.appendChild(el("span", null, fmt(p.mult, 1) + "× a média")); med.appendChild(num);
+      var tr = el("div", "trilho"), barra = el("i"); barra.style.width = (100 * p.n / maxN).toFixed(1) + "%"; tr.appendChild(barra); med.appendChild(tr);
+      li.appendChild(med);
+      var cls = p.curto ? "desc" : (p.longo ? "desc manchete" : "desc vazio");
+      li.appendChild(el("p", cls, p.longo || "Pico ainda por identificar"));
+      lista.appendChild(li);
+      if (MOV && barra.animate) barra.animate([{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }], { duration: 900, delay: 200 + n * 60, easing: "cubic-bezier(.3,.7,.2,1)", fill: "backwards" });
+    });
+  })();
+
+  /* ---------- Quem fala ---------- */
+  (function () {
+    var sec = document.getElementById("quem");
+    if (!NW || !NW.total) { sec.hidden = true; return; }
+    var ordem = ["gaming", "cultura", "geral", "outros"].filter(function (c) { return NW.categorias[c] > 0; });
+    var barra = document.getElementById("barra100"), leg = document.getElementById("legenda");
+    ordem.forEach(function (c, n) {
+      var v = NW.categorias[c], pct = 100 * v / NW.total;
+      var seg = el("i"); seg.style.flex = v + " 1 0"; seg.style.background = CAT[c].cor; seg.title = CAT[c].nome + ": " + v;
+      barra.appendChild(seg);
+      if (MOV && seg.animate) seg.animate([{ opacity: 0, transform: "scaleY(.2)" }, { opacity: 1, transform: "scaleY(1)" }], { duration: 600, delay: 150 + n * 140, easing: "ease-out", fill: "backwards" });
+      var d = el("div"), sw = el("i", "sw"); sw.style.background = CAT[c].cor; d.appendChild(sw);
+      d.appendChild(el("b", null, Math.round(pct) + "% · " + v + (v === 1 ? " notícia" : " notícias")));
+      d.appendChild(el("span", null, CAT[c].nome)); leg.appendChild(d);
+    });
+    var fora = NW.exemplos.cultura.slice(0, 7).concat(NW.exemplos.geral.slice(0, 6));
+    var ex = document.getElementById("exemplos");
+    if (fora.length) { ex.appendChild(el("b", null, "Fora dos jogos: ")); ex.appendChild(document.createTextNode(fora.join(", ") + ".")); }
+    var nFora = NW.categorias.cultura + NW.categorias.geral;
+    var recolhido = new Date(NW.recolhido);
+    document.getElementById("quem-etiqueta").textContent = "Internet · Google News, 48 h até " + fmtLocal(recolhido) + ", " + dois(recolhido.getHours()) + ":" + dois(recolhido.getMinutes());
+    document.getElementById("quem-resumo").textContent = "Nas últimas 48 horas apareceram " + NW.total + " notícias sobre o GTA VI. " + nFora + " (" + Math.round(100 * nFora / NW.total) + "%) vieram de sites de música, cinema, estilo de vida, informação geral ou economia.";
+    var agora = recolhido.getTime();
+    function quando(iso) { var h = Math.max(0, Math.round((agora - new Date(iso).getTime()) / 3600000)); return h < 1 ? "há menos de 1 h" : "há " + h + " h"; }
+    function preencher(id, itens) {
+      var ul = document.getElementById(id);
+      if (!itens.length) { ul.appendChild(el("li", "m", "Nada nas últimas 48 horas.")); return; }
+      itens.forEach(function (it) {
+        var li = el("li"); li.appendChild(el("span", "t", it.t));
+        var mt = el("span", "m"), dot = el("i"); dot.style.background = CAT[it.c].cor; mt.appendChild(dot);
+        mt.appendChild(el("span", null, it.s + " · " + quando(it.d))); li.appendChild(mt); ul.appendChild(li);
+      });
+    }
+    preencher("lista-fora", NW.fora); preencher("lista-ultimas", NW.ultimas);
+
+    // evolução diária da % de fora do gaming (aparece a partir de 3 dias de recolha)
+    if (COMP.length >= 3) {
+      var caixaEv = document.getElementById("evolucao-grafico"); document.getElementById("evolucao").hidden = false;
+      var W = Math.max(300, caixaEv.clientWidth || 600), H = 120, m = { t: 14, r: 40, b: 22, l: 8 };
+      var pts = COMP.map(function (r) { return r.total ? 100 * (r.cultura + r.geral) / r.total : 0; });
+      var maxP = Math.max(50, Math.ceil(Math.max.apply(null, pts) / 10) * 10);
+      var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, width: W, height: H, role: "img", "aria-label": "Percentagem diária de notícias de fora do gaming" });
+      function ex2(i) { return m.l + i / Math.max(1, pts.length - 1) * (W - m.l - m.r); }
+      function ey(v) { return m.t + (H - m.t - m.b) * (1 - v / maxP); }
+      [0, maxP / 2, maxP].forEach(function (v) { svg.appendChild(svgEl("line", { x1: m.l, x2: W - m.r, y1: ey(v), y2: ey(v), stroke: v ? "var(--linha)" : "var(--eixo)", "stroke-width": 1 })); var t = svgEl("text", { x: W - m.r + 6, y: ey(v) + 4, "class": "eixo-txt" }); t.textContent = v + "%"; svg.appendChild(t); });
+      var dd = pts.map(function (v, i) { return (i ? "L" : "M") + ex2(i).toFixed(1) + " " + ey(v).toFixed(1); }).join("");
+      svg.appendChild(svgEl("path", { d: dd, fill: "none", stroke: "var(--flamingo)", "stroke-width": 2, "stroke-linejoin": "round" }));
+      svg.appendChild(svgEl("circle", { cx: ex2(pts.length - 1), cy: ey(pts[pts.length - 1]), r: 4, fill: "var(--flamingo)", stroke: "var(--noite)", "stroke-width": 2 }));
+      [[0, "start"], [COMP.length - 1, "end"]].forEach(function (a) { var t = svgEl("text", { x: ex2(a[0]), y: H - 4, "text-anchor": a[1], "class": "eixo-txt" }); t.textContent = fmtData(dataUTC(COMP[a[0]].data)); svg.appendChild(t); });
+      caixaEv.appendChild(svg);
+    }
+  })();
+
+  /* ---------- Países ---------- */
+  (function () {
+    var cont = document.getElementById("lista-paises");
+    var linhas = PAISES.map(function (p) { var o = MC.paises[p]; return { nome: NOMES_PAIS[p] || p, taxa: o.colecao ? 10000 * o.total / o.colecao : 0, total: o.total }; })
+      .sort(function (a, b) { return b.taxa - a.taxa; });
+    var maxT = linhas[0].taxa || 1;
+    linhas.forEach(function (l, n) {
+      var row = el("div", "pais"); row.appendChild(el("span", "nome", l.nome));
+      var tr = el("div", "trilho"), bar = el("i"); bar.style.width = (100 * l.taxa / maxT).toFixed(1) + "%"; tr.appendChild(bar); row.appendChild(tr);
+      var val = el("div", "val"); val.appendChild(el("b", null, fmt(l.taxa, 1))); val.appendChild(el("span", null, fmt(l.total) + " notícias")); row.appendChild(val);
+      cont.appendChild(row);
+      if (MOV && bar.animate) bar.animate([{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }], { duration: 900, delay: 150 + n * 120, easing: "cubic-bezier(.3,.7,.2,1)", fill: "backwards" });
+    });
+    document.getElementById("m-imprensa").textContent = "Media Cloud, coleções de imprensa nacional de " + nomesPaises + ", de " + fmtData(dataUTC(MC.inicio)) + " a " + fmtData(dataUTC(MC.fim)) + ".";
+    var at = new Date(D.atualizado);
+    document.getElementById("rodape-atualizado").textContent = "Última atualização: " + fmtLocal(at) + ", " + dois(at.getHours()) + ":" + dois(at.getMinutes()) + ". Atualiza-se sozinho todas as manhãs.";
+  })();
+})();
+</script>
+</body>
+</html>

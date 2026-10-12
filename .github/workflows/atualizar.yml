@@ -1,0 +1,64 @@
+# Atualiza o Radar GTA VI todos os dias e publica o site no GitHub Pages.
+# Também corre quando fazes Push para o main, e podes corrê-lo à mão no separador Actions.
+name: Atualizar o site
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # todos os dias às 06:17 UTC (7h17 em Lisboa no verão, 6h17 no inverno)
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - name: Buscar o repositório
+        uses: actions/checkout@v5
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Recolher os dados de hoje
+        run: python collector/diario.py
+
+      - name: Guardar os dados novos no repositório
+        run: |
+          git config user.name "radar-gta-vi[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/noticias data/reddit
+          if git diff --cached --quiet; then
+            echo "Sem dados novos para guardar."
+          else
+            git commit -m "Dados de $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Configurar o GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar o site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publicar o site
+        id: publicar
