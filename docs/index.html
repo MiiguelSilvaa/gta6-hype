@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Radar GTA VI</title>
 <meta name="description" content="Quanto se fala do GTA VI, onde e porquê: imprensa, Reddit e internet medidos dia a dia até ao lançamento.">
+<meta name="author" content="Miguel Silva">
 <meta property="og:title" content="Radar GTA VI">
 <meta property="og:description" content="Contagem para o lançamento, picos de atenção e quem está a falar do jogo agora. Atualiza-se todos os dias.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1626'/%3E%3Cpath d='M5 22 L11 16 L15 19 L21 9 L27 14' fill='none' stroke='%23e0527e' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23140e28'/%3E%3Cpath d='M5 22 L11 16 L15 19 L21 9 L27 14' fill='none' stroke='%23e0527e' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -16,18 +17,23 @@
    o gráfico de atenção ao centro, depois o radar de picos, quem fala e onde. */
 :root {
   color-scheme: dark;
-  --noite: #0b1626;
-  --painel: #112036;
-  --linha: #1e3149;
-  --eixo: #2c4362;
-  --tinta: #f4efe7;
-  --tinta-2: #b8c3d1;
-  --tinta-3: #8593a8;
+  --noite: #140e28;
+  --painel: #1d1538;
+  --linha: #2c2250;
+  --eixo: #43356d;
+  --tinta: #f7f0ea;
+  --tinta-2: #c9bedb;
+  --tinta-3: #9a8cb6;
+  --ceu-1: #1a1236;
+  --ceu-2: #33245f;
+  --ceu-3: #6b3b86;
+  --ceu-4: #c25c8c;
+  --ceu-5: #f19a85;
   --flamingo: #e0527e;
-  --flamingo-wash: rgba(224, 82, 126, 0.13);
+  --flamingo-wash: rgba(224, 82, 126, 0.15);
   --sol: #c7850a;
   --mar: #3a7ad0;
-  --neutro: #55667f;
+  --neutro: #6b5f88;
   --display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", Impact, sans-serif;
   --texto: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -53,26 +59,30 @@ p { margin: 0; }
 :focus-visible { outline: 2px solid var(--flamingo); outline-offset: 3px; border-radius: 4px; }
 
 /* ---------- Topo ---------- */
-.topo { position: relative; padding-block: clamp(28px, 6vw, 64px) 0; }
+.topo { position: relative; padding-block: clamp(28px, 6vw, 64px) 0;
+  background:
+    radial-gradient(70% 55% at 72% 100%, rgba(255, 196, 140, 0.55) 0%, rgba(255, 196, 140, 0) 70%),
+    linear-gradient(180deg, var(--ceu-1) 0%, var(--ceu-2) 40%, var(--ceu-3) 70%, var(--ceu-4) 88%, var(--ceu-5) 100%); }
+.bandeira { width: 15px; height: 10px; border-radius: 2px; margin-left: 6px; vertical-align: -1px; box-shadow: 0 0 0 1px rgba(255,255,255,.2); }
 .topo-grelha { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: end; }
 .olho { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-3); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .olho .vivo { display: inline-flex; align-items: center; gap: 6px; color: var(--tinta-2); }
 .olho .vivo::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--flamingo); animation: pulso 2.4s ease-out infinite; }
 @keyframes pulso { 0% { box-shadow: 0 0 0 0 rgba(224,82,126,.6); } 70%, 100% { box-shadow: 0 0 0 9px rgba(224,82,126,0); } }
 h1 { font-family: var(--display); font-weight: 900; font-size: clamp(64px, 12vw, 148px); line-height: 0.86; letter-spacing: 0.005em; text-transform: uppercase; margin-top: 14px; }
-h1 .r { color: var(--flamingo); display: block; }
+h1 .r { color: #ff9fc0; display: block; text-shadow: 0 0 28px rgba(255, 120, 170, 0.45); }
 .lead { color: var(--tinta-2); font-size: clamp(16px, 1.6vw, 19px); max-width: 36ch; margin-top: 18px; }
-.contagem-caixa { border: 1px solid var(--linha); background: linear-gradient(180deg, var(--painel) 0%, var(--noite) 100%); border-radius: var(--raio); padding: 20px 22px 18px; }
+.contagem-caixa { border: 1px solid rgba(255, 255, 255, 0.14); background: rgba(20, 14, 40, 0.58); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border-radius: var(--raio); padding: 20px 22px 18px; }
 .contagem-caixa h2 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-3); }
 .contagem { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
 .contagem div { display: grid; gap: 2px; }
 .contagem b { font-family: var(--display); font-weight: 700; font-size: clamp(40px, 6vw, 64px); line-height: 1; font-variant-numeric: tabular-nums; }
 .contagem small { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinta-3); }
 .contagem-nota { margin-top: 12px; font-size: 13px; color: var(--tinta-3); }
-.partilhar { margin-top: 14px; display: inline-flex; align-items: center; gap: 8px; font: 600 14px/1 var(--texto); color: var(--tinta); background: transparent; border: 1px solid var(--eixo); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
+.partilhar { margin-top: 14px; display: inline-flex; align-items: center; gap: 8px; font: 600 14px/1 var(--texto); color: var(--tinta); background: transparent; border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
 .partilhar:hover { border-color: var(--flamingo); }
 .partilhar svg { width: 16px; height: 16px; }
-.horizonte { height: 2px; margin-top: clamp(28px, 5vw, 48px); background: linear-gradient(90deg, transparent 0%, var(--flamingo) 25%, var(--sol) 60%, transparent 100%); background-size: 200% 100%; box-shadow: 0 0 24px 2px rgba(224, 82, 126, 0.35); animation: brilho 9s linear infinite; }
+.horizonte { height: 2px; margin-top: clamp(64px, 9vw, 112px); background: linear-gradient(90deg, transparent 0%, var(--flamingo) 25%, var(--sol) 60%, transparent 100%); background-size: 200% 100%; box-shadow: 0 0 24px 2px rgba(224, 82, 126, 0.35); animation: brilho 9s linear infinite; }
 @keyframes brilho { from { background-position: 0% 0; } to { background-position: 200% 0; } }
 
 /* ---------- Números ---------- */
@@ -209,6 +219,11 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
 .rodape h3 { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-2); margin-bottom: 8px; }
 .rodape p + p { margin-top: 8px; }
 .rodape b { color: var(--tinta-2); font-weight: 600; }
+.assinatura { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--linha); display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; justify-content: space-between; }
+.assinatura p { font-size: 15px; color: var(--tinta-2); }
+.assinatura b { color: var(--tinta); font-weight: 600; }
+.assinatura a { color: var(--tinta-2); font-size: 13px; text-underline-offset: 3px; }
+.assinatura a:hover { color: var(--flamingo); }
 .toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--tinta); color: var(--noite); font-weight: 600; font-size: 14px; padding: 10px 16px; border-radius: 999px; z-index: 20; max-width: calc(100% - 32px); overflow-wrap: anywhere; }
 
 @media (max-width: 860px) {
@@ -237,7 +252,7 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
   <div class="wrap">
     <div class="topo-grelha">
       <div>
-        <p class="olho"><span class="vivo">Projeto de fãs</span><span>·</span><span id="olho-data">atualiza-se todos os dias</span></p>
+        <p class="olho"><span class="vivo">Projeto de fãs</span><span>·</span><span>por Miguel Silva<svg class="bandeira" viewBox="0 0 30 20" role="img" aria-label="Portugal"><rect width="12" height="20" fill="#046a38"/><rect x="12" width="18" height="20" fill="#da291c"/><circle cx="12" cy="10" r="4.4" fill="#ffe900"/><circle cx="12" cy="10" r="3" fill="#da291c"/><rect x="10.7" y="8.3" width="2.6" height="3.4" rx=".7" fill="#fff"/></svg></span><span>·</span><span id="olho-data">atualiza-se todos os dias</span></p>
         <h1><span class="r">Radar</span>GTA VI</h1>
         <p class="lead">Quanto se fala do GTA VI, onde e porquê. Imprensa, Reddit e internet medidos dia a dia, até ao lançamento.</p>
       </div>
@@ -374,6 +389,12 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
         <h3>Sobre</h3>
         <p>Projeto pessoal de fãs, sem qualquer ligação à Rockstar Games ou à Take-Two Interactive. Mede a conversa à volta do jogo e não mostra nem liga a material vazado.</p>
         <p id="rodape-atualizado">Atualiza-se sozinho todas as manhãs.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="assinatura">
+        <p>Feito por <b>Miguel Silva</b><svg class="bandeira" viewBox="0 0 30 20" role="img" aria-label="Portugal"><rect width="12" height="20" fill="#046a38"/><rect x="12" width="18" height="20" fill="#da291c"/><circle cx="12" cy="10" r="4.4" fill="#ffe900"/><circle cx="12" cy="10" r="3" fill="#da291c"/><rect x="10.7" y="8.3" width="2.6" height="3.4" rx=".7" fill="#fff"/></svg> com o <b>Claude</b>.</p>
+        <a href="https://github.com/MiiguelSilvaa/gta6-hype" target="_blank" rel="noopener">Ver o código no GitHub</a>
       </div>
     </div>
   </footer>
