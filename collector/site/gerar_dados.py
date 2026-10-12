@@ -14,6 +14,7 @@ SAIDA = RAIZ / "docs" / "dados.js"
 FONTES = Path(__file__).resolve().parent / "fontes.json"
 
 PAISES = {"United States": "US", "United Kingdom": "UK", "Portugal": "PT", "Brazil": "BR"}
+LANCAMENTO = date(2026, 11, 19)
 
 # Acontecimentos confirmados em notícias da altura: data -> (rótulo curto, descrição)
 EVENTOS = {
@@ -211,11 +212,73 @@ def noticias():
     }, composicao
 
 
+def sentimento():
+    """Hype vs Realidade: índice diário (% positivos - % negativos) e temas antes/depois do lançamento."""
+    f_dia = DADOS / "sentimento" / "diario.csv"
+    if not f_dia.exists():
+        return None
+    linhas = ler_csv(f_dia)
+    if not linhas:
+        return None
+    modelo = Counter(l.get("modelo") or "" for l in linhas).most_common(1)[0][0]
+    linhas = [l for l in linhas if (l.get("modelo") or "") == modelo]  # nunca misturar modelos
+    por_dia = {l["data"]: l for l in linhas}
+    inicio, fim = date.fromisoformat(min(por_dia)), date.fromisoformat(max(por_dia))
+    n_dias = (fim - inicio).days + 1
+    n, saldo = [], []
+    for i in range(n_dias):
+        l = por_dia.get((inicio + timedelta(days=i)).isoformat())
+        if l and int(l["n"]):
+            n.append(int(l["n"]))
+            saldo.append(int(l["positivo"]) - int(l["negativo"]))
+        else:
+            n.append(0)
+            saldo.append(0)
+
+    datas_validas = set(por_dia)
+    periodos = {"antes": Counter(), "depois": Counter(), "recente": Counter()}
+    totais = {"antes": 0, "depois": 0, "recente": 0}
+    recente_desde = fim - timedelta(days=29)
+    for l in linhas:
+        d = date.fromisoformat(l["data"])
+        p = "antes" if d < LANCAMENTO else "depois"
+        totais[p] += int(l["n"])
+        if d >= recente_desde:
+            totais["recente"] += int(l["n"])
+    f_asp = DADOS / "sentimento" / "aspetos.csv"
+    temas = {}
+    for l in (ler_csv(f_asp) if f_asp.exists() else []):
+        if l["data"] not in datas_validas:
+            continue
+        d = date.fromisoformat(l["data"])
+        alvos = ["antes" if d < LANCAMENTO else "depois"] + (["recente"] if d >= recente_desde else [])
+        for p in alvos:
+            t = temas.setdefault(l["aspeto"], {k: Counter() for k in periodos})[p]
+            for campo in ("n", "positivo", "neutro", "negativo"):
+                t[campo] += int(l[campo])
+    resumo_temas = {}
+    for aspeto, por_periodo in temas.items():
+        resumo_temas[aspeto] = {}
+        for p, c in por_periodo.items():
+            if c["n"]:
+                resumo_temas[aspeto][p] = {
+                    "n": c["n"], "indice": round(100 * (c["positivo"] - c["negativo"]) / c["n"], 1),
+                    "quota": round(100 * c["n"] / max(totais[p], 1), 1)}
+    return {
+        "inicio": inicio.isoformat(), "fim": fim.isoformat(), "modelo": modelo,
+        "n": n, "saldo": saldo, "dias_feitos": len(linhas),
+        "dias_total": (fim - date(2023, 11, 1)).days + 1,
+        "lancamento": LANCAMENTO.isoformat(), "totais": totais, "temas": resumo_temas,
+        "eventos": [{"data": d, "curto": c} for d, (c, _) in sorted(EVENTOS.items())],
+    }
+
+
 def main():
     dados = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes")}
     dados["mediacloud"] = imprensa()
     dados["reddit"] = reddit()
     dados["noticias"], dados["composicao"] = noticias()
+    dados["sentimento"] = sentimento()
     SAIDA.parent.mkdir(parents=True, exist_ok=True)
     SAIDA.write_text("window.DADOS = " + json.dumps(dados, ensure_ascii=False, separators=(",", ":")) + ";\n",
                      encoding="utf-8")
@@ -227,6 +290,9 @@ def main():
         print(f"     Google News: {nw['total']} notícias {nw['categorias']}")
         if nw["exemplos"]["outros"]:
             print(f"     Sites por classificar (acrescentar em fontes.json): {nw['exemplos']['outros'][:15]}")
+    st = dados["sentimento"]
+    if st:
+        print(f"     Sentimento: {st['dias_feitos']} dias ({st['inicio']} a {st['fim']}), modelo {st['modelo']}")
     print(f"     Escrito: {SAIDA}")
 
 

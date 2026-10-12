@@ -100,9 +100,9 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(34px, 4.6vw
 .grafico-caixa { margin-top: 14px; background: var(--painel); border: 1px solid var(--linha); border-radius: var(--raio); padding: 8px 8px 4px; position: relative; }
 .grafico-titulo { padding: 8px 8px 0; font-size: 13px; color: var(--tinta-3); }
 .grafico-titulo b { color: var(--tinta); font-weight: 600; }
-#grafico { position: relative; outline: none; }
-#grafico svg { display: block; width: 100%; height: auto; overflow: visible; touch-action: pan-y; }
-#grafico:focus-visible { outline: 2px solid var(--flamingo); outline-offset: 4px; border-radius: 6px; }
+#grafico, .grafico-svg { position: relative; outline: none; }
+#grafico svg, .grafico-svg svg { display: block; width: 100%; height: auto; overflow: visible; touch-action: pan-y; }
+#grafico:focus-visible, .grafico-svg:focus-visible { outline: 2px solid var(--flamingo); outline-offset: 4px; border-radius: 6px; }
 .eixo-txt { font-family: var(--mono); font-size: 11px; fill: var(--tinta-3); font-variant-numeric: tabular-nums; }
 .rotulo-pico { font-family: var(--texto); font-size: 12px; font-weight: 600; fill: var(--tinta); }
 .dica { position: absolute; pointer-events: none; z-index: 5; background: var(--noite); border: 1px solid var(--eixo); border-radius: 8px; padding: 10px 12px; min-width: 170px; max-width: 250px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35); font-size: 13px; line-height: 1.4; }
@@ -122,6 +122,37 @@ table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-nu
 th, td { padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--linha); white-space: nowrap; }
 th:first-child, td:first-child { text-align: left; }
 thead th { position: sticky; top: 0; background: var(--painel); color: var(--tinta-3); font-weight: 500; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+/* ---------- Hype vs Realidade ---------- */
+.hype-topo { display: flex; flex-wrap: wrap; gap: 14px 40px; align-items: end; margin-top: 22px; }
+.hype-num { display: grid; gap: 2px; }
+.hype-num .v { font-family: var(--display); font-weight: 700; font-size: clamp(56px, 8vw, 88px); line-height: 0.9; }
+.hype-num .l { color: var(--tinta-2); font-size: 14px; }
+.hype-num .delta { color: var(--tinta-3); font-size: 13px; font-family: var(--mono); }
+.hype-estado { color: var(--tinta-3); font-size: 14px; max-width: 46ch; }
+.hype-estado b { color: var(--tinta-2); font-weight: 600; }
+.rotulo-ev { font-family: var(--texto); font-size: 11px; font-weight: 600; fill: var(--tinta-2); }
+.temas { margin-top: 26px; border-top: 1px solid var(--linha); }
+.temas .linha { display: grid; grid-template-columns: minmax(150px, 1.1fr) minmax(0, 1fr) minmax(0, 1fr); gap: 8px 22px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--linha); }
+.temas .cab-linha { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinta-3); padding: 10px 0; }
+.temas .nome b { display: block; font-weight: 600; }
+.temas .nome span { font-size: 13px; color: var(--tinta-3); }
+.div { display: grid; grid-template-columns: minmax(0, 1fr) 52px; gap: 10px; align-items: center; }
+.div .pista { position: relative; height: 14px; }
+.div .pista::before { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--eixo); }
+.div .pista i { position: absolute; top: 0; bottom: 0; }
+.div .pista i.pos { left: 50%; background: var(--mar); border-radius: 0 3px 3px 0; transform-origin: left center; }
+.div .pista i.neg { right: 50%; background: var(--flamingo); border-radius: 3px 0 0 3px; transform-origin: right center; }
+.div .valor { font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; }
+.div.vazio .valor { color: var(--tinta-3); font-weight: 400; }
+.legenda-div { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 12px; font-size: 13px; color: var(--tinta-3); }
+.legenda-div span { display: inline-flex; align-items: center; gap: 8px; }
+.legenda-div i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+@media (max-width: 640px) {
+  .temas .linha { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .temas .linha .nome { grid-column: 1 / -1; }
+  .temas .cab-linha span:first-child { display: none; }
+}
 
 /* ---------- Radar ---------- */
 .picos { list-style: none; margin: 22px 0 0; padding: 0; border-top: 1px solid var(--linha); }
@@ -265,6 +296,25 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
       </details>
     </section>
 
+    <section class="secao" id="hype" hidden>
+      <div class="cab">
+        <span class="etiqueta">Sentimento · Reddit r/GTA6</span>
+        <h2>Hype vs Realidade</h2>
+        <p>Todos os dias, uma amostra de comentários do r/GTA6 é lida por um modelo de linguagem que classifica cada um como positivo, neutro ou negativo. O índice é a percentagem de positivos menos a de negativos: acima de zero, há mais entusiasmo do que frustração.</p>
+      </div>
+      <div class="hype-topo">
+        <div class="hype-num"><span class="v" id="hype-v">–</span><span class="l" id="hype-l">índice dos últimos 7 dias</span><span class="delta" id="hype-delta"></span></div>
+        <p class="hype-estado" id="hype-estado"></p>
+      </div>
+      <div class="grafico-caixa">
+        <p class="grafico-titulo" id="hype-titulo"></p>
+        <div id="grafico-hype" class="grafico-svg" tabindex="0" role="img" aria-label="Índice de sentimento do r/GTA6 ao longo do tempo, com os principais acontecimentos. Use as setas para percorrer os dias."></div>
+      </div>
+      <div class="temas" id="temas"></div>
+      <div class="legenda-div"><span><i style="background: var(--mar)"></i>Mais positivos do que negativos</span><span><i style="background: var(--flamingo)"></i>Mais negativos do que positivos</span></div>
+      <p class="nota" id="hype-nota">A coluna "depois" começa a encher a 19 de novembro: é aí que se vê se o hype aguenta o contacto com o jogo.</p>
+    </section>
+
     <section class="secao" id="radar">
       <div class="cab">
         <span class="etiqueta">Radar de picos · imprensa</span>
@@ -317,6 +367,7 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
         <p><b>Imprensa:</b> <span id="m-imprensa">Media Cloud, coleções de imprensa nacional.</span> Pesquisa: “GTA 6” OR “GTA VI” OR “Grand Theft Auto 6” OR “Grand Theft Auto VI”. Recolha única, não diária.</p>
         <p><b>Reddit:</b> publicações e comentários por dia no r/GTA6, através do arquivo Arctic Shift. Atualizado todos os dias.</p>
         <p><b>Internet:</b> Google News, pesquisa “GTA 6” OR “GTA VI” nas últimas 48 horas, todos os dias. Os sites são classificados numa lista mantida à mão.</p>
+        <p><b>Sentimento:</b> todos os dias, cerca de 240 comentários do r/GTA6 (6 janelas de 4 horas) são classificados pelo modelo RoBERTa cardiffnlp/twitter-roberta-base-sentiment-latest. Os temas são detetados por palavras-chave. Só se guardam totais; nunca o texto nem os autores. O modelo erra com ironia e sarcasmo, por isso conta a tendência, não cada valor.</p>
         <p><b>Picos:</b> dias com o dobro (ou mais) da média dos 7 dias anteriores; um pico por acontecimento. As descrições foram confirmadas em notícias da altura; quando ainda não há, mostra-se uma manchete desse dia.</p>
       </div>
       <div>
@@ -629,6 +680,181 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
   }
   atualizarTextos();
   desenhar(true);
+
+  /* ---------- Hype vs Realidade ---------- */
+  (function () {
+    var ST = D.sentimento;
+    if (!ST || !ST.n || ST.n.length < 3) return;
+    document.getElementById("hype").hidden = false;
+    var inicio = dataUTC(ST.inicio), N = ST.n.length;
+    var JAN = N >= 21 ? 7 : 1;
+    // índice com média móvel de 7 dias (ponderada pelo número de comentários)
+    var ind = [];
+    for (var i = 0; i < N; i++) {
+      var sn = 0, ss = 0;
+      for (var k = Math.max(0, i - JAN + 1); k <= i; k++) { sn += ST.n[k]; ss += ST.saldo[k]; }
+      ind.push(sn >= 40 ? 100 * ss / sn : null);
+    }
+    function sinal(v) { return (v > 0 ? "+" : v < 0 ? "−" : "") + fmt(Math.abs(v)); }
+    function janela(a, b) { var sn = 0, ss = 0; for (var k = Math.max(0, a); k <= b; k++) { sn += ST.n[k]; ss += ST.saldo[k]; } return sn ? 100 * ss / sn : null; }
+    var atual = janela(N - 7, N - 1), anterior = janela(N - 14, N - 8);
+    if (atual != null) contar(document.getElementById("hype-v"), atual, function (v) { return sinal(Math.round(v)); });
+    if (atual != null && anterior != null && N >= 14) {
+      var dif = Math.round(atual - anterior);
+      document.getElementById("hype-delta").textContent = (dif > 0 ? "▲ " : dif < 0 ? "▼ " : "= ") + Math.abs(dif) + (Math.abs(dif) === 1 ? " ponto" : " pontos") + " face à semana anterior";
+    }
+    var est = document.getElementById("hype-estado");
+    est.textContent = "";
+    est.appendChild(el("b", null, fmt(ST.dias_feitos) + " de " + fmt(ST.dias_total) + " dias analisados"));
+    est.appendChild(document.createTextNode(ST.dias_feitos < ST.dias_total
+      ? ", " + fmt(ST.totais.antes + ST.totais.depois) + " comentários. O robô vai completando o histórico desde nov 2023 a cada manhã."
+      : ", " + fmt(ST.totais.antes + ST.totais.depois) + " comentários desde nov 2023."));
+    if (ST.modelo !== "roberta") est.appendChild(document.createTextNode(" (Modelo de teste: " + ST.modelo + ".)"));
+
+    var caixa = document.getElementById("grafico-hype"), dica = el("div", "dica"); dica.hidden = true; caixa.appendChild(dica);
+    var eventos = {};
+    ST.eventos.forEach(function (e) { var i = Math.round((dataUTC(e.data) - inicio) / DIA); if (i >= 0 && i < N) eventos[i] = e.curto; });
+    var iLanc = Math.round((dataUTC(ST.lancamento) - inicio) / DIA);
+    var est2 = null;
+
+    function desenharHype(animar) {
+      var W = Math.max(300, caixa.clientWidth), estreito = W < 560, H = estreito ? 260 : 320;
+      var m = { t: 40, r: 14, b: 28, l: estreito ? 40 : 48 }, pw = W - m.l - m.r, ph = H - m.t - m.b;
+      var vals = ind.filter(function (v) { return v != null; });
+      var lim = Math.max(20, Math.ceil(Math.max.apply(null, vals.map(Math.abs).concat([1])) / 10) * 10);
+      function x(i) { return m.l + i / Math.max(1, N - 1) * pw; }
+      function y(v) { return m.t + ph / 2 - v / lim * ph / 2; }
+      var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, width: W, height: H, "aria-hidden": "true" });
+      [-lim, -lim / 2, 0, lim / 2, lim].forEach(function (v) {
+        svg.appendChild(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: v === 0 ? "var(--eixo)" : "var(--linha)", "stroke-width": 1, "shape-rendering": "crispEdges" }));
+        var t = svgEl("text", { x: m.l - 8, y: y(v) + 4, "text-anchor": "end", "class": "eixo-txt" }); t.textContent = sinal(v); svg.appendChild(t);
+      });
+      // eixo X
+      var ano0 = inicio.getUTCFullYear(), marcas = [];
+      if (N > 400) { for (var a = ano0 + 1; a <= 2027; a++) marcas.push({ i: Math.round((Date.UTC(a, 0, 1) - inicio) / DIA), t: String(a) }); }
+      else { var passo = N > 120 ? 1 : 0; for (var mm = 0; mm < 40; mm++) { var dt = Date.UTC(ano0, inicio.getUTCMonth() + mm, 1); var i2 = Math.round((dt - inicio) / DIA); if (i2 > N) break; if (i2 >= 0 && (!passo || mm % 2 === 0)) marcas.push({ i: i2, t: MESES[new Date(dt).getUTCMonth()] }); } }
+      if (N <= 45) { marcas = []; for (var q = N - 1; q >= 0; q -= 7) { var dq = new Date(inicio.getTime() + q * DIA); marcas.push({ i: q, t: dq.getUTCDate() + " " + MESES[dq.getUTCMonth()] }); } }
+      marcas.forEach(function (mk) {
+        if (mk.i < 0 || mk.i >= N) return;
+        var tx = svgEl("text", { x: Math.min(Math.max(x(mk.i), m.l + 14), W - m.r - 14), y: H - 8, "text-anchor": "middle", "class": "eixo-txt" }); tx.textContent = mk.t; svg.appendChild(tx);
+      });
+      // áreas: acima de zero em azul, abaixo em rosa (recortes pelo eixo do zero)
+      var id = "c" + Math.random().toString(36).slice(2, 7);
+      var defs = svgEl("defs", {});
+      var cp1 = svgEl("clipPath", { id: id + "a" }); cp1.appendChild(svgEl("rect", { x: 0, y: 0, width: W, height: y(0) })); defs.appendChild(cp1);
+      var cp2 = svgEl("clipPath", { id: id + "b" }); cp2.appendChild(svgEl("rect", { x: 0, y: y(0), width: W, height: H })); defs.appendChild(cp2);
+      svg.appendChild(defs);
+      var d = "", da = "", aberto = false, ini = 0;
+      for (var j = 0; j < N; j++) {
+        if (ind[j] == null) { if (aberto) { da += "L" + x(j - 1).toFixed(1) + " " + y(0) + "Z"; aberto = false; } continue; }
+        var px = x(j).toFixed(1), py = y(ind[j]).toFixed(1);
+        if (!aberto) { d += "M" + px + " " + py; da += "M" + px + " " + y(0) + "L" + px + " " + py; aberto = true; ini = j; }
+        else { d += "L" + px + " " + py; da += "L" + px + " " + py; }
+      }
+      if (aberto) da += "L" + x(N - 1).toFixed(1) + " " + y(0) + "Z";
+      var gArea = svgEl("g", {});
+      gArea.appendChild(svgEl("path", { d: da, fill: "rgba(58,122,208,0.28)", "clip-path": "url(#" + id + "a)" }));
+      gArea.appendChild(svgEl("path", { d: da, fill: "rgba(224,82,126,0.28)", "clip-path": "url(#" + id + "b)" }));
+      svg.appendChild(gArea);
+      // acontecimentos
+      var gEv = svgEl("g", {}), colocados = [], maxRot = estreito ? 2 : 5;
+      Object.keys(eventos).map(Number).sort(function (a, b) { return b - a; }).forEach(function (i) {
+        svg.appendChild(svgEl("line", { x1: x(i), x2: x(i), y1: m.t - 6, y2: m.t + ph, stroke: "var(--eixo)", "stroke-width": 1 }));
+        if (colocados.length >= maxRot) return;
+        var txt = eventos[i], w = txt.length * 6 + 8, cx = Math.min(Math.max(x(i), m.l + w / 2), W - m.r - w / 2), cy = m.t - 12;
+        for (var r = 0; r < 2; r++) {
+          var choca = colocados.some(function (o) { return Math.abs(o.x - cx) < (o.w + w) / 2 + 4 && o.y === cy; });
+          if (!choca) { colocados.push({ x: cx, y: cy, w: w }); var t = svgEl("text", { x: cx, y: cy, "text-anchor": "middle", "class": "rotulo-ev" }); t.textContent = txt; gEv.appendChild(t); return; }
+          cy -= 14;
+        }
+      });
+      if (iLanc >= 0 && iLanc < N) {
+        svg.appendChild(svgEl("line", { x1: x(iLanc), x2: x(iLanc), y1: m.t - 6, y2: m.t + ph, stroke: "var(--tinta)", "stroke-width": 1.5 }));
+        var tl = svgEl("text", { x: Math.min(x(iLanc) + 6, W - m.r - 70), y: m.t + 12, "class": "rotulo-pico" }); tl.textContent = "Lançamento"; svg.appendChild(tl);
+      }
+      var linha = svgEl("path", { d: d, fill: "none", stroke: "var(--tinta)", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+      svg.appendChild(linha); svg.appendChild(gEv);
+      var cruz = svgEl("line", { y1: m.t, y2: m.t + ph, stroke: "var(--tinta-3)", "stroke-width": 1, visibility: "hidden" });
+      var ponto = svgEl("circle", { r: 4.5, fill: "var(--tinta)", stroke: "var(--painel)", "stroke-width": 2, visibility: "hidden" });
+      svg.appendChild(cruz); svg.appendChild(ponto);
+      var velho = caixa.querySelector("svg"); if (velho) caixa.removeChild(velho);
+      caixa.insertBefore(svg, dica);
+      est2 = { x: x, y: y, m: m, pw: pw, W: W, cruz: cruz, ponto: ponto, sel: null };
+      document.getElementById("hype-titulo").textContent = (JAN === 7 ? "Índice de sentimento, média de 7 dias, " : "Índice de sentimento por dia, ") + "de " + fmtData(inicio) + " a " + fmtData(new Date(inicio.getTime() + (N - 1) * DIA));
+      if (animar && MOV && linha.getTotalLength && linha.animate) {
+        var len = linha.getTotalLength(); linha.style.strokeDasharray = len;
+        linha.animate([{ strokeDashoffset: len }, { strokeDashoffset: 0 }], { duration: 1400, easing: "cubic-bezier(.3,.7,.2,1)" });
+        gArea.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 900, delay: 500, fill: "backwards" });
+        gEv.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 500, delay: 1200, fill: "backwards" });
+      }
+    }
+    function mostrarHype(i) {
+      if (!est2) return;
+      i = Math.max(0, Math.min(N - 1, i)); est2.sel = i;
+      var v = ind[i], xx = est2.x(i);
+      est2.cruz.setAttribute("x1", xx); est2.cruz.setAttribute("x2", xx); est2.cruz.setAttribute("visibility", "visible");
+      if (v != null) { est2.ponto.setAttribute("cx", xx); est2.ponto.setAttribute("cy", est2.y(v)); est2.ponto.setAttribute("visibility", "visible"); } else est2.ponto.setAttribute("visibility", "hidden");
+      dica.textContent = "";
+      dica.appendChild(el("div", "dt", fmtData(new Date(inicio.getTime() + i * DIA))));
+      var tot = el("div", "tot", v == null ? "–" : sinal(Math.round(v))); tot.appendChild(el("span", null, JAN === 7 ? "índice (7 dias)" : "índice")); dica.appendChild(tot);
+      var r1 = el("div", "pais"); r1.appendChild(el("span", null, "Comentários analisados")); r1.appendChild(el("b", null, fmt(ST.n[i]))); dica.appendChild(r1);
+      if (ST.n[i]) { var r2 = el("div", "pais"); r2.appendChild(el("span", null, "Índice só deste dia")); r2.appendChild(el("b", null, sinal(Math.round(100 * ST.saldo[i] / ST.n[i])))); dica.appendChild(r2); }
+      if (eventos[i]) { var ev = el("div", "ev"); ev.appendChild(el("i")); ev.appendChild(el("span", null, eventos[i])); dica.appendChild(ev); }
+      dica.hidden = false;
+      var cw = caixa.clientWidth, dw = dica.offsetWidth, dh = dica.offsetHeight, yy = v == null ? est2.m.t + 40 : est2.y(v);
+      var left = xx + 14; if (left + dw > cw) left = xx - dw - 14; if (left < 0) left = 0;
+      dica.style.left = left + "px"; dica.style.top = Math.max(0, Math.min(yy - dh / 2, caixa.clientHeight - dh)) + "px";
+    }
+    function esconderHype() { if (!est2) return; est2.cruz.setAttribute("visibility", "hidden"); est2.ponto.setAttribute("visibility", "hidden"); dica.hidden = true; }
+    caixa.addEventListener("pointermove", function (e) {
+      if (!est2) return;
+      var rect = caixa.getBoundingClientRect(), px = (e.clientX - rect.left) * (est2.W / rect.width);
+      var i = Math.round((px - est2.m.l) / est2.pw * (N - 1));
+      for (var k = -3; k <= 3; k++) if (eventos[i + k] && Math.abs(est2.x(i + k) - px) < 10) { i = i + k; break; }
+      mostrarHype(i);
+    });
+    caixa.addEventListener("pointerleave", esconderHype);
+    caixa.addEventListener("focus", function () { mostrarHype(est2 && est2.sel != null ? est2.sel : N - 1); });
+    caixa.addEventListener("blur", esconderHype);
+    caixa.addEventListener("keydown", function (e) {
+      var cur = est2 && est2.sel != null ? est2.sel : N - 1;
+      if (e.key === "ArrowLeft") { mostrarHype(cur - (e.shiftKey ? 7 : 1)); e.preventDefault(); }
+      else if (e.key === "ArrowRight") { mostrarHype(cur + (e.shiftKey ? 7 : 1)); e.preventDefault(); }
+      else if (e.key === "Escape") esconderHype();
+    });
+    var ultW = caixa.clientWidth;
+    if (window.ResizeObserver) new ResizeObserver(function () { var w = caixa.clientWidth; if (Math.abs(w - ultW) > 4) { ultW = w; esconderHype(); desenharHype(false); } }).observe(caixa);
+    desenharHype(true);
+
+    // temas: antes vs depois do lançamento
+    var NOMES = { graficos: "Gráficos", historia: "História e personagens", mapa: "Mapa e mundo", preco: "Preço e edições",
+      performance: "Performance", online: "Online", lancamento: "Lançamento e adiamentos", leaks: "Leaks" };
+    var temas = Object.keys(ST.temas).filter(function (k) { return ST.temas[k].antes || ST.temas[k].depois; })
+      .sort(function (a, b) { return ((ST.temas[b].antes || {}).quota || 0) - ((ST.temas[a].antes || {}).quota || 0); });
+    var cont = document.getElementById("temas");
+    var cab = el("div", "linha cab-linha"); cab.appendChild(el("span", null, "Tema")); cab.appendChild(el("span", null, "Antes do lançamento")); cab.appendChild(el("span", null, "Depois de 19 nov")); cont.appendChild(cab);
+    var maxAbs = 0;
+    temas.forEach(function (k) { ["antes", "depois"].forEach(function (p) { if (ST.temas[k][p]) maxAbs = Math.max(maxAbs, Math.abs(ST.temas[k][p].indice)); }); });
+    var escalaT = Math.max(25, Math.ceil(maxAbs / 25) * 25);
+    temas.forEach(function (k, n) {
+      var t = ST.temas[k], row = el("div", "linha"), nome = el("div", "nome");
+      nome.appendChild(el("b", null, NOMES[k] || k));
+      if (t.antes) nome.appendChild(el("span", null, "em " + fmt(t.antes.quota, 1) + "% dos comentários"));
+      row.appendChild(nome);
+      ["antes", "depois"].forEach(function (p) {
+        var v = t[p], cel = el("div", "div" + (v ? "" : " vazio")), pista = el("div", "pista");
+        if (v) {
+          var barra = el("i", v.indice >= 0 ? "pos" : "neg"); barra.style.width = (50 * Math.abs(v.indice) / escalaT).toFixed(1) + "%"; pista.appendChild(barra);
+          if (MOV && barra.animate) barra.animate([{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }], { duration: 800, delay: 200 + n * 70, easing: "cubic-bezier(.3,.7,.2,1)", fill: "backwards" });
+        }
+        cel.appendChild(pista);
+        cel.appendChild(el("span", "valor", v ? sinal(Math.round(v.indice)) : "–"));
+        cel.title = v ? (NOMES[k] || k) + ": índice " + sinal(Math.round(v.indice)) + " em " + fmt(v.n) + " comentários" : "Ainda sem dados";
+        row.appendChild(cel);
+      });
+      cont.appendChild(row);
+    });
+  })();
 
   /* ---------- Radar de picos ---------- */
   (function () {

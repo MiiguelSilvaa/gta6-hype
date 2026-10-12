@@ -1,4 +1,6 @@
 # Atualiza o Radar GTA VI todos os dias e publica o site no GitHub Pages.
+# 1.º trabalho (rápido): notícias e Reddit, e publica o site.
+# 2.º trabalho (mais lento): sentimento dos comentários, e volta a publicar o site.
 # Também corre quando fazes Push para o main, e podes corrê-lo à mão no separador Actions.
 name: Atualizar o site
 
@@ -19,14 +21,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  atualizar:
+  site:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.publicar.outputs.page_url }}
     steps:
       - name: Buscar o repositório
         uses: actions/checkout@v5
+        with:
+          ref: main
 
       - name: Preparar o Python
         uses: actions/setup-python@v6
@@ -59,7 +64,76 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+          name: site
 
       - name: Publicar o site
-        id: publicar 
+        id: publicar
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site
+
+  sentimento:
+    needs: site
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - name: Buscar o repositório (com os dados do passo anterior)
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/atualizar.yml
+
+      - name: Guardar o modelo entre execuções
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: modelo-cardiffnlp-roberta-v1
+
+      - name: Instalar o modelo de linguagem
+        run: |
+          pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers==4.46.3 requests vaderSentiment
+
+      - name: Analisar o sentimento (até 150 dias por execução)
+        continue-on-error: true
+        run: python collector/sentimento.py --max-dias 150 --minutos 90
+
+      - name: Gerar os dados do site
+        run: python collector/site/gerar_dados.py
+
+      - name: Guardar os resultados no repositório
+        run: |
+          git config user.name "radar-gta-vi[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sentimento
+          if git diff --cached --quiet; then
+            echo "Sem resultados novos para guardar."
+          else
+            git commit -m "Sentimento de $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Configurar o GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar o site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+          name: site-com-sentimento
+
+      - name: Publicar o site
+        id: publicar
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site-com-sentimento
