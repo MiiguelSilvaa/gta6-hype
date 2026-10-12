@@ -61,4 +61,5 @@ jobs:
           path: docs
 
       - name: Publicar o site
-        id: publicar
+        id: publicar 
+        uses: actions/deploy-pages@v4
