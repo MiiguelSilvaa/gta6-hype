@@ -1,0 +1,705 @@
+{
+ "recolhido": "2026-10-18T11:07:04+00:00",
+ "artigos": [
+  {
+   "t": "5 Confirmed GTA VI Classic Cars That We Can't Wait To Drive",
+   "s": "autoevolution",
+   "u": "https://www.autoevolution.com",
+   "d": "2026-10-18T08:13:32+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcWExRzd5MklPWWRjc2tva0VEdUZtLW9DcjFxRDdZNE9NaEpucEFCWEN5S0tsSmtXN2NmUDljZE9oQ0E2NEJiTlJxa09GVWpmTjdsZVhZRWtTcmxESnduQ1l0Ml8tWS1DSnNxYUhNazY5R0ZWZGZfaFh1RFc4MjQ4dzNndkdyMzRfZkJLWHNkMUlWa1pPQzQzQ1FIUmc2QVFiVUkzNDg0QTU2Zw?oc=5"
+  },
+  {
+   "t": "Watch Russia Sanctions Waived, AI Debt Concerns, Making 'GTA VI'",
+   "s": "Bloomberg.com",
+   "u": "https://www.bloomberg.com",
+   "d": "2026-10-17T17:28:50+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcDF0bUZmOTZSTWt3elRNaFhhRVZ5VTRIcFBFV1VFcEdfeFdxX0JNenJsbWdPYnk2cElvczJfRXMyRWdpdkJSX21JdG9EeTJEOUtRS1R4d09UQ29vQjV0TXJmR0hWTktCQm1LdUZmRWE0OEtaOWk3WjFMTU9STG9aRHgxR05pNG9IRGx6c0VIMVFCdw?oc=5"
+  },
+  {
+   "t": "GTA 6 Set for November Release After Years of Hype",
+   "s": "POLITIS - To the point",
+   "u": "https://en.politis.com.cy",
+   "d": "2026-10-18T05:03:59+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUNWZU5sazFsZzRFNjNNVTZxUHcxb3A3MXpwVEhPb3QzQ2x3anNQaC1QN0xBSlA1alNpOXZkWkN2dXgzMVd0VW9wZUoxMHhJMmQ4cllIeTUwOE00MVlYbDdvODF2RENIaWJQOXIwQXI3ZHlRWkpVNFNYSTBrRDZNdm8wY2hnMjNFNUhvZWoxc3RnX05jZTh0c0xB?oc=5"
+  },
+  {
+   "t": "Every Major Game Releasing in November That Isn’t GTA 6",
+   "s": "Polygon.com",
+   "u": "https://www.polygon.com",
+   "d": "2026-10-18T04:00:23+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EeUhYWENXSExUN3FhWUpuLWRYc3UxOWdUNnM5dGRRUmxHM2FTT3FMRFJvY3JxdGw3MkVlb3JUY21JMzJkcnczLW5xVEVPSWY0SlViTDRVdHVUT0ZfRXZSZHd3?oc=5"
+  },
+  {
+   "t": "GTA 6 to Feature “Hundreds” of Interior Spaces Players Can Exlpore; Story Closer to RDR2 Than GTA 5",
+   "s": "MP1st",
+   "u": "https://mp1st.com",
+   "d": "2026-10-17T18:36:26+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaXpPT3hlUHVHcDcwNXNua28xb2FVaDU0TzhXOTlHZE52S0ZlcUNoVW4xV2EwTlFCTHRqNTJKdzVlenpZcjFPNERNbmhtZ0VLZ3lHVkJwMFI0NUZPOU9ydHZySllOOW1kZWx0dVB0OVA3eGRyOS1UaFhaUVk2NzhCWkM1OVhPV1FfdUstMzFCUHlKeFhSQXp1S2ZZUmt0a05jWGl1QzFwVkRNaEE?oc=5"
+  },
+  {
+   "t": "GTA 6 Has a Dedicated System Just to Control How Much Characters Sweat",
+   "s": "eGamers.io",
+   "u": "https://egamers.io",
+   "d": "2026-10-18T07:30:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNmxXejcybVdJckpuMWZvbzQ2Qk5CbDQyeUVSenFIaDJEQ2x1UGtkSGkyUDROcnBvZmRpdzdyNVZaZWphWVFnbFR4dk5DZUkyRUd3UjIzdWl3SkdjYUg0TlVOd3FhV0ZZMFktSnJFa09RX0xhcVdWdHJUVmplamxkNEt2REFWdDZVNHJoY0xrLU1ManBx?oc=5"
+  },
+  {
+   "t": "No, Rockstar Didn’t Say GTA 6 Is Unfinished Weeks Before Launch",
+   "s": "VICE",
+   "u": "https://www.vice.com",
+   "d": "2026-10-17T13:46:11+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLU5BZkdBdkdyYi0zSFVOekR5N3ZlVUhOLWJpZzBsR1lKWHV6LXZIUkVFQ1dOa3NtTVNmSHczS0M3S3dzeXRZUGVjWndnek9VUHhFVXphdk1tZWJOUU91OHhXbExWRlBZS0V1Zm1fVlVvdVZNckF6YWx4WTV2M0hVRw?oc=5"
+  },
+  {
+   "t": "Leaked Shrek 2 Remaster Trailer Spoofs the GTA 6 Reveal Style",
+   "s": "GTA BOOM",
+   "u": "https://www.gtaboom.com",
+   "d": "2026-10-18T10:07:57+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEkwX2FIMUVnT0NSbWhaYkpNZ2RIV2FWVDFwSnVfNllDU3IxUDZLYi1xWmZtVzRrSWdtZHZkLTRubkRqWS1rTTRfaFIzdThWdlA0ckhUaG5pWmp0bU1BR2ZmQXV3X2lZYWpyejZxSGhjcy1LZkNpd1FDMXpZTV9UbmxRdjZMZkpJcDhzWnlR?oc=5"
+  },
+  {
+   "t": "GTA 6 Indeed Rated '18'... Depicts Carrying and Snorting Drugs, Sexual Activity, and Decapitation",
+   "s": "Inven Global",
+   "u": "https://www.invenglobal.com",
+   "d": "2026-10-18T07:17:40+00:00",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQel9JSVlqQVVrQXJJVVF0WmlveXBQVHBSRDE1ZkhleTNOUnFZdm1wOFB1Y2Z0aFU3TmdSSHRSTTU2dEFvSlp4Q2Fma3BXWlF0NkVpajNlNVNZelVUdXRPMDNqRjZYTm0wVFczdmpYbkg4Z2hWazlSeWZWYm5oYTk4UjY3YzhUYjBmck43SUVGeWZxdlBWZTlSZXc2Y05WN3VrcE91ZlJOUmNpWGFxQTA5ZXNsSDhZMDZ6TGx2RGlNem1LMEc1cThPMEh5UjFQQQ?oc=5"
+  },
+  {
+   "t": "‘Grand Theft Auto III’ Reaches 25th Anniversary as GTA 6 Release Draws Near",
+   "s": "Men's Journal",
+   "u": "https://www.mensjournal.com",
+   "d": "2026-10-17T17:43:21+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JUWTdRelJVd1l4VXA1eDI5Sm1BbndjTnllZHdiNVNMWS1DQXpzUm9UWE1HNE9vNTlTRktMSUY0UjhWSm8zVWxVdFlDVzcxdVdIa3hmZVk1elROamhlTV9obXQxc0otR1o3c0dJSFphbE9ubjBlZkh5ZTJtUERFMmpsS1VkYzJoYUpIZ3lXQ0ozSkRHaUZKRmx0RUpXRV9MaVVkbnBWcVBPZm8wejRzVGdEM1JKdw?oc=5"
+  },
+  {
+   "t": "GTA 6 Community Map Version 17 Adds New Locations, Buildings, and Interiors",
+   "s": "MMOEXP",
+   "u": "https://www.mmoexp.com",
+   "d": "2026-10-18T03:52:58+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVktGYkU1QmZzdVBKOFRaelpKdXBJMkUtWGNGeGpvYnpaNGY2MjNJYzEzRnJJejY2MnVSYzNRQUhxNGhOTFN2bjY2RVdYTXJFTG1UZEZFS0tiUDRCSk13VHlHRzFmd0Q2ZVkwUVRFN1NocUFfWXRqazZXcmJQZVVHalI5dEdydHZTdTRIRzAxWS00VzRmRDdBc2dRQXNOWmpLb01ic0RJdmdGZw?oc=5"
+  },
+  {
+   "t": "'I Don't Think We're Seeing It Here': GTA 6 Launch Trailer Not Using PS5's New QSSR Upscaler",
+   "s": "Push Square",
+   "u": "https://www.pushsquare.com",
+   "d": "2026-10-18T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM2F4cHRZWjZYTGp6V2dTeUNjM1VlakFvYnpPQVo1N0Jmdy1WRVZwY25GWko4ZFdxdTlQbkZpTnMzdFJUay1aNEZmc2U3aUVubHJNRjhXdkYzcmZEb0k1c0pzbzgxVGpEVXZwNmpRcjFpdWx4VkVYTFVxelZEcVY0N3RCX2Y3eHZWTjFtSUFMSTQ5X2NvcDhwNmNrSTVTRFlSM2plalR4X25Db0taVVQ5YVQ0bEo2ZmNUNEpWSzkzRktwWWdW?oc=5"
+  },
+  {
+   "t": "GTA 6's Jason and Lucia story leans on Red Dead Redemption 2, not GTA 5",
+   "s": "Notebookcheck",
+   "u": "https://www.notebookcheck.net",
+   "d": "2026-10-18T09:27:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcjZPdk9HcVNpWmZ3MklQUUFyaTNtRHFFLXVYM1VpakZ3ZXI4VnljMDVfU1BMeDMwT1UtNGRNaU1YaXp0a0hzRDdULVdhTkJCQ0VyRVJ6NDhtOFdJVXhEZzROMU1JNWhMSExJSndibDl1dVY5YXFsVWIxV3FzUThzQ1BrakFUTDU5Vl80ZzFic2lHNU5VUl84a2kxUnVvdnYzQUxsZWdXRU41OWxlZ1NCZC0zM2RyUQ?oc=5"
+  },
+  {
+   "t": "Activision Snubs Zelda, Calls Modern Warfare 4 and GTA 6 “the Two Biggest Games of the Year”",
+   "s": "Wccftech",
+   "u": "https://wccftech.com",
+   "d": "2026-10-17T19:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN1NueGNjSHJvY0hEbVM5emhfUTIyYVZlOWE0T0xSN3hBd2g0NkF2Y2lJYnJhUUxhVjFxYmIxdUsxNDBVaFpzWmFIdk00eTJFQmtCTlc3dDN1WjNuWlpnZHpIbDFGZTgwWERJOHBkTXROc0FxLU40UlRHLWVrUEF3UTdFUktjd3VN0gGOAUFVX3lxTE5nTXZyZVRDNlk2UTNNaXZRMW1XWF8tYVpGZzBvcHhud3pERVQ1bzN4OFU4WDNRRGpvWTBlLUQ2LUtqZHIyT3hsRkNFeTBhTjVBakM3WVgwSjJYYzJRVGg3dV9mczduY3Q4ZHBGQkhNaUhWRU9Ha2pXazZPOUJMYnpibHNWaTEzTnlMQWN1RHc?oc=5"
+  },
+  {
+   "t": "GTA VI Suspected of Graphics Downgrade. Fans Found an Explanation",
+   "s": "iXBT.games",
+   "u": "https://ixbt.games",
+   "d": "2026-10-18T07:58:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMXBaUl9WTnRmYWVvR3dPWjlrQ2Z3VVdBNHhQdXQtbG9mYUt5SHFLRlBGTmdqRTFMOXA0dk1GTFRBSzlNamotVXFpc0M4X2doWXNybjVGZXA2eWd2SHlDaVM1bjh6cDR6WTdFWTllOXQzakZ3a3NfM0lRbWwyZFdtS05hbUdab2t5VzRQTGF4VkdEQmw0R2poMXdsbV9ucmFZcTFLcnNOQlZXUWFtSXJTemd30gG3AUFVX3lxTE1VV0dfMGZBWC02bkhrenhjYlZETDl3T05hTmZXaFlNbjlPWkJJRzNMUktPSW82ZkhHM0hhYXQwRWdIWG1rMHJDNDRTMlhvNld6TXlwN05mUEdYSzEyLTF4dlZGRkw2UFVlWmd6Ql9aYUNqQ3VXZjNpMldCZVhqdW1mRWpBaWoxYjFCai1EY3JfdzVKMHA5Z3JVS25TSXpnbHM5WnJjMnFxTlBrMF9aZG1fb1VRcC1VYw?oc=5"
+  },
+  {
+   "t": "Take-Two Stock Prediction: Can GTA 6 Push TTWO Above $250 Again?",
+   "s": "TradingKey",
+   "u": "https://www.tradingkey.com",
+   "d": "2026-10-17T20:53:34+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMjdQQVlhSDFpeHlCdjJvUXhYaklxeW5ISVhVbGdtZ1drZnJUcEJFQ3RHWWt6bkd1V25GMnY3T1FYNDBPMTlleVJac0FvTHd1TTNaeENkeVZ1elhDbzBwa2gwRWMwRUxJUnVDZFBtYTNuYkNBT0tuck1SQlVBc0RpT292TEpicUF6dDJmOWp2azRNaHlvaFFYR1h5VXhYdkd0WHhoLWllMTJTRkpYUGk1aWZ2UEU5SUhXcGR5aWFHc0diRE1WTndtQjM0NWttSWoyUmdhVkF4eDJxbkNIQnlQSWRzcGtfSmxRSnlqbW9GYTNJOUVibTVqOVJmMDdvaE90ai01anpobEdFZw?oc=5"
+  },
+  {
+   "t": "'GTA 6' setup upgrade: This 32-inch Samsung Odyssey G5 gaming monitor drops under $200",
+   "s": "Mashable",
+   "u": "https://mashable.com",
+   "d": "2026-10-17T19:33:28+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdDRBSVN4UnpxWW9BUXB3dThTaHIwTTM4MkhlY0Z4a05peExKeE1IUGhiVGoxZWc0TmFzSjRtcnhseDMzZmFhcFF5NFVaSEhNcWFQQjkyczdROGx6ZGhDOHpud1VUZnlHQWY4WGg3Sll1Ym02bHlYVHd3MGFYaElfT2V3b3hDTDA?oc=5"
+  },
+  {
+   "t": "Weekly Recap: GTA 6’s Final Trailer Steals the Spotlight as Hardware Sales Slide",
+   "s": "eGamers.io",
+   "u": "https://egamers.io",
+   "d": "2026-10-18T06:30:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRGtqWnpDbjlJMngza1JrNm9xbEFJMmVxSzdoVWxPMktsd3hZQ1NwenpwMkFjTF8wUjhSMFZZeXRqOTJWMkx3T3FqdkZqbVJOOWhzMFFWdVdfMjNFTTFLUUZEWkNhU3BlQnByQ2gwNUZGaUk0R196eFdKRVBYenJhRTBfbXN2cWZvTURLRmlBb0sxOWd0WTBNbngzMXZ5ZEE?oc=5"
+  },
+  {
+   "t": "Watch Rockstar Rebuilt Itself to Make GTA VI",
+   "s": "Bloomberg.com",
+   "u": "https://www.bloomberg.com",
+   "d": "2026-10-17T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTFU1Z1R6NENpYzJlcFNhd3BKR1l2MTF4NGpnckNKWjBScUFMZFQtTEFVYUM5X1lQd3lTT1YyblZYZ2p0STg0cE5VeXlrUlJkNWtZeDk1c0hFc25ramdUZW03d3hNQ0dDQ2MzX3lVdm05V3piaHVFWGpxUkxaN1R5d1ZqSGMyWjBOZUFTXy1EOGNhQVg1WkJRVQ?oc=5"
+  },
+  {
+   "t": "GTA VI in Miami: News, Real Locations & Vice City Updates",
+   "s": "The Miami Guide",
+   "u": "https://themiamiguide.com",
+   "d": "2026-10-16T21:42:42+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GeFMwQjZmdlhfNEpxQk5YbnVSWDlqUGpIajM2emtwR1pRakNSclppS3BleGRyNjYybnJFaFR1dzdySEFGMEFsc0JGSEFVQjg?oc=5"
+  },
+  {
+   "t": "A Bank Thinks a New Red Dead Could Arrive in 2027 or 2028",
+   "s": "RDR2.org",
+   "u": "https://www.rdr2.org",
+   "d": "2026-10-18T07:58:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenlJU1gtdWRqcndyYk5BZ2ltOXNPa3pWZndtN2E2ZDFULUVuU1Vobm04THFFU2lqS2ZsTEFCX2NnRVVWMkVLVlhZa3N4clR1dENqeDN1QkptWnJrY1ZLZXY5alZJTEVIUlRqR2RuOTJlb2lNbXUtdS01RlNobExTVmpudnZfWk9jVldXNw?oc=5"
+  },
+  {
+   "t": "Fake editions of GTA VI with \"discs\" have appeared - Chinese vendors noticed demand for full physical versions",
+   "s": "iXBT.games",
+   "u": "https://ixbt.games",
+   "d": "2026-10-18T00:17:22+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ05rRmdCeUNMbzFuLU9vTFJDRUUzc2xXMFRGRVprMWo3bTF1RlEyeUJzWXdBTlp0VmRMeFJxWFp3cU5TVHIzWUdUMDQ3ZkQtbmdBVU4wTksyQV9BQ09odHpZQkdOdl85T1V6VTJ5NjlVTUNHMXdjNTdvZ0Q2eE5YbzN3c2NzLW9sdk92ZlpSWURJalZWZnpway04Ylc5bHhaNmpKcmQtRUFDdW9ub1JGUEVPblhqWVBwRmJsQVRHdUxqQVo0d0VZdlFmUHF2elZydGdFcjdNamNtQjhBWFc40gHkAUFVX3lxTFBqTmpkTExjS0xZVThUd05Dbk9fdml2b19vWk5yS2FTZkZsQlZFXzlrbnB0U0I2d0hIa0RWLXZ5b3Jkbk1vUEhaclZzeGJid0JTTlQ3TlZGQUxoZnV6c3V2VWJTcFp5bjBoenBINEZJaENId2FJM0ZKUlVZNE1KQ3Y5LTJlMHJoaVdOWkMzRjhLdnVrM2dpcmE3Uzg0RzBsNXJVbl9jdU12WTJXdlR6Z2pXd2pEOTNkQzJlMFR2U0ZyOTl3SlJCckdvRW5WcUhQSXlQQkl5Vkxid3pFZzdKNzB1ME9BZg?oc=5"
+  },
+  {
+   "t": "MAY HESOYAM PA RIN KAYA RITO? 'YON LANG KASI ALAM KO EH 😎 The wait is definitely over as Rockstar Games launched the trailer for the most-awaited \"Grand Theft Auto 6.\" \"GTA 6\" has been in development for an extremely long time and hardcore fa",
+   "s": "Facebook",
+   "u": "https://www.facebook.com",
+   "d": "2026-10-18T08:20:51+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeFRYeDBId0FGS3M0TnBpSHN0aDREQjlUdHFzVEcxVTdxMFFpVkhuVlh2YWF6YjA0d3pUSThTaGx5cEpaTTBjUXJiSjNtRGpFallFYm0yeGdFVHZTM3dJamFCOGlXMEx6X19EN2pGREJkUmp0RzlscURPaHJ2Y3RiU2JBZXBja2FldmZvRlNBVHhZOGFqX3Bod0E0ZUJabWRfVTRrMVc3WFozMURIZzA0VEZabzZRUGRXem5tRHpFQ1JhSEwtVS1ja3BvOUt0Q1V5dzN2R01zaw?oc=5"
+  },
+  {
+   "t": "Before GTA 6, Rockstar's Attempt at School Satire Faced an Era of Intense Censorship",
+   "s": "AOL.com",
+   "u": "https://www.aol.com",
+   "d": "2026-10-17T22:14:53+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40ODA2NksxLVE3czc5U0R5anZBekk3REcyQm1ObHllZF9iUFctSExjWmFmMWY4MTBOMHZXeUZLaGlmRkd4OGZLcmdOc0FiX1owSmxZSHJpc0tmQU0tcmY3WHM5eExNTnRXTGpqNll3RFcxYlNnVWJtbDBpcU9rUjQ?oc=5"
+  },
+  {
+   "t": "'GTA 6' preorders are live: Where to buy for PS5 and Xbox",
+   "s": "Mashable",
+   "u": "https://mashable.com",
+   "d": "2026-10-16T18:27:21+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BRDdDRHpXN1hlN0p4YnZWOXlGQ2F5TTN5NkJuQXJJdk43OUhTZTZ6MkFkdUZ0RXdEc3FMaEEtd2dLQklkbHFpSlRWaUZJcW1FOEdkWldpVm9qQ3ZiOExz?oc=5"
+  },
+  {
+   "t": "A reference to the first GTA was noticed in the GTA VI trailer - it is considered a hint at Lucia and Jason's past",
+   "s": "iXBT.games",
+   "u": "https://ixbt.games",
+   "d": "2026-10-18T03:08:23+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS3NtbGZDQm9ETVlxNE9ERldfRG5iV01IbTcyS0NRd09UUnRrU2lEdDA2Vklza0dWXzJPM21JY3lGQ0Z6LTFtNlZxeWhudjJOZ3BRTVpuN3VvNXU2dzhaZ0Z3aDdpbkJ5UVpWV05QQUxHekx1cklqd2Z3Y0o3U01ueUlrZlhUNWtsQWFEUnpzcmhVYlkzMXh6cFBud3BTVVlxZ041NXhVSGtyZS1UTFBleExMd2E5MWtVTVRPNV94eGFSVVlVS2c5R0JmWFlCdW1qUlB0YtIB2gFBVV95cUxPcTJEZWx5Smo3UmJWb1FrWU94YVU4ZmdwWF9xZ29BNDFOVi1JWk1SVDFpX2toTEp2R01nQzU1MEJkUGFsNmg5dmhpZE1HVHRVemR3cjgwNTdYNDRQS0VlaU8yZkxmNDZ6VGFKU3ZFd283ejI0eDY0NXZOWDRSUGtwcjBmajJoeDRaY25STXlJNUlYc1VpZktDMXByaFU2eUxGRFgzRXhlbk5oN0oxdVZEU3c0VW9sNmctZ3lJZWFOVmJoV1dTNURWSUFzZmd4YkFrTjA1SDZMRURadw?oc=5"
+  },
+  {
+   "t": "TTWO Stock Climbs After GTA 6 Preorders Go Live – Retail Fans Debate Discless Physical Edition",
+   "s": "Stocktwits",
+   "u": "https://stocktwits.com",
+   "d": "2026-10-17T09:53:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcmZOUGZ3dGJMNHNlMUZGTFdQZVNlb1JMelZ6N3QzekNEX2pnWi1BdDZ5YUg4ZGs4Q1NnZzltSjQwaWMtZ1BXazVtZXAwdFRPMGt0SUpiaDdVUERuY1k4YlIwTUpMZHRsWkZmeE1qT3BOUk1RUG1aS0plWHdiUXhGajEtSEpTaDRkUzdPWHhHOHRxd2ZJa3BKQ3JJM1NpMjNTT0pLZkE3QktVUV9BTjFEWnV4S0lfZzZ6TURFOVFwN0paSmtFeDdwdnBBa1k4SDk1MjY0RVRHUWg5aEYxNkI3cjUxNFdURlcxTGo5bGdB?oc=5"
+  },
+  {
+   "t": "There’s No Conspiracy For GTA VI To Be In The Game Awards",
+   "s": "Aftermath",
+   "u": "https://aftermath.site",
+   "d": "2026-10-16T20:24:26+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCOUpsclcwa2tiaDhBbjZGLTFCOHZ2TjZFSUk5ZzB1UnV4bDhyT1QwQmVPc19TUEs5U3JHalhWY25Bc1BKcmtYaHJwNm5kMTNObThJRl8yNC12c21CTTNZ?oc=5"
+  },
+  {
+   "t": "GTA 6 Is Now Rated Adults Only in Every Major Market Worldwide",
+   "s": "GTA BOOM",
+   "u": "https://www.gtaboom.com",
+   "d": "2026-10-17T22:24:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRG5mVkR6TmNFV1lHYzBia0l6TWxwcHhic1NJMUJDVzR4eThYekZEM2VVWi1reHBwSFNiM01NcHNhRkFYSzRMTkRNTE42cHFtTEVBaFNhUXp5QmtEWUFpbUNCbk43RmhQSFVuRk9LMUU0MnI1TkJaemFCYnZDTXVPZE1TX09BdGgt?oc=5"
+  },
+  {
+   "t": "GTA 6 Hacker Arion Kurtaj Gets Court Date Just Days Before Launch",
+   "s": "eTeknix",
+   "u": "https://www.eteknix.com",
+   "d": "2026-10-18T06:20:46+00:00",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11MUQtSXp1V09jUGhjNFdWd2tWYXUwTmN4R1dsbldydzFIS24tZ01ZWGZTT2IxVDdCa3hvMW56cUlrY1Z4d0NiS044YmFmMVF6T2lTbXFLUlhzbXM2d1dBbzNBUlNZYzhieDgxdVhR?oc=5"
+  },
+  {
+   "t": "GTA 6 risks censorship for adult content on release date after harsh age rating",
+   "s": "Notebookcheck",
+   "u": "https://www.notebookcheck.net",
+   "d": "2026-10-18T01:50:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdU1mRVJvLVlpZXVidGVRaF9OeDkyZ2JCbHE0QWZPWWF4NWE1Wi1VY3RZeTE0dW1TZDEwVndZRWFrVFJ6Skc5M0dKaDFRTWlMY1Fza2V2NW9PV2x6dUxOZHlBVkJiSkhJNGZLVmdwODFuZFRwbVU2QVc1RG8tSnpHeUJrYXV6bk5HTWR6U1RSaGRWNy1GZVdEZ09iQnY5UVgxQmpPeWVwYTFYX0R0cXFYeWExMTZNbFlBWXl5R3lfd1R1UQ?oc=5"
+  },
+  {
+   "t": "GTA 6 New 25-Minute Gameplay Leak Shows Nudity, Street Racing, and Open-World Activities",
+   "s": "eTeknix",
+   "u": "https://www.eteknix.com",
+   "d": "2026-10-18T05:57:56+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV05oNzBXeXVwdHhJVzI2U2l5YnFSQUNjcGpLUFc3MUx1YUZEOVF4ZVFyTHBacXg4bzJwc21jQ1pLeXJ6SXh1NGV2TjFiNkd3OF9KYl9XS1R6bEpqMFphV3kzdlBWV0U0TGJHb1luQkFsVlBESGJJOUJBM1hKNWhjMVhSVklUYjhBcy14UUtwanItazFyVWZZcFVJS3JxYlRhcktkRG0xLTU5eEhMVkxjRg?oc=5"
+  },
+  {
+   "t": "All The Records GTA 6 Will Break, We Think",
+   "s": "GameSpot",
+   "u": "https://www.gamespot.com",
+   "d": "2026-10-16T20:27:22+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkZlZTJNOXh5Q2xZdjVHb2NDVHBaUjVQcTBCZ21hckY3MW1XYmVEbmVlWTJiY0pxd3hNZjRNNEFGTkRoYW1meHgwZXQzZlVQMEIzd0NsZC1lNDZIaFF0ZzlJZXNmU0pEbmZpcmdMeVRfWXJ1VExDZkNyMGZfVzJfRU9B?oc=5"
+  },
+  {
+   "t": "GTA VI 'Vice City' blimp to appear at NASCAR championship weekend",
+   "s": "Motorsport.com",
+   "u": "https://www.motorsport.com",
+   "d": "2026-10-16T20:40:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcnJ5alFZMExuVHg5REFPUm4wSkhfZmtCWXRnVG9Pam0yaVhvSEVzM2t6TkxoYUhTQ1Q1VUFid3RrVlFaUTNhajZDVVdOOW9pNjhJVklKZGpKa2c0SU1ud0tyMERtQlZIZ2REUkFPZ3VCc1d2UHpGNXI1Z3c0Y2pwUy1FNVFtd2tYOV9IYm5hY0xWcjJlN05DcXBCNk9yOTdLT1U2alluaWcxazN0S0Q4dlNCMVlqVlE?oc=5"
+  },
+  {
+   "t": "Every Grand Theft Auto VI (GTA 6) Trailer",
+   "s": "GameSpot",
+   "u": "https://www.gamespot.com",
+   "d": "2026-10-17T15:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UcEl0M1JzX1dETXNGOXpGYjBVVmdTWnByMzhjekEyOWI2bHMtbTNQdFNHY1ZsTkVqVHNWdldqNUZxSEZCdXZkcFZ4QkRaaFpYNEVReXV5N283eDJ3dTJwbVVxR0JZY2ZZMHhqd1RSQTJkU3dnYk40N2lqMVM?oc=5"
+  },
+  {
+   "t": "Rockstar Officially Comments on GTA 6's Approach to Trump & COVID-19",
+   "s": "Polygon.com",
+   "u": "https://www.polygon.com",
+   "d": "2026-10-17T00:43:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91M0o5QnRuaXBtT0xjNVd2X2pfYnk5cTl6eVdCMDZ3YThQbEVLSHNhRTVxUmpqcWNaTC0xTG9zSXJGb3RzWG1CTHZlRkJQZ214b3IxZkV0WElWV2FJQTZ6Tg?oc=5"
+  },
+  {
+   "t": "GTA 6 Launch Trailer Analysis: Has a Long-Standing Tech Issue Been Fixed?",
+   "s": "Digital Foundry",
+   "u": "https://www.digitalfoundry.net",
+   "d": "2026-10-16T16:04:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbGEzX2NOWlJnbU94aVl6ZndReTQtdW1wXzBxdXFfLU53eEZNUEpzSk9iZTZTWW15ajhYQ3VkZk5Bb1R6dllteFlCQTlHQlFOQUF4QXFMWEZmN1Ywbi1fRk1qSEJsSFE2U0loQ0pibmRQaW1WQ0UwUjJ3NEtpZ0ctSC1wR2JnbDM4d1M3SlphbjJpRlJTUTJqSV9TMnduc2NETFJ4Wk1aZE1rRGluazFieg?oc=5"
+  },
+  {
+   "t": "GTA 6 Has A Nod To The First Game That Could Hint At Jason And Lucia's Relationship",
+   "s": "OpenCritic",
+   "u": "https://opencritic.com",
+   "d": "2026-10-17T19:51:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSjF3OWx4TjVsNjJjVzlfX1lpN2JTQm5ZRHNQb2NVN1VqMFhscWlIeHM4cEJ4bVNFaUVrZS00WkxzWldWb1J6T0oyemJHTDNkRFZxdkVTd3Y0cHlkSTcxNk1yeF9CZUJHUFVmd3lvRlkteGtVaWFsU19NQ0JVZGR2b3dqbnh0WGdzb2w0clRCM05jUUgwbFpfd1A0UVNDamM4YmducjRnNkRNZFlVNXZKVkdjMDhiX2M?oc=5"
+  },
+  {
+   "t": "GTA 6 Recaptures What Made GTA’s Best DLC So Great",
+   "s": "Polygon.com",
+   "u": "https://www.polygon.com",
+   "d": "2026-10-16T18:00:18+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zXzRFZ1pCMXRBSmdWSXdobTJMM3JLeW1DOTcyemVlT25hcVFIWTBscFdhY2NQSXkzbzB1V1VMdHhrVTUwT2xBTFZvTHQxY3VCY3h0ckc1NndfRWFaMXc?oc=5"
+  },
+  {
+   "t": "GTA VI Can Compete for Game of the Year at The Game Awards 2026, but It Almost Missed Out: Rockstar Shows It Wants to Win With the Game’s New Trailer",
+   "s": "LevelUp",
+   "u": "https://www.levelup.com",
+   "d": "2026-10-17T12:00:01+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTVpORkNmR3o1dkM5UFlMNW5IUDgycFpjZExlYnZXRGluTWR6elo4bk5fa2FwNVBRQS1jOVZ3TTFxSFJRRmo5OF9mbzJpdWZhMzBfTGVBa19HSTVONEcteUs5eEtoQlc1VDM0c1dXTlM0eDRtV2xFUFdQNXNDNFM2NHRucUo2cGJvdWRqdlVMdE5ZX1pmTm5qMFpfbmNGei04LW9jYnI0TGV0bGFEYVN3TzlWbnZUb3VLQXZpdVQtR25RMGdRVnNGdXNndEZVXzl2MXhTX2x0S2RxWkVXb0c0Rk1FSW5yN1plMFVxaHY0SVl1MnFhekhxUXdOS0ktZFY1TVBhbzNRNVJiQ3M?oc=5"
+  },
+  {
+   "t": "GTA 6 Blimp Set to Fly Over NASCAR Championship Weekend in Miami",
+   "s": "Yahoo Sports",
+   "u": "https://sports.yahoo.com",
+   "d": "2026-10-16T22:57:01+00:00",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WZXlfTG9yLThEV09MRVFQU19DU0w4UldtUGZSbkVrZ3hpeVludmp3bXhOX3FhRnh5cVoyRFVGc2tpUmR2QnFkemZEZlczYmZCQ2RHYUp3MjM0eEFUd2ViZ2Jib2tOak9yLUYyYVBWb21ueERDRTZr?oc=5"
+  },
+  {
+   "t": "GTA 6 is eyeing Lucia as the next Arthur Morgan; here's why",
+   "s": "GAMINGbible",
+   "u": "https://www.gamingbible.com",
+   "d": "2026-10-16T17:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPenI1Z0NxRU8wYXlhV3JEeTJYbm5kNjNscXNNb2lqNnVfUkVZVGJCVjRSVHlNWjU0LVpqR3I4RXM1cGhlajRsMFprUGhBbGdFX0EwTHQ0U1FBUS1NRzdmaU45VDFKVW9DZDNZc2JJU1lfTlVqdk9ELVJGWjVCSHE4eHZ6dnZBVEFVQTRTNF9GRWticjA?oc=5"
+  },
+  {
+   "t": "A Convoy of GTA 6 Styled Cars Is Cruising Miami Streets",
+   "s": "GTA BOOM",
+   "u": "https://www.gtaboom.com",
+   "d": "2026-10-17T17:47:31+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVMzVTNxelVuVG1wcE9zcGlvcjZPMFJIRVp3UFhrVk1LcmpVeVF4Z09VSld4bFpRTWRhTGhka0RjZklsS2s5c3lSRk1TVnc3TzBPb1pnN3NVTmZjN0pjS2didGFRYUdybS1PMkpjUHRnc0Q4RmVZUTF0aEYwNEdubmtSTVR3aUFPdWxJQ1NNOUVGZUxlNDhXZ0FrOUI?oc=5"
+  },
+  {
+   "t": "How Much Did GTA 6 Cost? Rockstar Reveals The Truth, Kind Of",
+   "s": "Esquire India",
+   "u": "https://www.esquireindia.co.in",
+   "d": "2026-10-18T02:48:21+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPajlQZ3MyRjg4cnpQUlJrc2RxQ0FvbE5yWUZ0bG52SkpqRUQxbTk4anNXQUluczY5SFNsOFVmaUx2OUM5WE5zM3pacENnTnlPLU9CVkRyZndVUDduU1BiSHl4Sk1scklpbkFmbUJaTDJmSVM1OHV6czdqNkRPOHRDZEFHWG5ZSzNKdTYzNU1vaFRTR0N2WHA1Z0JVa01EWThQb0Q0ZEhFUnhId0pHYVMyQnMyMUZHbXfSAcQBQVVfeXFMTl9nVFRnRWZTcFVMVThCd3lhdm1ibGxjcXRZeGhwb0lLc01YWHM4cTlfYTdFdk5oX1laWGxVanpMc2dWTXhCR1ltakFFUXFBVnhkOFZHN212VnVxRW9xVXdqUENtMnNrTkhrNXh1RXdZZFlXWktmSmNjVXJ4Z0ExemYzZllHbnBXNkExSGtYZDk4alBYS1drVWVQOXdDcElyS1hFYUt0a0RNZGtLcG1wYmtFQzZRQTFYTFRxa2tGeW1HTzYzQw?oc=5"
+  },
+  {
+   "t": "Slideshow: GTA 6 Launch Trailer Screenshots",
+   "s": "IGN",
+   "u": "http://me.ign.com",
+   "d": "2026-10-17T16:50:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aRVdBZHc5ZUZaMDhlRk5hYW44Z3dNT0RYVFVGLUhEaHNVRGNRWlA0VnRRNnI0VlFqMFp0eDVTOTRLY2dBYTBzN2o4RGNHbWp2UXdNMkhobmVwT1BMTFRpcEg1OA?oc=5"
+  },
+  {
+   "t": "White House Mocks GTA 6 After Tesla Flying Car Reveal",
+   "s": "BeInCrypto",
+   "u": "https://beincrypto.com",
+   "d": "2026-10-17T09:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTWtBZHNIaWFoZ0RCMTdBRGQ5b1NOTkVUWkdzREV4OG1INXd2VDJfVnJxYkFvZXZKMGNTV0RiZ25NaHRTZkRyUm1WeV9jUHlSUGhDaWVMZGlfUDBGSi1fRnNIOGFjY2hJY3c?oc=5"
+  },
+  {
+   "t": "GTA 6 reportedly has hundreds of interiors, from gyms to robbery targets",
+   "s": "Tbreak UAE",
+   "u": "https://tbreak.com",
+   "d": "2026-10-18T04:07:53+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5abDJySzY2QmFUdVM0dS05MWNsWGJ0aWpIQ2tyNy1qMDh0ZU42aXg2dVloTTF5MzdDal9yd1hoclZ6THFISndsa1cwdlNWZ1d4bGVUVmpYSE1tRHZUMUppcWp1WEhkZw?oc=5"
+  },
+  {
+   "t": "GTA 6 Launch Trailer Shows No Sign of PS5’s QSSR Upscaler, Digital Foundry Finds",
+   "s": "Shane the Gamer",
+   "u": "https://www.shanethegamer.com",
+   "d": "2026-10-18T00:06:55+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYlNYbjF2MUUxdHZ0VjNWODZndlBrY1h0MzZGb21ON3EtbUJ6NmZLMmQwYVRXbnUyWVlub09wMEJmcDBMQkNEV0xhcXNyaVlHSWpSVk43QnVhdlJELWZmZ3l3dDFqYzVXN0ozZGdHeG1yeS1nWWFhX09mMGg0Ri1XZm15RF9HNXMxSjdlcDFpTEVlYXh5Vm1KUjUxUVM5QUpIMXZkMWVWZVk1NnNhOXVKWk44UEQ?oc=5"
+  },
+  {
+   "t": "GTA 6 PS5 Features Revealed by PlayStation Ahead of Launch",
+   "s": "VICE",
+   "u": "https://www.vice.com",
+   "d": "2026-10-16T12:10:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qdHdpUUhneTNEdTIyU2lzX0xLR0FOSEpKc0NKLWduQkdVbG84QVpGRmRSUko1c0xLZnUxSXVyUEhVVC1VRklOSEh1ekQxSVpMVzR6N1NJbDZHNWYtRTc4UUVxNXJWMVNJOW9fQ3NjRmhYaUdTby1z?oc=5"
+  },
+  {
+   "t": "GTA 6 Game of the Year Eligibility at The Game Awards 2026",
+   "s": "New Game Network",
+   "u": "https://www.newgamenetwork.com",
+   "d": "2026-10-16T13:23:17+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwbzRkb2t1V21qWTVQN1JWTXFpbnlfZmZwUmNfZ3piNWRxVk5kUGFhYUNHQW9EOVhpZ2dUczdadHZwbEQzRjJYbWEtemZLU2dVdlppUGhidEJFb1dFZ2sycnhtSlgwVy0tMHpOZWdSaUJJaVA3?oc=5"
+  },
+  {
+   "t": "GTA 6 Miami Takeover Faces Backlash From Officials",
+   "s": "DualShockers",
+   "u": "https://www.dualshockers.com",
+   "d": "2026-10-17T00:01:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT0ZwNG1FaVlnMG5zRGFZUzM0WUJDV25kaDQwcmo3LUZUbnhVQ1BwNnZkYnFiWHFfbThOb3pyODlBT0Vza3NnV2lBWmVwa1RxWHpLcHFLSzdUajl1NWNUaFdQbU50Z1NrV3BJX3VCRDdqcVJabUlyU2dNLXlCRzJvMEZIUFY3Z3c?oc=5"
+  },
+  {
+   "t": "GTA 6 Is Taking Over Miami Amid Pushback From Officials: \"We're Depicting Miami Like A Murder Capital\"",
+   "s": "GameSpot",
+   "u": "https://www.gamespot.com",
+   "d": "2026-10-16T13:04:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdURnazdZTGNZb1pBZTFIaGZxbmRPTElyZHlZQ3RxLWRDMDlfa3Nlc3dNUjFzNGFJWUQzMDZWVFp5cmpsdEwxSXloSkJRemc5aEp1MlZraDNtcnBINDRYRkdiYU85V19nUWp5RGp0QVN0amcyQndWY3hoNkIwcEhiTTJWYzNfZmd4YXpRSlVvRGNTbzBfZ0JIRk5CMmRSczNBdVR6TERieDdxaTNxamI5ZE5LTGN0Mkt1aF8xaGZ2aWtSaVVibFMtYW1uTUl6dw?oc=5"
+  },
+  {
+   "t": "Diaprojekcija: GTA 6 Launch Trailer Screenshots",
+   "s": "IGN Adria",
+   "u": "https://adria.ign.com",
+   "d": "2026-10-17T12:22:54+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORUtDcUNCaW1yakVDSFFGMWU2YWhoZ2ZuN3FYWGFCdFZBdTgwMmNZUm1ocVdwbFpMMDRJMlFfLWhWdGlDOTZ2ZmVPSFJpZTQtd3VTVGticFhrM1NubGZ1ejBqOEtnMVQ2ZEwtTzVOQl91SFJDUU5OVW1xNmxYMlZ1MWxwVzJBaWxfOVNxRlhPQQ?oc=5"
+  },
+  {
+   "t": "SHOWBIZ: From GTA VI’s soundtrack to Narnia’s big-screen return| The New Times",
+   "s": "The New Times",
+   "u": "https://www.newtimes.co.rw",
+   "d": "2026-10-18T06:50:20+00:00",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXRMSGEtUnJnVGhlODk4SDFKYllzQkotNkZSQ1BDVFlRX28xSkpLRXJKMkN5R0VwVkFQbmQxQ1JwMkRuZGtPY3RiVVJSVmVuT05pVXN1eEFmREc1OFBfbUZpNkZCcHNsV2lVdWktd1BXS3FNTGJZeXNxX3BPNWpHd0RUV1hhYkRLVVV4NVlDZWFmSC16X2pCTGZGNmFNZnF0QWcxZ2pOemVqS0Jzajh0RjRTdnZpVm1xUUI3Q19VUdIBxAFBVV95cUxPZWpFeGRWZS1GUzlKM1ZYb2pKclBINkQ5UXozTEhKYi1DRzJjUzFrczc3dGhib3liZXktelBER1dxazJHbGh6YWE2VmlTelNKbXhkRnY4aXBGQVplNGxHdnM4X0JCT0VmSTc5ZmVoaFBMbF9ETEJrWlBRVEhlUnJBWXQtcGxOUE0zekNVTG5xdTJ5MktZZFVkVDNBcWJUazdZZVM5eGJpZkpIOGVzT0FVOGpfZDZxWTdsRi13bjBubk1aVXR1?oc=5"
+  },
+  {
+   "t": "GTA VI is almost here: 6 things to know before Rockstar’s biggest release yet",
+   "s": "Open Magazine",
+   "u": "https://openthemagazine.com",
+   "d": "2026-10-17T05:42:47+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMk92ZXdkSkRPS19naUlPQVdBb0xBYXF0b1lMX3NJMGN3dmlsY294bkZuelhiTkkwYVJMSFgwb3dKVklBX00wVGwwRGhVV3h2YmJ6cEptcFRsZENvOWdWUDZIaEdoTnFzWGNTck5hTHhiMEU4UnRjVnlHS09Qd0pTclNrbmtib0JEbzY2c1lkbzQ4RWZnejM4UnNhZFFkOXluTHFWMDJIV3NaODYzd1p6cmhicw?oc=5"
+  },
+  {
+   "t": "Rockstar Games releases official launch trailer for highly anticipated ‘Grand Theft Auto VI’",
+   "s": "WSVN",
+   "u": "https://wsvn.com",
+   "d": "2026-10-16T15:19:59+00:00",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLbHJEcXBBajBXNzdlV1AwVHVmYVYxdU5TMTdiSDFWMF9VSkZlYldXc0xySU9RVU9NaVdPLWNrMEtHN3FUdkU1cHNhMm0wTE8yajFWZ05iemZsZGZvbFZEU2xmRU5vQnVzVThHUFFRcW12UQ?oc=5"
+  },
+  {
+   "t": "Rockstar Drops GTA VI Launch Trailer as November 19 Release Nears",
+   "s": "eGamers.io",
+   "u": "https://egamers.io",
+   "d": "2026-10-17T04:18:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX2tnT0NncEJwR0lZUWw0RTEyS2VfN2tONlIyQ2Vjb01HLVQ4dFNjQWpLazVhUS1RZUt1R25ZdlVVUXFucGJTc1ZER0FRV081akNtdVhxSW5ESGttckdqTGVJbE9kZDFEeml1YmFna2JweUNVdVllWE5BWDBkUUNLS3VxOHRSajJ3d2g4dE9B?oc=5"
+  },
+  {
+   "t": "Schedule Sets Up Crossover Between NASCAR and 'GTA VI'",
+   "s": "FanBuzz",
+   "u": "https://fanbuzz.com",
+   "d": "2026-10-16T17:43:51+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZWNMS2VPNW1kTU14cnZNbXowNERORk15VGgzMDVFemlEQUFudENzSDBtbG5ZZU9YTjI4NmJvbjhKZzNic1BnejBQOG1uSUp3UWlrbDdGTHlyVXRjM1BFYVpiT0xkY0JWZFJEenJNc09aU01QYThqN1c1ekVjdXhJU0M3YlgyZzZUZUhlVndUMmlfQmZEcVlVQVBkU0YwSWRuZU9QQg?oc=5"
+  },
+  {
+   "t": "Take Two Interactive Software (TTWO) Heads Into GTA VI Launch With Industry Eyes Watching",
+   "s": "Simply Wall Street",
+   "u": "https://simplywall.st",
+   "d": "2026-10-16T11:35:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMmswOS0zNm5zVE1hcDZiTlczRFpYNFZXaTNyM1NxZktEQzlGRVlrQlR0bXR2dmZDaHNITHRuM2NNSjlDT3lvWTFKeTd3aV8xY0NZbnJIZUJoVWRib0JWUS1PRkl4YlBPaWh0Q2gtZFIwZGlSYldFM2MyZ2lvZkdNRnJjSDRXZDRIUWljMnZqYnhsdU5VMTZWNk91YzFuSUhrNlFBNk4yQnFsUnFvWW44aUtLYmVBNS1lSko2Y1pvRmhEWDk2eWlSZDE0eEpkekFGcDQ3NzU5cWtwVDlD0gHiAUFVX3lxTE1IaGlEN3RiQjU2U2hTaFNHYUs5bFJ4SDM1MU5pdEpZYkFwR0NKQ0YzMVBNcTRKajVmZEk4c2lndzFBTFlINWZ1UjZVR0hILTlYX3VSbFI1azlZU1ZDOXFjbUFDbUlCWkotS19CamtIWWxQaUU2dk92TklUaU9OdDRFVzFxeDZlT253TFNVcENVNHJ1alZGQmJGMkZ2bUgzNXhSQ1I5aXJCUWM5bjZPcnhWSUJsYkJWZ3h0TFgwUmJmQldLbTJGR1FYYzR6SmUtNTVJZEU0a2FSbXpIYklNSG1JUUE?oc=5"
+  },
+  {
+   "t": "GTA 6's giant billboard has a design problem",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com",
+   "d": "2026-10-16T14:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQlhCSXlfUVhPMnZjRVlMR1YtVWdzb3F4T2ZBdDJsRXhNYnA0dmdOczRzRlRpdHgyOTlMcXBXeTUzMHloX3Q3dlNVR1htVFpFc2E5a3ltUjhqM2NQTVRteG9fOWx3b3c2NjhrVVZmeWE3WDhJeGRGaUNud3NBUFJuRXlvRVNHVHV5TDc3SnZwMkFtbThjQkpHalNjNkFvYWlQUC1yM3J6OA?oc=5"
+  },
+  {
+   "t": "ICYMI: The ‘GTA 6’ launch trailer is officially here",
+   "s": "Top Gear Philippines",
+   "u": "https://www.topgear.com.ph",
+   "d": "2026-10-17T16:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVC1OWWxXMTZfYnNNblNMUlk5cVJCbHNRNFVfSi12OUoxaUVxVmRDX045S3RJU1VJSkVBVFcteU8xRWtHeDlLMWo5Z01vWms3eWhiUEQ5cG9Cc1EzTFV0eFRCYXdCSXBORTZRZHBXWUNNamk2X3FOaDNPekxMTmkya3Z2ZWZFR0QycktxYTlHUQ?oc=5"
+  },
+  {
+   "t": "Rockstar Games Breaks Silence on Infamous 2022 GTA VI Leak: “It’s Really Weirdly Invasive”",
+   "s": "LevelUp",
+   "u": "https://www.levelup.com",
+   "d": "2026-10-16T15:41:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWlhSZERFTWlBamRDaDZfWFVwXzdwdWRBVk1iTGNPT0V3Q1prckRXdUtLdy15RHoxelhoZGR4VkcwOHFaN2xXY2lxSmgtQ1JJQlFBRnhWdFpvcEZ5XzFBWkF2ZU9BeERtRWFnekYwYm0tSDBCcmVyVnBLdm92cmYxNVhuYjQtOGdVakV2bmg3SUM3UDIxcjZWUkZhY0hlOUtfTU9Na2V3WlNNLTdvdE1ERk01dElOeUpuc3FV?oc=5"
+  },
+  {
+   "t": "Forget GTA VI, Call of Duty: Modern Warfare 4 looks absolutely unhinged And brutally fkn savage Writer: Ian",
+   "s": "X",
+   "u": "https://x.com",
+   "d": "2026-10-17T13:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9relFnTTRYNFJ3SFc0aU1RMVFzWDBpS0VTSVdDLTE4WHN6a3dCQzNxSFpYU04wWlUwdmhJUlJfcjZJZ1ZmYl9MNEk0Y3l4bEVVbGRrMi13WU5OOFFnS2lvN2ZwUUJHZ3VXZEIybQ?oc=5"
+  },
+  {
+   "t": "Seller lists GTA 6 PS5 disc in physical Ultimate Edition with a major caveat",
+   "s": "Notebookcheck",
+   "u": "https://www.notebookcheck.net",
+   "d": "2026-10-17T04:10:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3VLREZURjVsTHRMc2FrcWpKUTZudFAzX096S2dNM1lLS250X2NnWWwtY2p6NjNPellRYXNsWEdKQnVNZzl0R0U4NURlLXZIYzRsaGdBbU9pOHR2eV9MWUlNNW9xU1Bma0ZRdUVUMDJCeFU2M3BjSkszNHdjODFwc3d0X2cwNWJvS0NfaUJTWVJVS1BHR2s0TDdoR3d6aWZzNUhKZm1FazI3b3Y5N202VU94VGFvX1g1OXFnSnB3?oc=5"
+  },
+  {
+   "t": "GTA 6 on the base PS5 uses 1440p with 4K upscaling without PSSR and QSSR",
+   "s": "GameGPU",
+   "u": "https://en.gamegpu.com",
+   "d": "2026-10-17T02:45:55+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3IzWjhaeGcxU3FkelRsTTd0NDR1UFQzMms3VE81T3IwZkwzXzB4bnZuS2JSTWxGYUpJNDItWFFFVUEtaXRILTJ2bTdkdTZ2N2ZVYzhyXy1TMUs0SGVCdVVxSUtUVGRiekZRZ1V1UU9JMXdfcmp0VGlMOGxpS19WMHRXcjlRSFF2LTBDbHVWcTNZVUVzX0lGdGw1a1RXOFV0bWVaYTE4UktEdGtfcWhURw?oc=5"
+  },
+  {
+   "t": "GTA 6 has to top this btw...",
+   "s": "YouTube",
+   "u": "https://youtu.be",
+   "d": "2026-10-17T13:37:01+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE11TFU1c1FGeDQtVjZYN0dZdmx0TU9mSExsUk1uRHVXdjE0VnNKV1JTNG53VjNlbjRYSjRYZHllSUpPZw?oc=5"
+  },
+  {
+   "t": "GTA 6 is Officially Eligible for The Game Awards 2026, Barely Making the Cutoff Date",
+   "s": "GamingBolt",
+   "u": "https://gamingbolt.com",
+   "d": "2026-10-16T14:17:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQakRGVzgzeDRmNEs4dmZ1YUFBN3JFcWNnUFhoNzdLOXB6SnJPbmoxMDNJSmpraUVHWUZaSE55YUR1U2lfT1Jwd2xtcGxzSmZYTmVTVEZIU1lPaDRfY3BmaUFFazNoblUwNktwT1VJc1RMcmo0d0xrT3c3VWZMU0Y2SHNJUnp5anc0Sng5b3FsS0tvN3VwbWtjVW9HcUtEWkFKYnhxS243aGdvUQ?oc=5"
+  },
+  {
+   "t": "GTA 6 Launch Trailer Captured on PS5 Debuts New Justice Song",
+   "s": "GodisaGeek.com",
+   "u": "https://godisageek.com",
+   "d": "2026-10-16T19:20:47+00:00",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LVGV6cGRsOERNeWpLbHljWlFRakxXSE8za3FLYWxFV2dxd2U5Yk9uOXItMnJUY0NlSnNCRUVvcTZuYTdaQ283LXFqZWJCMnRnMWtuZ3ZzYkZwd0wzU0ljX0N1dWx2M2c0OUpyU1JCOWZfdw?oc=5"
+  },
+  {
+   "t": "Rockstar Promotes GTA 6 in Miami With Leonida Street Car Showcase",
+   "s": "Men's Journal",
+   "u": "https://www.mensjournal.com",
+   "d": "2026-10-16T13:32:51+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWXJFWDR6REVCZ2J4MVFtVXJPWVNHRl9YbUFzaWVzRF9JQ1ZiM1d1WlpKOXFidmhTTm9PbWdNc2RXSjBaMzNPQW5icXg3NmRtRlRwMlFXZjE4T1VEU0dwaTljcTlHc0luWlo3aHZuTnVFWmhCTU9lX0p5NE4xcm5Ga3U3NTh1MG5VSWN4MmlwZERXbmh1NzhRbk43Q1hJb2VmSlJZcFpWVE9KTGs?oc=5"
+  },
+  {
+   "t": "GTA 6’s Launch Trailer Analyzed – Here’s What You Need to Know",
+   "s": "GamingBolt",
+   "u": "https://gamingbolt.com",
+   "d": "2026-10-16T14:17:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYm44SmQ2ZUhXRjdyYTA2VWNkZXVjN2dFV25aNVZabUg4cGtDUFRLN3hzcERncnlBbG9HT1VkdGRFdW1PRXA2a1U1SlNWSnFScjUzVWlqdHZlMm9NcWsta3FpNW9QeWtsVUhRbUhad0lKZ0tGQ0RjRnJUdFE0R0NhUHZyMXBveVFH?oc=5"
+  },
+  {
+   "t": "Where Can GTA 6 Be Pre-Ordered?",
+   "s": "Omaha World-Herald",
+   "u": "https://omaha.com",
+   "d": "2026-10-16T13:39:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNem0zRERUNm13UVozazV2aVlGanpoTzRLLVpOUEc1QjVrSDkxZFRRWlRVckdZa2o1bVlVMFpuRnBMamdwOFFPanljblVKX3A5NDA1cGhPNmZnbGtUa2k5akc2a2x3VkJuZ1duQVFIRnJfZk82Y0YzaUdSWGZmdkh2bTk1NVhQWmtycDB5STdESQ?oc=5"
+  },
+  {
+   "t": "GTA 6 on PS5 and Xbox: How to Get Ready for Launch Day",
+   "s": "GameSpace.com",
+   "u": "https://gamespace.com",
+   "d": "2026-10-16T14:00:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUEhreFQxQmZUcFRHTHhtMWszLVdsVjlFY1QyNktkcnJYaXhHMVJYUlYzbEdySUs2ZlVMRllCeDFWYkE5Znpxb2dlNXplWnBwTWxKYUNENUx4MUFSTlF5Z1Mxci1MSmYyTHViMG1UQWJQU0E2dE82eUl2NEh5OEh5QTlQZ2hIYjBpWXphMTd4UUF6SHBDWU93UEh3?oc=5"
+  },
+  {
+   "t": "Rockstar Mods Real Life Vehicles to Look Like GTA 6 Cars Before Driving Them Through Miami",
+   "s": "IGN Africa",
+   "u": "https://za.ign.com",
+   "d": "2026-10-16T18:25:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU3d3Ui1oTjNaWUJiSVhYVV93QU9WSDlHd0FsMmZsVlFBU1g3S1hZMHFxTzVGQzdWb2VmNzlBMlNXSGlscnVFUHN0SkVtSk56MVRGU3oyV1hvQ3BCTHZtdkxVb3BlTHphenplQkVuRDlnYzNqRGF1NFJrSGU5UFNyUXhGWnprT1NBQnYxaHJHMGduUEZRRTNLaEh1QlpobVJySEc5OEFBRjJCbUZhOVdPUFA4T3hXZjBHdEFaRFQ0TkljUEhRWHdvazZBYTZqd2h3aVE?oc=5"
+  },
+  {
+   "t": "Rockstar Co-Founder is Avoiding GTA 6 Gameplay",
+   "s": "IMDb",
+   "u": "https://www.imdb.com",
+   "d": "2026-10-17T01:21:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1NDMyMEVWSWtVM3Eyb3dnS0pUUFg3Wl9CMERzT0FXZDNWdlhYRV92MmdYZV9yaWtYM3BJd0dhUmxjMEVlbE1PQWVRUGl4c2lWeU9XbEVQMFlsdWVyZ3JJUEhLQVQ?oc=5"
+  },
+  {
+   "t": "GTA VI Online Mode Reportedly Set for 2027 Launch",
+   "s": "Yahoo Tech",
+   "u": "https://tech.yahoo.com",
+   "d": "2026-10-16T20:35:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOGdyVTlCSW11dFg5Q1A3dkZYRWF4Wl8wc2VsM1Vrb09YWTVsTFc5RmYtekkwN3RfdFJWOUk3YzhhTWU4ZFRsNGxOM3RqZ1lDckQ2dm5aQ2hmOXdiZUR2RlVHcUJ4YWRlMUpWZ0p0YmtURWFPNHBnU2NhM2Q5aXFUTDhVdUw1SGltQ0pF?oc=5"
+  },
+  {
+   "t": "GTA VI not yet gold: Rockstar explains the final push before launch",
+   "s": "Notebookcheck",
+   "u": "https://www.notebookcheck.net",
+   "d": "2026-10-17T01:55:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcXdMWjgxZllNbGFiM3l4bVhtNi1aRDRnb2ZDN1dJVTluRmNBVDNrejJtMENBdzdpNFE1NTltNTh0bC1udHFsN2ozRTN3ZWNCT2hvaEFkanFRNDl0QU95cW5TZjZrUFpteFRZMTBRMlhCbFUtQW5MUnRTWEN5U1draXQyaDNVV1FjaVlZeVdzSDdQWU93bzBxQjJtMDlNXzNHVEF4TDNxcWxaV0U2X05tbg?oc=5"
+  },
+  {
+   "t": "Cars from GTA VI appeared in reality - supercars in the Vice City style were spotted on the streets of Miami",
+   "s": "iXBT.games",
+   "u": "https://ixbt.games",
+   "d": "2026-10-17T03:58:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWGNZeTlhN0IzM0F3R2wweUU3dWNyejJ4N1k0REZZV215bV8xNktKbnlvVEQ5X3hGaDJaeEFtYnhEUzFFVy1OTkJ0OEs5U1M0dTYzcUc3emc5b0ZxbC1wendpWUg1YVZ6YWxvMlhtaEpNMHR5bkV2aXQwRFZIR2JuNmRLeVRqOUdZRmlWMFQtQVU1TVdRelZPcy1RZkNlTE81cG9KemxUdW1QX2RvY1E1QTNFOHdPR2czRmxuR3lzVVhMb3pua3YwelU1d1R1cG9I0gHWAUFVX3lxTFA4NElBdjNESkZ1eGZuUGdXVlRRaE5Db1ktV09Dckw5RTlkcDdJenprOXdWZXBLaHlqNGhuX3lZSDI3TG1iUG9JNWdVWDIzWmx6UDh0Y3NHTWF3b2k0aTZsUGxyVFhuZWw1SmJveHZkdzZXRmc1RVRWVjQ0UFZzS3U3Z3dzMFRFZHNoMmRQS2NfbXpacDBCczRQdmdoelZsRV9kdFBoVGcwQUJYWnRJektkdGRiSHJEZU9iR2JOeWJsaDFEc3drWUhLbVplU2lRbEpyUERQNGc?oc=5"
+  },
+  {
+   "t": "GTA 6 Weapons Guide: Best Upgrades, Budget Builds & Weapon Loadout Tips",
+   "s": "MMOEXP",
+   "u": "https://www.mmoexp.com",
+   "d": "2026-10-17T02:27:39+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYTQ2dGRoNGlwUUJBUkpMbHZ4X1g5Mkk2Uk9xVjlWZW03TWM5ZVZIaEFpX1B1YUdVOEF2YzFsOVYybEwzdjdTV0FoXzRoN01DZnZLQ1ZmVW5FNXd3TnpmUGl1bTVTcFBzaTR4Q0N3MU44bHFzTkozeXVwUldDUGg4TWRJZ1pnSXMyWDdpVkI1OWFYRXRVc1g5TFJKdThXajlhU0E?oc=5"
+  },
+  {
+   "t": "The Final Countdown Begins: ‘GTA VI’ Launch Trailer Arrives Five Weeks Before Release",
+   "s": "FanBolt",
+   "u": "https://www.fanbolt.com",
+   "d": "2026-10-16T18:52:48+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWROTnhDcVp2czJobzBGVXlWam5zcjZ2N1VKUXhIeHJobk9mbkFaSDR1TEg4ek9wS2Q4YzNTM0U1QVlzdVVVR2tYRDlkN1VaS1lZeG5lVEdFTmZ0NU1nOHNXcGRlYi1tamFiVkhZR3FFNDFQRXo3ckJxdFFxQ2xGZ0dDX3ZiN1dac21paEI5WXQ0LTdKQlVjNU5wa3hGczFOZ21YY0lUZU80aHNXZ0V6UnBtLU0?oc=5"
+  },
+  {
+   "t": "How GTA VI became the most expensive game of all time",
+   "s": "Yahoo",
+   "u": "https://www.yahoo.com",
+   "d": "2026-10-16T13:20:50+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUjF3WjM5RnFGMnczOE5FWVRkSmEtWjdCRXFIT0FDb09LZm1iLWVFS2x6ajZuaGNfT0JzMmNZVkxIbzRwdV9SYWtTb3czU0FnS3JpZkZTeHlDM3ViRWYwQVJqZUVRbDVRZndGVmlVb2hhRHhxbXhVUHlwM0VYME1qZGRhQQ?oc=5"
+  },
+  {
+   "t": "GTA 6’s Reported PC Timeline Could Mark a Major Shift for Rockstar",
+   "s": "GamingBolt",
+   "u": "https://gamingbolt.com",
+   "d": "2026-10-16T15:07:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFlMb3ZYV2NwN0FBbVpMSW1oU3o5MWlFV1VTbHVjMU50VmlJQzFBbEI4T05KOThuR09tTzNnbkNJa3F5N1I0eXVmenlQOHRuZ040RVo3UWhFSE5kYlFRM0pVSXhDQ3REaXVWQUZ5VWxib3Iya19UTHFTdFJ2RzdXdHZwTDV1b3VuMm1sR0thbTJUZw?oc=5"
+  },
+  {
+   "t": "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City speeding along the streets of Miami",
+   "s": "GamesRadar+",
+   "u": "https://www.gamesradar.com",
+   "d": "2026-10-16T16:26:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOdVdDTUlkQ1MzaUl3S3ZhclY1TThiQVBuQlFaQkZmUUdoWERVTHYxMHBMMHkxajR5SzB0eDZYSDhtRGN3elRVN2tJcV95M1hCUFJyc0lIaXJUSTM0WEJmdWJLTFZNREJIZWpZRmdpX3NraEFjeGxFY2U3VVludEZrZmJyQlFldFJHYW4yOVdtRElwems4ODYxUExCbVpsbElsNmthdlk4aWJ2Y1BtRGJCc1ZVTjZHNlBrWkxQN0hDZjVSVjdYWlRYSmJ1dEFaWUNOdGtnYjU1TkhRc2NocEU5LXVwdXlOSjM4ck1samt4eDg2VUZyZWFQQ1BiMGF2ci14V0dKbnJIcw?oc=5"
+  },
+  {
+   "t": "A New Justice Song Premieres in the GTA VI Launch Trailer",
+   "s": "DANAMIC",
+   "u": "https://danamic.org",
+   "d": "2026-10-18T10:00:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNkxLVDZ3ZFVFbV9NaUlhaWJzaUdxWTlxZkgyUFNnVHJwWWw5bElKSld4RkJHSHh5YnA1OXp1Y0dQZVl3SXgyWi1tcUxtQXcyZ0NFeTV0Z1dZSzdJZDJJdXY0NmhWQTZlbWZFUkY3RFgxeFZVdGV2aG5sWXdLdmcxVDM0VUt6QmVfNVE3Mk1zZjlpNnNHenoyYThKdE5rYUVKX2F6OTAzOW90Q1lGMzRqbw?oc=5"
+  },
+  {
+   "t": "GTA VI Launch Trailer Brings New Story Footage and Original Music From Justice",
+   "s": "SavePoint Gaming",
+   "u": "https://savepointgaming.co",
+   "d": "2026-10-17T15:12:41+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0IzSlBXdGpyZktVbV9hbVNlYWloMmo2RXlCaUdxa25yeUJYS0JaNm9zeVpiR0o2U1pNWUFkcC13cF9Cem9TMHRkalpqNTlwWlQyYUozekoxbVc0bXQ0dk85RVgxbjNDd1pzbG5abGx5RWpDUjh4MkxUZUc5OFpOcDBB?oc=5"
+  },
+  {
+   "t": "French Touch: Justice Joins the GTA VI Original Soundtrack",
+   "s": "nss magazine",
+   "u": "https://www.nssmag.com",
+   "d": "2026-10-16T11:51:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOV1I5RXlFcWhxTFRnVlVYZXRodUxSNmZJQm9NTS1UMV8zMDVxSzhqYXNORmlQSGtMZ1lQR0FzZEVWd1hLQzBxbmNjMW9WQUJtUjBfbGdOTk1wNkpnVFVqc1dKeTlFT3VtWk5OTVBoMmhHTm9QcGxrd0NNZFJ2U00tbnZ5UXJ6blV6RmZxTWxfbTZCdVE?oc=5"
+  },
+  {
+   "t": "'GTA 6' soundtrack: Every song, artist, and celebrity DJ we know about so far",
+   "s": "Mashable",
+   "u": "https://mashable.com",
+   "d": "2026-10-16T19:06:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoMnI2QU5XdmdwTzRHZnE1Q29yekVWSXVMd0xYSEIwa3ZrQ0VvQzJtbkRBY1k0RTNCY2ZBbVhuRUxwYlpXZHVNTWNNaDdXb0wwX25ybm5rQlBxUVJWQThGYmx3b3BXQjVjcDJieQ?oc=5"
+  },
+  {
+   "t": "After 13 years: the Final Grand Theft Auto 6 trailer",
+   "s": "Boing Boing",
+   "u": "https://boingboing.net",
+   "d": "2026-10-16T15:19:59+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNblQxQjRNdHY1cmc5eHZrRFZhUHhYemt0cnE1UlY0Qmc1WGFfakxtaEozdWROMWJKRER2RTVQYjRITmJ3T2xWbFctOXQtdG5Rb2pZbkdoeWVPdXhHZVdLR0NUVEY2dHFRQ09YYTZPZ00zc3g4NW1OVVZQVlYxbmhKeGV5d3NJYlVWUWhKSjlma1N2ZEt00gGaAUFVX3lxTE9zUTQwdXc0OEY1Sl9oTllmR1BpMXpBYkl3T0prOWwxUTZDZ2RPZmxWNXlJcVFJSkk3Y0Ezb1hqZTh4ODNZWFZQWG0tU1kyV2x3TFktQ3VrQjh4SWkxUUdtTC1sSDBrZWdZMFc5c2dyTzBxMXh6ZnViOWl6eGVSTklpZ2xqVjZROVRBQk8zNUlQWTctZE91WDEtd2c?oc=5"
+  },
+  {
+   "t": "Jason and Lucia Take Centre Stage in GTA 6 Launch Trailer",
+   "s": "Gamereactor UK",
+   "u": "https://www.gamereactor.eu",
+   "d": "2026-10-16T20:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUU2wxVm9EdkkwNktoRGhwZEVXSkh3X0R1bWFVa3NabEJGMFBySmREUU5ZOVJrS0Fpc0UzckFRRzRtUVpqN2RobW5qWExXczhsS01Gc1Y2YkR0aGQwYlg0eGlNRQ?oc=5"
+  },
+  {
+   "t": "The GTA 6 launch trailer is out and it really amps up the excitement",
+   "s": "Android Headlines",
+   "u": "https://www.androidheadlines.com",
+   "d": "2026-10-16T15:51:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYUpwNHZCX3Rob08tZ2FtOWJCLUlTX3JoYl9wTThnRlUzZlNDYTdCa0JhX1dzMHdKT2w5bTRQeFdwWmM3a3ZJRGVLbTZETjhVcHEyMHNZakh1cmtjUnNvMU9CRTdxdllIMnZuTE1RN0JxODhKRVdYM1ZpN1dGYWVwbE9IWDJ6VGY2S25EbWhDT0tBSDgzT2t5clZXT1RiTFhHQnFuVmJiQXYzckpaODlDWEVSY0I?oc=5"
+  },
+  {
+   "t": "Rockstar Sends GTA 6’s In-Game Cars Through Real Miami Streets",
+   "s": "Gadget Review",
+   "u": "https://www.gadgetreview.com",
+   "d": "2026-10-16T17:42:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeWF2aGhxRGoybHVOZkhtci1kbU05QzBNaEkzdDJtWEV5Qkl3cjFSRVFySHJRV3pXUDZOUGcxWHFqblFYOVJEQ2hkcHBJSk5zZTNnUjJKQkdlVlhNd1lVTkJhTmlVTTYxMUVlbktmVEtmSGVxV0MxVjlVQkRGbGt4SlprY1Z6cGt5TzBwNHNDM3ZKWGRw?oc=5"
+  },
+  {
+   "t": "GTA 6 cars hit the streets of Miami",
+   "s": "Pasquale Pillitteri",
+   "u": "https://pasqualepillitteri.it",
+   "d": "2026-10-16T19:17:50+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR01PYkdjejUtZU1NU0hRTVNWVFptbDhCZU5LSDg3SWFibUpKOHVnczBvdVdFRTE4U0lGVTNfTmpGSWVtRGZMbUdIaE1TbldYaW1tMEZFdnlkaTN1REZ2TXZWR3lKSEFvdXVwUWZkQU5EQW1lMTRsUjhoYTVBeTFXbEV0MWcyZw?oc=5"
+  },
+  {
+   "t": "Rockstar Sends GTA 6’s In-Game Cars Through Real Miami Streets",
+   "s": "Yahoo",
+   "u": "https://www.yahoo.com",
+   "d": "2026-10-16T17:42:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGhzMjZPQ1h2TkFOa1BrdUlodmppaWE4MWxuM3dQZ3pONF9JeWxhbHVPV3lHS2lMMFBvd1A4bW10X0hnOHhWMUprbW9Ub2NvTXV5M1N6alN3UGZWamV1S2tpUGxlOUltRlV5ZXF1OFNtQU80Uk8yVTRCVlFWWlVIelkxZUdRQTJJbnFSNGVMcFY4V2U5dXhJ?oc=5"
+  },
+  {
+   "t": "Sony's Multi-Million Dollar GTA 6 PS5 Marketing Strategy Is Already Working",
+   "s": "Push Square",
+   "u": "https://www.pushsquare.com",
+   "d": "2026-10-16T13:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaTNoc1QyeS1NNVVKZnp2ckFXNUxKWVJvUXdBcnVEU204RDVWREQydEJDc05WVEJWc3JIYUFNZkJKSlJCdWpZNkN5YnpPcDJUOWtFc05Ga1dCZnBaSkt1U0pRUlJEYTRyZU12cExZTjhxM3hIQjV3eHoxQWt4cVlyeUxxZWEtQ252MGNvcjhxcVlGWmhvT09lUjR2RkVGQ0ZCUGRtU1Y2Rlp6VDZXVEctekJSS2g?oc=5"
+  },
+  {
+   "t": "Dacity Coin Spikes on GTA VI Trailer, Trading Against Tokenized Take-Two Stock",
+   "s": "CryptoPotato",
+   "u": "https://cryptopotato.com",
+   "d": "2026-10-16T18:18:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTHk0Y3NmUUxfR1hvZTBQdXN3UGNVei1kRTk2UTItZ203VExZS3QzenV4bzdxWC1fblRFZmJha3dxQ3JwbkhnQkhiLTlvaWllRUJxZ1ZGT29YNC02SVJpU0tZWEpzcmdmZzZ2TmZjdmJWaE1rdjktYVF3T3FmMW8yenNsYWZBTmNSbExOV0ZuV25jSGpZYmhjRzVwSHJpN3RQRHJ6YVdR?oc=5"
+  },
+  {
+   "t": "Major music act confirmed as composers for GTA 6 score",
+   "s": "AOL.com",
+   "u": "https://www.aol.com",
+   "d": "2026-10-16T14:53:52+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTmVYQnVQNnN1ZUNzUXRNdXkwWDE0YTFJclItMXMzR1R3U1d4NHhUaVowSEtBdlppOUVmUjdHdU1zUjQxdGgtemM1bnhybEJkR1JLSDM3enoyNmE5RTNzTk1VNE5uRGt1bzUzc3N2UnVaRk12T2tYSFJYX2U1WldkbmNrVnNoUQ?oc=5"
+  },
+  {
+   "t": "GTA 6 fans brace for huge Netflix reveal after major gameplay leaks",
+   "s": "Herald.Wales",
+   "u": "https://herald.wales",
+   "d": "2026-10-17T13:53:08+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOGd2X1otUDdfZTNSZHZia3ctR3JMUkdEMGI2WngwUjR4VTItZktFNTNveENaamY3Z1cyRDFJWFlLY29wQnZTNFVieW1fbEhRd3FWMU1ta2t2MDNycm1WSVZUNTdNLXc3UVRTRjdKLWc1UGZMcnJra3JyWXJFMG5WQ3ZUd2hyc1ZfXzVIekNObUo1Tkpfb3pvOHA0R1JWdzBkYXhwbU1R?oc=5"
+  },
+  {
+   "t": "GTA 6 Trailer Features Meme Coin—And Solana Copycat Soars 2,900%",
+   "s": "Cryptonews.net",
+   "u": "https://cryptonews.net",
+   "d": "2026-10-16T18:53:56+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBua214aWM3MlNFQlNLZmRvWGhSRVBlUXh0ZnE1cE90b214a1hEU3R6X21KcHppWVZQZ3dlWVg2VkliQ3JDV1pJZEVrZXNKN0h2aG1pc2pHZFRMdw?oc=5"
+  },
+  {
+   "t": "GTA 6 Launch Trailer Feels Like A Hollywood Romance, Fans Fear Heartbreak",
+   "s": "NDTV Profit",
+   "u": "https://www.ndtvprofit.com",
+   "d": "2026-10-16T15:04:42+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOXVlbzUtX2x3WEFQclhUbkJ3TXBhU19tYzc4Y2JBa2VsNVZOLXREU3hFZC1PbGxWaTNhN3hvZ1lZTjBjdi1LQ0pabHU1NTFoaXFOMDlrVUJFZS0yWllNWmduS3F4Y1M4eVZTTENjT0s0a2N0dGxIemV0VjZ0TmtOUXU2Q0hxRHkzMjloMTQ1eHJiaXVKcWhMbVNPOENwUktsdU1FZ1I1MXF0WVhiajJUNno2eXB5UDJfQmhV0gHDAUFVX3lxTFA4X3JqVUZIWkc0ME9MdzJha1hxcjFDV1ZJYkdtQV94d0x0UGtJUlNpRW5xN2NLWDdtTW9WUklzN3ludnZXRFNQZFp1VldGaFU5QXNmX3FER2djelpxLUhYaDhXMmw4bkV6QWdQMGhuRjcxOGRSQlVlZmpRWE5qSldqc1pjSUJ4cldzWXk0LUk1dE1MMGFrZXZEUmxkYVBTbkFnQUdWeEcwTU5GSFdFdmUzaG5pcTNYQzNBbEZPbDNwSGNEMA?oc=5"
+  },
+  {
+   "t": "GTA VI has 8 times fewer pre-orders than The Legend of Zelda: Ocarina of Time - players noticed Amazon statistics",
+   "s": "iXBT.games",
+   "u": "https://ixbt.games",
+   "d": "2026-10-17T03:52:06+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZ2ZtMlU3TUNRVWtwbUNYT0c1T0VIU25UYUk1emkxanVFd1VmSDJBTHFlamYyVkd3Wjk3cXFPa1hhRzlwSzdsandoMUtGNTc4SDFudzBEM3Y4SWQ5QlF6Z2pmQkVkYjMxcTJZNXhXYm0wVVZkb05RMzB4c2lHQVdqRDEtcEYyN3RhODdOOHY5Nms0Yy1ieEZ6Z09WUHl2NzZ6SU1XSHNtS3hjbHlVaDBQYmlZWFhPdHFIcTJHZTV3V2JIa1BaR2pnQXN3MW1PYTNiV2JnT1hIanJtaUNaUWtrdnNPVFNUQjZa0gHuAUFVX3lxTE03X2VMdVR2WmVoYkJIb0k2ZDQ5c19FOTNqaExDbGtGR1VrdFcwNlhqYXMzanRnb2FHQmJjZEVZSGJ4U2Q5RHg0SEJfRk1sdUhPM1l3Zl9jcjdVR1pnZldkQk13NTNKT2M4cXFzS1BqQnlCQTdOS3ZWQnBSSXNVaHBfVElESk00dkNueUlMQnROem82M2ZMYTdXN3BtV2Q5ZGpuZXNOUmMwYURXbHZuTGZDNWpvZVZXV21GZXI2TFdwalFSV1dZVlpjcEVGM2tDUEZxNlFNWmxBWHZRdlhXLU9ZOUs3ZkgtX1pfNHhKdVE?oc=5"
+  },
+  {
+   "t": "Fans Are Comparing Grand Theft Auto 6′ s Latest Trailer To Its First And Complaining That It’s A Blurry ‘Downgrade’",
+   "s": "Kotaku",
+   "u": "https://kotaku.com",
+   "d": "2026-10-16T21:33:57+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdWNXaGJESUx4eW9ZS1BucWNxb1F3MW0yRWJUN21WejcwaWFqSnA1TVh0Nkc1SGppQy02bENhaFlCTDJBQmZfS01XWTd6Ymt6dWV2blpHTWxWTktoZ2FjbWRwbUdTSnk0bXRKellRN0psU3F6c0JDb0R3bmlFWU5qZWVoUG9IYU5icjU0aW1GdU9wckVTam5RMktsU3FRZ3ZkQzBXNm4zR1Rsc2M5MnJJMmRZbWROQ2tnVl9ZN1kwUFFUSEx0Qy1NbjQ1M1BhVHBtOWlPcEk5QQ?oc=5"
+  }
+ ]
+}
