@@ -4,6 +4,7 @@ Corre no fim da recolha diária (diario.py). Também podes correr à mão com o 
 """
 import csv
 import json
+import re
 from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -19,6 +20,7 @@ LANCAMENTO = date(2026, 11, 19)
 # Acontecimentos confirmados em notícias da altura: data -> (rótulo curto, descrição)
 EVENTOS = {
     "2023-11-08": ("Anúncio do trailer", "Rockstar confirma o 1.º trailer para dezembro"),
+    "2023-12-01": ("Data do 1.º trailer", "Rockstar anuncia que o 1.º trailer sai a 5 de dezembro"),
     "2023-12-05": ("1.º trailer", "Sai o 1.º trailer do GTA VI"),
     "2023-12-21": ("Sentença do hacker", "Hacker do leak de 2022 recebe sentença no Reino Unido"),
     "2024-05-16": ("Data: outono 2025", "Take-Two aponta o lançamento para o outono de 2025"),
@@ -31,6 +33,7 @@ EVENTOS = {
     "2026-08-20": ("Leaks do Cyberleek", "O grupo Cyberleek começa a divulgar vídeos do jogo"),
     "2026-08-27": ("An Extended Look", "Estreia de “GTA VI: An Extended Look”, com a Netflix"),
     "2026-10-07": ("Novo leak + rádios", "Semana do novo leak de 25 minutos e do anúncio das rádios"),
+    "2026-10-15": ("Trailer de lançamento", "Rockstar lança o trailer de lançamento, com banda sonora dos Justice"),
 }
 
 PALAVRAS_GAMING = ("game", "gaming", "gamer", "nintendo", "xbox", "playstation", "ps5", "ign", "kotaku",
@@ -53,8 +56,9 @@ def classificar(fonte, url, fontes):
     return "outros"
 
 
-def detetar_picos(valores, inicio, minimo, maximo=14):
-    """Dias com >= minimo e >= 2x a média dos 7 dias anteriores; um pico por acontecimento."""
+def detetar_picos(valores, inicio, minimo, maximo=14, recentes=60):
+    """Dias com >= minimo e >= 2x a média dos 7 dias anteriores; um pico por acontecimento.
+    Os maiores entram até 'maximo'; os dos últimos 'recentes' dias entram sempre."""
     candidatos = []
     for i, v in enumerate(valores):
         janela = [x for x in valores[max(0, i - 7):i] if x is not None]
@@ -70,10 +74,52 @@ def detetar_picos(valores, inicio, minimo, maximo=14):
             escolhidos.append({"i": i, "n": v, "media7": media, "mult": mult})
         if len(escolhidos) == maximo:
             break
+    limite_recente = len(valores) - recentes
+    for v, i, media, mult in sorted(candidatos, key=lambda c: (-c[0], c[1])):
+        if i >= limite_recente and all(abs(i - e["i"]) > 3 for e in escolhidos):
+            escolhidos.append({"i": i, "n": v, "media7": media, "mult": mult})
     escolhidos.sort(key=lambda e: e["i"])
     for e in escolhidos:
         e["data"] = (inicio + timedelta(days=e.pop("i"))).isoformat()
     return escolhidos
+
+
+# Temas para identificar picos novos pelas manchetes do Google News (o primeiro que encaixar ganha)
+TEMAS_MANCHETES = [
+    (r"launch trailer|final trailer", "Trailer de lançamento"),
+    (r"\btrailer\b", "Novo trailer"),
+    (r"\bdelay|postpone|pushed back", "Adiamento"),
+    (r"\bleak", "Leaks"),
+    (r"pre-?orders?|\bprice\b|\$\d", "Preço e pré-reservas"),
+    (r"\breviews?\b|metacritic|opencritic", "Análises da imprensa"),
+    (r"radio|soundtrack|\bsong|\balbum|\bmusic", "Música e rádios"),
+    (r"gameplay", "Gameplay"),
+    (r"\bpc\b|steam", "Versão PC"),
+]
+
+
+def rotulo_pelas_manchetes(dia):
+    """Olha para as notícias publicadas no dia do pico e no seguinte e devolve (curto, longo) ou None."""
+    pasta = DADOS / "noticias"
+    artigos, vistos = [], set()
+    for k in range(0, 3):
+        ficheiro = pasta / f"{(dia + timedelta(days=k)).isoformat()}.json"
+        if not ficheiro.exists():
+            continue
+        for a in json.loads(ficheiro.read_text(encoding="utf-8")).get("artigos", []):
+            publicado = date.fromisoformat(a["d"][:10])
+            if dia <= publicado <= dia + timedelta(days=1) and a["t"] not in vistos:
+                vistos.add(a["t"])
+                artigos.append(a)
+    if len(artigos) < 5:
+        return None
+    for padrao, nome in TEMAS_MANCHETES:
+        rx = re.compile(padrao, re.IGNORECASE)
+        com_tema = [a for a in artigos if rx.search(a["t"]) and not any(p in a["t"].lower() for p in PALAVRAS_EVITAR)]
+        if len(com_tema) >= max(5, len(artigos) // 4):
+            primeira = min(com_tema, key=lambda a: a["d"])
+            return nome, f"{nome}: “{primeira['t']}” ({primeira['s']}). Identificado pelas manchetes do dia."
+    return None
 
 
 def rotular(picos, tolerancia=0, manchetes=None):
@@ -81,8 +127,12 @@ def rotular(picos, tolerancia=0, manchetes=None):
     for p in picos:
         dia = date.fromisoformat(p["data"])
         perto = sorted((abs((dia - d).days), d) for d in datas_eventos if abs((dia - d).days) <= tolerancia)
+        automatico = rotulo_pelas_manchetes(dia) if not perto else None
         if perto:
             p["curto"], p["longo"] = datas_eventos[perto[0][1]]
+        elif automatico:
+            p["curto"], p["longo"] = automatico
+            p["auto"] = True
         elif manchetes and manchetes.get(p["data"]):
             titulo, meio = manchetes[p["data"]]
             p["curto"], p["longo"] = None, f"Manchete do dia: “{titulo}” ({meio})"
@@ -167,7 +217,7 @@ def reddit():
         comentarios[i] = int(l["comentarios"]) if l["comentarios"] else None
     return {
         "inicio": inicio.isoformat(), "fim": fim.isoformat(), "publicacoes": posts, "comentarios": comentarios,
-        "picos": rotular(detetar_picos(posts, inicio, minimo=300), tolerancia=2),
+        "picos": rotular(detetar_picos(posts, inicio, minimo=300, maximo=20), tolerancia=2),
         "total_publicacoes": sum(posts), "total_comentarios": sum(c for c in comentarios if c),
     }
 
@@ -273,12 +323,45 @@ def sentimento():
     }
 
 
+def radar(imp, rd):
+    """Junta os picos do Reddit (atualizados todos os dias) e da imprensa; picos a 2 dias ou menos são o mesmo."""
+    entradas = []
+    for origem, picos in (("reddit", (rd or {}).get("picos", [])), ("imprensa", imp["picos"])):
+        for p in picos:
+            dia = date.fromisoformat(p["data"])
+            alvo = next((e for e in entradas if abs((e["_dia"] - dia).days) <= 2), None)
+            if alvo is None:
+                alvo = {"_dia": dia, "data": p["data"], "curto": None, "longo": None}
+                entradas.append(alvo)
+            alvo[origem] = {"n": p["n"], "mult": p["mult"]}
+            if dia < alvo["_dia"]:
+                alvo["_dia"], alvo["data"] = dia, p["data"]
+            # descrição: confirmada > automática > manchete
+            if p.get("curto") and not p.get("auto") and (not alvo["curto"] or alvo.get("auto")):
+                alvo["curto"], alvo["longo"], alvo["auto"] = p["curto"], p["longo"], False
+            elif p.get("curto") and not alvo["curto"]:
+                alvo["curto"], alvo["longo"], alvo["auto"] = p["curto"], p["longo"], True
+            elif p.get("longo") and not alvo["longo"]:
+                alvo["longo"] = p["longo"]
+    # Fica no radar: o que tem descrição, o que foi forte (3x ou mais) e tudo o que é recente
+    fim = max((e["_dia"] for e in entradas), default=date.today())
+    def forte(e):
+        return max(e.get("reddit", {}).get("mult", 0), e.get("imprensa", {}).get("mult", 0)) >= 3
+    entradas = [e for e in entradas if e["curto"] or forte(e) or (fim - e["_dia"]).days <= 60]
+    for e in entradas:
+        del e["_dia"]
+    return sorted(entradas, key=lambda e: e["data"])
+
+
 def main():
     dados = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes")}
     dados["mediacloud"] = imprensa()
     dados["reddit"] = reddit()
     dados["noticias"], dados["composicao"] = noticias()
     dados["sentimento"] = sentimento()
+    dados["radar"] = radar(dados["mediacloud"], dados["reddit"])
+    if dados["sentimento"]:
+        dados["sentimento"]["eventos"] = [{"data": e["data"], "curto": e["curto"]} for e in dados["radar"] if e["curto"]]
     SAIDA.parent.mkdir(parents=True, exist_ok=True)
     SAIDA.write_text("window.DADOS = " + json.dumps(dados, ensure_ascii=False, separators=(",", ":")) + ";\n",
                      encoding="utf-8")

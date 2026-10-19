@@ -166,11 +166,11 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
 
 /* ---------- Radar ---------- */
 .picos { list-style: none; margin: 22px 0 0; padding: 0; border-top: 1px solid var(--linha); }
-.picos li { display: grid; grid-template-columns: 116px minmax(90px, 200px) minmax(0, 1fr); gap: 6px 22px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--linha); }
+.picos li { display: grid; grid-template-columns: 116px minmax(180px, 270px) minmax(0, 1fr); gap: 6px 22px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--linha); }
 .picos time { font-family: var(--mono); font-size: 13px; color: var(--tinta-2); }
-.picos .medida { display: grid; gap: 6px; }
+.picos .medida { display: grid; gap: 4px; }
 .picos .medida .num { display: flex; align-items: baseline; gap: 8px; font-variant-numeric: tabular-nums; }
-.picos .medida .num b { font-size: 18px; }
+.picos .medida .num b { font-size: 16px; min-width: 4.2ch; }
 .picos .medida .num span { font-size: 12px; color: var(--tinta-3); font-family: var(--mono); }
 .picos .trilho { height: 6px; border-radius: 3px; background: var(--linha); overflow: hidden; }
 .picos .trilho i { display: block; height: 100%; border-radius: 3px; background: var(--flamingo); transform-origin: left center; }
@@ -292,8 +292,8 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
       </div>
       <div class="filtros">
         <div class="grupo" role="group" aria-label="Fonte do gráfico">
-          <button type="button" id="s-imprensa" data-fonte="imprensa" aria-pressed="true">Imprensa</button>
-          <button type="button" id="s-reddit" data-fonte="reddit" aria-pressed="false">Reddit r/GTA6</button>
+          <button type="button" id="s-reddit" data-fonte="reddit" aria-pressed="true">Reddit r/GTA6</button>
+          <button type="button" id="s-imprensa" data-fonte="imprensa" aria-pressed="false">Imprensa (até 10 out)</button>
         </div>
         <div class="grupo" role="group" aria-label="Período do gráfico">
           <button type="button" id="f-tudo" data-periodo="tudo" aria-pressed="true">Desde nov 2023</button>
@@ -332,9 +332,9 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
 
     <section class="secao" id="radar">
       <div class="cab">
-        <span class="etiqueta">Radar de picos · imprensa</span>
+        <span class="etiqueta">Radar de picos · Reddit e imprensa</span>
         <h2>Os dias em que a conversa disparou</h2>
-        <p>Detetados automaticamente: pelo menos 10 notícias e o dobro (ou mais) da média dos 7 dias anteriores. Do mais recente para o mais antigo.</p>
+        <p>Detetados automaticamente: dias com o dobro (ou mais) da média da semana anterior no r/GTA6 ou na imprensa. Atualiza-se todos os dias, e os picos novos são identificados pelas manchetes desse dia. Do mais recente para o mais antigo.</p>
       </div>
       <ol class="picos" id="lista-picos"></ol>
     </section>
@@ -458,7 +458,7 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
   };
   FONTES.imprensa.unidade = ["notícia", "notícias"];
   FONTES.imprensa.etiqueta = "Imprensa · Media Cloud";
-  FONTES.imprensa.texto = "Notícias por dia que falam do GTA VI na imprensa nacional de " + nomesPaises + ". Cada ponto marca um pico: um dia com pelo menos o dobro da média da semana anterior.";
+  FONTES.imprensa.texto = "Notícias por dia que falam do GTA VI na imprensa nacional de " + nomesPaises + ". É uma recolha única, que termina a " + fmtData(dataUTC(MC.fim)) + "; a parte diária é o Reddit. Cada ponto marca um pico: um dia com pelo menos o dobro da média da semana anterior.";
   FONTES.imprensa.rotulo = "Notícias por dia";
   FONTES.imprensa.linhas = function (idx) { return PAISES.map(function (p) { return [NOMES_PAIS[p] || p, MC.paises[p].diario[idx]]; }); };
   if (RD) {
@@ -469,6 +469,7 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
     FONTES.reddit.linhas = function (idx) { var c = RD.comentarios[idx]; return [["Comentários", c == null ? "–" : c]]; };
   } else {
     document.getElementById("s-reddit").hidden = true;
+    document.getElementById("s-imprensa").setAttribute("aria-pressed", "true");
   }
 
   /* ---------- Topo ---------- */
@@ -515,7 +516,7 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
 
   /* ---------- Gráfico principal ---------- */
   var caixa = document.getElementById("grafico");
-  var fonte = "imprensa", periodo = "tudo", estado = null;
+  var fonte = RD ? "reddit" : "imprensa", periodo = "tudo", estado = null;
   var dica = el("div", "dica"); dica.hidden = true; caixa.appendChild(dica);
 
   function intervalo(S) {
@@ -877,23 +878,32 @@ thead th { position: sticky; top: 0; background: var(--painel); color: var(--tin
     });
   })();
 
-  /* ---------- Radar de picos ---------- */
+  /* ---------- Radar de picos (Reddit todos os dias + imprensa) ---------- */
   (function () {
     var lista = document.getElementById("lista-picos");
-    var maxN = Math.max.apply(null, MC.picos.map(function (p) { return p.n; }));
+    var entradas = (D.radar && D.radar.length) ? D.radar : MC.picos.map(function (p) { return { data: p.data, curto: p.curto, longo: p.longo, imprensa: { n: p.n, mult: p.mult } }; });
+    var maxMult = Math.max.apply(null, entradas.map(function (e) { return Math.max((e.reddit || {}).mult || 0, (e.imprensa || {}).mult || 0); }));
     var hoje = Date.now();
-    MC.picos.slice().reverse().forEach(function (p, n) {
+    entradas.slice().reverse().forEach(function (p, n) {
       var li = el("li");
       if (n === 0 && hoje - dataUTC(p.data).getTime() < 21 * DIA) li.className = "recente";
       var tm = el("time", null, fmtData(dataUTC(p.data))); tm.setAttribute("datetime", p.data); li.appendChild(tm);
-      var med = el("div", "medida"), num = el("div", "num");
-      num.appendChild(el("b", null, fmt(p.n))); num.appendChild(el("span", null, fmt(p.mult, 1) + "× a média")); med.appendChild(num);
-      var tr = el("div", "trilho"), barra = el("i"); barra.style.width = (100 * p.n / maxN).toFixed(1) + "%"; tr.appendChild(barra); med.appendChild(tr);
+      var med = el("div", "medida");
+      [["reddit", "Reddit", "publicações"], ["imprensa", "Imprensa", "notícias"]].forEach(function (o) {
+        var v = p[o[0]];
+        if (!v) return;
+        var linha = el("div", "num");
+        linha.appendChild(el("b", null, fmt(v.mult, 1) + "×"));
+        linha.appendChild(el("span", null, o[1] + " · " + fmt(v.n) + " " + o[2]));
+        med.appendChild(linha);
+      });
+      var mx = Math.max((p.reddit || {}).mult || 0, (p.imprensa || {}).mult || 0);
+      var tr = el("div", "trilho"), barra = el("i"); barra.style.width = (100 * Math.min(1, mx / maxMult)).toFixed(1) + "%"; tr.appendChild(barra); med.appendChild(tr);
       li.appendChild(med);
       var cls = p.curto ? "desc" : (p.longo ? "desc manchete" : "desc vazio");
       li.appendChild(el("p", cls, p.longo || "Pico ainda por identificar"));
       lista.appendChild(li);
-      if (MOV && barra.animate) barra.animate([{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }], { duration: 900, delay: 200 + n * 60, easing: "cubic-bezier(.3,.7,.2,1)", fill: "backwards" });
+      if (MOV && barra.animate) barra.animate([{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }], { duration: 900, delay: 200 + n * 50, easing: "cubic-bezier(.3,.7,.2,1)", fill: "backwards" });
     });
   })();
 
