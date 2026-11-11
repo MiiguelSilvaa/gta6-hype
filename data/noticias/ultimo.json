@@ -1,229 +1,684 @@
 {
- "recolhido": "2026-11-11T07:45:37+00:00",
+ "recolhido": "2026-11-11T20:11:04+00:00",
  "artigos": [
+  {
+   "t": "'GTA 6' Runs Best on This Console",
+   "s": "Lifehacker",
+   "u": "https://lifehacker.com",
+   "d": "2026-11-11T16:32:51+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QRnBvaTJudldKMzREMmc3R3dEeHJLVjlDVE5UUEQ4WElGb043ZndqSG1wNlEwclM0bllZcHY3dUtjTlBMN1dPei1aUzBtdDNjSERHTHZaQk44d3VxMzZWRWtXd0U5ellWT2JSbUFwNDlwdzR3QXRzcg?oc=5"
+  },
+  {
+   "t": "Logitech offers employees a day off to play 'GTA 6' at launch",
+   "s": "Mashable",
+   "u": "https://mashable.com",
+   "d": "2026-11-11T19:09:37+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQy1TTDJhRkFGWnlPQUs5OS1rdmJqSUVDV3NRV3NXUVBlMTI3eDdWZTg0NTRhQm5YM0U2aUNOM3Y3SDlUNHpHTkVwTnFidnZjMHZOSVEzaEFzMWs5d3c1TzFtWHhJWnVNMy1ETGlyWkJ1RlVSSEN2RVpPMVEtbmxSbFQxUERMbWt6NHBLSg?oc=5"
+  },
+  {
+   "t": "‘GTA 6’ vs. Hollywood: Industry Braces for “Biggest Entertainment Launch in History”",
+   "s": "The Hollywood Reporter",
+   "u": "https://www.hollywoodreporter.com",
+   "d": "2026-11-11T14:16:46+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdDBjbzQ5Q3MyYW03SmZpWUVCeXgtZnBCSUtFT0NTdUR1NGtrUVVYM3RsX3k0dHdIem1qUzNtWGE0ZVB3WjZ6a2tjeWRKLWxjMkVNdm5rY2JzX0JnNWRSVXVWX0c3ck9SS1UzRWUwRER6WmhNSEo2a0pxQ2pwVkJ6bzZhXzRGVEJpU2c4dDJjVTlsdHMtNVNDMVRLUGlBVExKYVlURjBHOGFEY0E?oc=5"
+  },
+  {
+   "t": "GTA 6 Demand Is 'Extraordinary,' but Take-Two CEO Isn't Ready to Declare Victory",
+   "s": "Yahoo Finance",
+   "u": "https://finance.yahoo.com",
+   "d": "2026-11-11T16:00:06+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR3JKTVc5UXpVY0gzMHk0bW9POVRXV1lyOFdPcHhhWF8zUkJkc2FNMDU2Q2RUd3RWdUd1QXBueHc5Vm5yWU9IeW85WDZieFRpdVcwOFZseV9MaTZYTXl6YXRYZkhBaUxicF8ycDdzV0ZUZXlWbnlYQ29ucU5JRzZNc0lKUHdIdTMtZDRXVW5HZlBPV1dfNFNFQkhhbw?oc=5"
+  },
+  {
+   "t": "GTA VI Sales May Break Records: GAMR Offers Exposure",
+   "s": "ETF Database",
+   "u": "https://etfdb.com",
+   "d": "2026-11-11T18:36:40+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDREV2dJeHpERFYyNWdzTGJDQVlxd0JSR3BTM0JHWFlwZE9TZzkzRmN2TG5Bd1J2eW9QTUdzcVZELXZxSWhkM1hLYVRkYUl0cE84UTNIZ1lLeFN3cUVNMWJ3Ui1XVFVGSE02V3NwVFVBbXZRcjI3eHRkZGoyYWtCdw?oc=5"
+  },
+  {
+   "t": "Half of GTA VI Gamers May Call In Sick. One Tech Giant Is Giving Workers a Free Day Instead",
+   "s": "Inc.com",
+   "u": "https://www.inc.com",
+   "d": "2026-11-11T18:48:22+00:00",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc3hJVnpWUFlJQnNLYzNmLVN0U01RZV9FNm02UkRWcldzX0pxbjgyZmR2c2ttMUlja0lxclkzQkhkckI5eU12U2FDbGx2M2cyT0RqTFB3dnRJY2o1ckRZeVVtcjJCVEdxZUdMOFlQMkxFbTJSNF9rUnRqX1NWU1F4TXZFZzhGcGdnb3kxaFJoWHVMMnJfUUJOVUZKNnhybDBmNzlJbXBjaUFYbVZOOGpsRV9HOFk5SVo3YnpmWFZGTG9SSXNrRFJtOWl5YVhhLW8?oc=5"
+  },
+  {
+   "t": "‘GTA 6’ Pre-Loads Are Slowing Down The Internet, Warns ISP",
+   "s": "Forbes",
+   "u": "https://www.forbes.com",
+   "d": "2026-11-11T15:22:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZDE0aGMxRk9vR2Rwa1o3NV9vendjenZRX1I2X1B2dkU5VVNqcDhnaFpiTERMMUZTODZSdzNBMUJIUlVCb29DZTNRS21oZUI3SXNLc01ZR3h5VGZwYmNTcXgzdzhlX0NpejlhN0IyOGtFekdWclkzU0syWnNPVkc0TmtvY0YyNmxuZEFUUGVheDhKYWh3TWROei1jd0w1emNkVWFaU0ktNFB6QQ?oc=5"
+  },
+  {
+   "t": "GTA 6 Guardian Interview Reveals New Gameplay Details",
+   "s": "VICE",
+   "u": "https://www.vice.com",
+   "d": "2026-11-11T15:08:47+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUTRiQ0lGM2pyN09yNjJxOFpyR2tMWHV3dGhLbHlHZkc5elplMXN3WElNTGRUWUxlaG5SMmJ3c3M3Q2RnQ1owOE9VX05sTzZHak1ZdlpUdnc4YVJSdkcwbktHYkNkV3pEMEg2bzN6Q1JQNE9OaHZKWmFkOXZPanlYRzVUbU84VUNIcU5V?oc=5"
+  },
+  {
+   "t": "Taking Off Work or Skipping School to Play GTA 6? So Are 12.5 Million Other People",
+   "s": "PCMag",
+   "u": "https://www.pcmag.com",
+   "d": "2026-11-11T18:17:05+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtZllhRlh4UVVkTmpHYkxjMlJKLUF5aXlBbWFmMFY0cHd4ZWZlUnN6d1ZreVpBX3B6bjN3VVBWbmZIOWlTRjBsY0JhWXJSYnhkVEUtdUNUQkE0b3RYQ2ZuRg?oc=5"
+  },
+  {
+   "t": "GTA 6 contest could see you net $500 just for guessing the game's Metacritic score",
+   "s": "GAMINGbible",
+   "u": "https://www.gamingbible.com",
+   "d": "2026-11-11T16:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT2ZzMHU5S0FJSnh5azgzLU5haFlwNzN1R3BkNTNnbVRRWV9IOGNCUW12SVpVc0FlT1FJYnJWOUN1UHJqcFFTYnNneWo0R3V1NEVtbVVielJFcUpMUFNielZ5R0dLTDRXTXo1U3RBRzJiWDdaNDlkbVpWMUFNTjJ0akY1am8zMEswSnFtZTRFd1RadHcwVE5lcQ?oc=5"
+  },
+  {
+   "t": "GTA VI Festival tickets go on sale today, celebrate in Miami starting at $214",
+   "s": "El Paso Times",
+   "u": "https://www.elpasotimes.com",
+   "d": "2026-11-11T17:08:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTnp3d09QR0NBN0lXYTFXLUFaMF82dzF3d293djFWaGw1al9Hb0t4MXVGajFhUk8tbUdCMUJ3UEtqRjBkRmdyLUtBeWVyOEIxaVJhd2ZORmRxRFJXS2o1Tm1uSlRSanFxM254NkpDWHhhS1lNQ3c5NVkyeUNONzBjSlBtVThBZXVlSUVZcXZ4SldTc1RJOGlpc2VIS0JLOEpfZm5IcU04MzNONU9XdzQ4UGFwelkzN2lYSEpKdk41SWN0MHFLZWFENE5TdGl6UHprQ2hiV01TUi13aG0yS19tRnVvaHpfQ0ZVNnNLRW4tUVk1UQ?oc=5"
+  },
+  {
+   "t": "'GTA 6' Fans Divided as Rockstar Confirms Disappointing PS5 Performance Limit",
+   "s": "MovieWeb",
+   "u": "https://movieweb.com",
+   "d": "2026-11-11T18:48:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KNkhBYk9GR2ZqWXJDakxtSEtsekxTa0FpeTNSeDdNcTlpVC1RMGF1MlRWbUhVaVpDUEoxLTFSRktHa1gwRjlRb0FpSHJrY1QwQ0xydUdZa0UtSnF5bFE?oc=5"
+  },
+  {
+   "t": "GTA 6 Goes Full Pimp My Ride With A $1.3 Million Supercar You Can Buy",
+   "s": "HotHardware",
+   "u": "https://hothardware.com",
+   "d": "2026-11-11T18:43:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTY0JrR3llS2Vrd2VjTW52LUpzbDJ3U1VyRGxwcW9ZVWk2Y2xRc1JKakFxRTd2TU5aQVhwb2hvcmRVOE5tLVk4TlpLNmdzc3FiSWNVSU1NWmVHNGJPX1BVWXlIa0U?oc=5"
+  },
+  {
+   "t": "'GTA 6' preorders are live: Where to buy for PS5 and Xbox",
+   "s": "Mashable",
+   "u": "https://mashable.com",
+   "d": "2026-11-11T18:35:21+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BRDdDRHpXN1hlN0p4YnZWOXlGQ2F5TTN5NkJuQXJJdk43OUhTZTZ6MkFkdUZ0RXdEc3FMaEEtd2dLQklkbHFpSlRWaUZJcW1FOEdkWldpVm9qQ3ZiOExz?oc=5"
+  },
+  {
+   "t": "Need a New TV for GTA 6? This Roku OLED Is the Fastest I've Tested",
+   "s": "PCMag",
+   "u": "https://www.pcmag.com",
+   "d": "2026-11-11T14:02:59+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZlMzcVctOUR2anp3bE5vYmctMmxoQUtxcUp4WFBmbnlwajdINWhhVVhuanlEXzFtYldMWXRTTEhHZW0tenNldHlScmZBZVRuQU1zWjJDQ1R5N1dZSl82TnJ4TVA5VS1jcFhTOW1TdjZ6bXYzR25FMl9NVHREM2dPNGRyWVR1VHVvN1c4YkhxVVlBTmd6cnc?oc=5"
+  },
   {
    "t": "How to play 'GTA 6' a day before everyone else in the U.S.",
    "s": "Mashable",
    "u": "https://mashable.com",
-   "d": "2026-11-11T05:25:35+00:00",
+   "d": "2026-11-11T17:35:03+00:00",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XZmFiZG1mdkpSc0xWNmxSdXZGUDZ0SG5HQm9iM0ZBbzRhWlFxUFU4OHhwRjlSZF9hLVh6QWt2MkZNVjNhNjhOT2dkR0N6U0laS3ZHWlAyNHMtM3FERWJSWkZVR0NNdlJ2N3BVel9ZajRjV1BY?oc=5"
   },
   {
-   "t": "'GTA 6' Is the Most Preordered Game in Both Sony and Xbox Histories",
-   "s": "Complex",
-   "u": "https://www.complex.com",
-   "d": "2026-11-11T05:02:12+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1MyQWlhY2d1TXFneEVpQUU0dDh3ekU3WS02SXgxQXdZMTJnSC1QMXowY2NjVURYMDA3SU5kYjdndHJoMEJNanVYUUtJeDJIQ3ZtSjhIdHA1Tjd6RUFMMHMzU3NCSERLQW1Ia2RFRkpzZjJ2S002cHZoN2trcHdPeFV4YzVNdGhKU2Y1c0xqZkNFQQ?oc=5"
-  },
-  {
-   "t": "'GTA 6' Preload and Launch: Date, Size, Price and Platforms",
-   "s": "Sweety High",
-   "u": "https://www.sweetyhigh.com",
-   "d": "2026-11-10T23:09:41+00:00",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNZmgxVkNtNU90ME10WUZjZVRPa0pwQ1lOcDFZaG44a2Z5eE1vZkFScDVoVlhsZENvMzRUUXUtRjJJcS1qMHBSVjM0WVNUdnI0VFJOdnZCMTROcEl0QzBubVhFZlJaQWpHUWhiRw?oc=5"
-  },
-  {
-   "t": "Yes. Your Xbox One Can Still Play GTA 6 At Launch, Here's How",
-   "s": "SlashGear",
-   "u": "https://www.slashgear.com",
-   "d": "2026-11-11T04:05:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ1RPS2ZxaHhTa05nZHRlSWFucHVzZkdyallnZEl2ZTh5bjFtbE5KYllpQjlBcTFyQ2xsV0l5bGlrclpvelk5OGdDVS1pNWV2UklDd2F3YS1ycllSYTZlblc3RTI5em8tdUF3WTlCQWxSTjZmVUQ4UHhVXzdidm1FNg?oc=5"
-  },
-  {
-   "t": "Xfinity bets on a free perk as ‘GTA VI’ tests its network",
-   "s": "Yahoo Finance",
-   "u": "https://finance.yahoo.com",
-   "d": "2026-11-11T04:17:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX0V3RDdpdmZwempPMzhiXzE1SnBqX1M2ZU1qU20wTnhOZ1dINXpvUEw4VWlNemxhM2pPbDk0VFRzWUJLczBVdUVHRzMxeXlfN2xKaDE3Y0lKYXVJemx2VjdaRG80b1Ixc1JUcUFHcG95UVRRc3ZhcVFZSm9BUnExbTV2SGU5dGR2cm1MdWEtRG8?oc=5"
-  },
-  {
-   "t": "After 13 years, GTA 6 is nearly here – here's everything you need to know",
-   "s": "The Independent",
-   "u": "https://www.independent.co.uk",
-   "d": "2026-11-11T06:37:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc1JsdWg0MDh4Z2R2aTlsVFBxM3Q3d1R2MXJ0M29FNUtzV2tPZ3RHdnFZMHROUDJqcHhRM3VncHlQUWVkU3BCb21CaWhhWEdwdTUyWTd2bnRfclJUdUZKNnZfVDZfOWtiSDJyWnFXU0twMHdwZTlmUUFJLWt5cUpDMExtTGxFeXZsd1BpbjA5WHRvb3oyMFpxR1dGRHRmUGM5c0pSeDZwQjJ6dw?oc=5"
-  },
-  {
-   "t": "Logitech Gives 7,000 Staff a Day Off to Play Video Games Ahead of ‘GTA 6’",
-   "s": "Man of Many",
-   "u": "https://manofmany.com",
-   "d": "2026-11-11T01:35:57+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOXzZzUGVmbkE0OFcwOThaaUNfVU9UazJYX1RuNjFCMEg3aEF0RFhyT0pZdGhjTFZnMHRkT0M3OGtralc2VnRyS1N1Wm80QXhSV0FjaG43SnpRdjFfclhBT0NpaElIMXpXV0U4eV9YSVZPMDc3ekFsRG5GOW1ra01wcDU0dlctOC00X1dtdkFR?oc=5"
-  },
-  {
-   "t": "GTA VI preloads begin on PS5, Xbox ahead of Nov. 19 release",
-   "s": "Türkiye Today",
-   "u": "https://www.turkiyetoday.com",
-   "d": "2026-11-11T06:14:10+00:00",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUDRPSXByUnBfd2lFeE1oYU1FQlBBNFJFakxYTWJBWVJUVldaMTVYSnlFN3k5cUJwVVpkenRDYmZ0SV9LYWhfa01tRkVWVW1HS200UDlEUDdwQWNhYzZkaXZoZHZvQkdQTENnbURxdWhpenlYLWZKdzRRN0JNdEE3WjNNbFVucFlGYkVGaUlsb3ZnTmZtaXd6aE90a3JLZG5KTEFfTzJZZw?oc=5"
-  },
-  {
-   "t": "Rockstar brings Vice City to life with GTA 6: The Festival in Miami",
-   "s": "TweakTown",
-   "u": "https://www.tweaktown.com",
-   "d": "2026-11-11T03:15:14+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkptWC1TYk43bnJuaUdnUjlXUFRsMkdJOWhRTU1ZSTJFSGJ3SkNWQTVJU0wyVy1wN0FHczdOUGc1V09TUHBFQkh0ZU1TV1lNTWxDUDd2TVViMmpEa3FjcEotWFdyT1ZyQUt6ZVJRSWdHLTdrX0UtaGRjZEUza3NEc3RMQm1mSHVJaUpyelFYaHZIQVd2am5lbFJUcks3aXFwczY4YzhPLU9UXzd0cHpUYmNEMTlfQQ?oc=5"
-  },
-  {
-   "t": "Don’t Have 210 Spare GBs? ‘GTA VI’ Is Coming to Xbox Cloud Gaming (and the Xbox One) at Launch",
-   "s": "The Hollywood Reporter",
-   "u": "https://www.hollywoodreporter.com",
-   "d": "2026-11-10T17:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNalNPX2NESmJZV0R3SHFrZjRMaVhyaV9QMHRoamV4akhQeVV2MDB1VVI4ZE9YZnI0RUFXRzZxZkFwNEd1akp0TjRxN0w3TUhWQXJmMDRPaS1YM2N0R3NBZ3ZPYlBkbXg0VUlOMkZiMHF6VGZodG5fLWtZaVYxUFVEb1BVSm9LRjdyc1Q2TTVTeFI4OEJPVjFvemRnRG1SZUo4STNjSkVMdnZySmhJQmxXYTdMUXpDbFpvc25saTRB?oc=5"
-  },
-  {
-   "t": "Video GTA VI expected to break records while Google and Anthropic release new AI models",
-   "s": "ABC News - Breaking News, Latest News and Videos",
-   "u": "https://abcnews.com",
-   "d": "2026-11-11T02:15:33+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZUZMSE1KOW5zV0FuSXdIbzhhTExhbTlpNXJKdFFHdVZlWjNYX1hoY1c0eFdqRjhmYllBUDdPWTNSLW02TkRDemxBRFpWOWtpZFh5cGZ1anpZUGJtVkEzT28taFFQS2JBOXdOc09wZmFBLXA1WEVmeFJ3aHJjQTRvT2YtWXZqVFJnQko0VHFTeFJhdkVaRGJYT1BybmRMcGFNRF9R?oc=5"
-  },
-  {
-   "t": "GTA VI",
-   "s": "Thurrott.com",
-   "u": "https://www.thurrott.com",
-   "d": "2026-11-11T07:06:06+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUWlkR0JKMXBBV2xrNVJ2QjViejhVU043aU9LWVgtSUdXUDU4cmE1US1YWDZFTzRrMFFibVQzV0FVMWIwV1VRTkljZE1laEJzdmYydWFhRUFkLVFzaUpKanBTeTNVZVdOMXdaTmdVNE1xRHBnOTJJNHVNbE5VOWtOd0FJSHpyRzVyRkJnUXI5T28xdm5XR1ZnajdFdV9mNC1ESjA3eEtPRnd1ajhFOFZtWG9FZC02RTMxdlhISlFtSkRfMkd0dGt1Rmg5NGE5ajZ2?oc=5"
-  },
-  {
-   "t": "GTA 6 Will Run at 30fps and Support Xbox Cloud Streaming, But Only for Consoles",
-   "s": "PCMag Middle East",
-   "u": "https://me.pcmag.com",
-   "d": "2026-11-11T04:05:07+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkgtTUZRUlplaGFIc0RiSWxXOXVBMW91eUhoN0NqWE52RXQ5a0ZLWXJwcXRWN0JGNEpJT1I0WHg0RFBRbjQ1VDl0WXZtTE0tVzNyclZMLWdycXZqVjBQZHBCZzZWbnFhbHVQT2lIUXR6U2RZSkR3TVdtYzVoai13NFg4YUg3dDFlOEZIZVdBZVhhaEF1eTM5Z3MxLTFVQXNKZldFZnRCR3BObFNxUi1hV0VRRGo?oc=5"
-  },
-  {
-   "t": "Comcast Boosts WiFi Speeds for ‘GTA VI’ Launch",
-   "s": "Cablefax",
-   "u": "https://www.cablefax.com",
-   "d": "2026-11-10T23:03:48+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQckRDcExyelUzZHM2ZW1vek9RZ3dWYUhJNmM0QTNfX0JpZGFvT2drcm14QTNIamZUYnZVc2p6VE83ejV0ZTNzeXFiN0w2ajZvazhyVHRUVFJYODJPc2t2Si0wUFhrR2JNbl9zeVlsdmlSYVR4MzRuLVZrQUMxNUdURldLQ1lPeE84ZlZR?oc=5"
-  },
-  {
-   "t": "Rockstar Confirms GTA 6 Will Run at 30fps On All Consoles - IGN Daily Fix",
-   "s": "IGN Southeast Asia",
-   "u": "https://sea.ign.com",
-   "d": "2026-11-10T22:30:40+00:00",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZlVJeFdaSXhTNVpjRVRzVjlEckJ3NFJHZ0s5S2JRVnlyaEExS3BXbXNPLU00MXBqaXN2MnBsUHRJNzJ0czV0cGxCVER0Z0ZTc2xaWjhfcWJKRFVHYUhzNDdZUVlPZm9BUTA5OU5rNVFNVWg0aFhUVldwbWpUMXVKS2ZSb3FKTF9BaFFJOV9rdi1ibFUzeDBaQU5UVlBMcy1YVGtBazJuN3BGbm1NY0lYM1lXaTNqSWFlZDNlLWJCWUFjVFRHU1VyRThSbFc?oc=5"
-  },
-  {
-   "t": "GTA 6 preload release date: When you can download the game",
+   "t": "PS5 consoles are still in stock at Amazon ahead of 'GTA 6' launch day",
    "s": "Mashable",
    "u": "https://mashable.com",
-   "d": "2026-11-11T04:21:39+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZFM0TnFYeUE3RVd6MmFWeE54RkZyYUJPbUI2ZUEzX1lWaDVGZjBXNjZyOUtBbEQtTEltRm1fbUtkVmVGUHNGUXdxUzNCZEtBUVVDUXBMbEwydjdrZk1pTkJUdUhCWkpDLV9XTE9ERVVhano4OC1HLURkaUxlVnF6ZlFBWjZvUQ?oc=5"
+   "d": "2026-11-11T18:18:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SWEQtNnU4WVdVaVhlYlpIOVZqeWd0MERPM1dJdUxXTm83bXUtTjlNSEpBYkhldklJaTlQYWFiMm52bklXa0FiZ3ZmSzBNYml5UDUzSW1hVmt4VTBEa0Uyb21pTzZTOTFXamc?oc=5"
   },
   {
-   "t": "‘GTA 6’ officially launches next week and is available for pre-load now: Everything you need to know about the highly anticipated Rockstar game",
-   "s": "Yahoo Tech",
-   "u": "https://tech.yahoo.com",
-   "d": "2026-11-10T16:15:35+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNTUZkelpneXlKdXlMd3ZOSjdZM1pTVFZiOEEycWRyQnh4WnBvQ1RTY295aWpxeTM1ZC00NXVsQ0dvTl9KWVV4NVlMWEZIcGtfdXJENVppLVlSMXhudE03b2hQcXlkcUhnUExSb0dOb1laQWdiU1REUUN5TXRwYVdFY0o4bnoyTWFGb0tQNklwRDFJdGJ5MlFqWVE2WlJjTTdtbmZLVEhTemxFRU55QnUzeGV0d0xaWDRlcTRUaFhlSG9qLW1HS1FCck15REphSUNRY0xTa2l1RFNaWVNCS3hkUDlsSThEWm9RZExWX3ZkYTUwUEgzaFdPYlliY0NnUU9RT0s3cHRsQWU1RW54bjdNem9ZTm56UkNtWnJET3h4TG1feWFFckIxaW83V1poRzdZ?oc=5"
-  },
-  {
-   "t": "Take-Two strengthens legal defenses against AI-built GTA 6 PC clones",
-   "s": "TweakTown",
-   "u": "https://www.tweaktown.com",
-   "d": "2026-11-10T20:35:11+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVmlSTlFmQ09GaUNvbXYyOWVVYmozeVRYMGRXclc3bEVidkhKME91bUpDaDFzX3FfZ0lZSDJDc3lKUFpWZzdHS054M3UyT0QyZHhGWVBhb0lETFNUb0UtNnlndU4xNnNnc2xzQ093RHdNbDlCLWlKSUdWeF9WdDFBZ3dsZW5pTXM1NjI4SHowSXFCT0JQYW9DRXRHdVhWZ1ZhLTA1a2poRkNrVVFLYTlwMlJuU1l3Wm1i?oc=5"
-  },
-  {
-   "t": "GTA 6 release date: Is there early access? The soonest anyone can play.",
+   "t": "GTA 6 will technically be playable on Xbox One at launch",
    "s": "Mashable",
    "u": "https://mashable.com",
-   "d": "2026-11-11T01:39:07+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVnJpQWpzVDc0ZWo5eU9Yb0x3d2RxSThNRVViVzdnY0p5V1h1ZVp4WThNWEZtV3lVbXBtOUYzdFl5Q2pzSzQyYlVKVXZTS1lMWUd1RzhCWkpmc0RNRzZkcHVuRF9VUEJuWWJYVEptVmJTdy1lYk85c1BNTXBjS3YtMkdRTQ?oc=5"
+   "d": "2026-11-11T10:46:14+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lSGVROUVwbzRkandoNlo1Qmh4cmg4Rk56aDNVcGxOZlRhaTVlSFdRVy03YWotNlhhQ1lVU1ZackxQUFZpWXppaEl3Z3N4MjNEUGs4R0RZRWV2X0R5U0NrRzhFVWZjakFRcm1pQWxwcTg5cTlG?oc=5"
   },
   {
    "t": "'GTA 6' on PS5 vs. Xbox: What we know",
    "s": "Mashable",
    "u": "https://mashable.com",
-   "d": "2026-11-11T00:09:57+00:00",
+   "d": "2026-11-11T12:37:26+00:00",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOVpvMGZPU1BJME9pZ0NRSzc5N1c0XzhSUUdrb0RrMW5SWTJUOVM5T29qbmdLRHFNMm5GT0cyOGhJZnhmaXNndnVCUW8tTUtMRVFpZGsyQS12UXFjaEczU3pZNEMtY3kwZ3NYVS1rMmdHazA0WWJVQU9kaTRuY0Z6MTZMZnA?oc=5"
   },
   {
-   "t": "Take Two Interactive (TTWO) Stock Jumps As Q2 Results Keep GTA VI Central",
-   "s": "Yahoo Finance",
-   "u": "https://finance.yahoo.com",
-   "d": "2026-11-11T01:32:20+00:00",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQjBVa25MZU5MR3AwMWpzcEtVYUt3RlJVNEJZM0kybTB3Z3cxdmpnYmJRV0Z6TGY1a2xja1BtZzFVczVaeU1oM3FveUcxTGo0Z1V5UlNOLUdwZ25mZ0t1RmZTZF9kVWtnaVBLcjl3XzhnTURKUXQ3SlJfUHNQUGNUdUNCQ1RXazU2RzZ0M2JrT3ljdTg5aDYxci1oWF9wdw?oc=5"
+   "t": "GTA 6's smaller file size and lack of \"sexual content disclaimer\" in Japan raises concerns about possible regional censorship",
+   "s": "AUTOMATON",
+   "u": "https://automaton-media.com",
+   "d": "2026-11-11T05:15:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNlFUYzZDSWwycnFKcXZnd2d4bF84NFBtTXZkd0wzN3dCMkxua3dKVlo1bGR5OU1Xcld2bS16U1hLakxReUNzQnJsNDZtb3VhSEVKTHNxalpTS0dodlcwWlB0MmFXZkpFQXR4cjIwZ19jRktFa1BuZGc5RTBpSEhQNDdaTm1Xb0ozUF9QcHktbWFIdWtxbmFZWmZoNnpfdkotSWhoOVVZT25FVlMwc2RFOEE5SkI0WGFReHFjVlhwdnRGSE5aVWxrbzBOU0t3RlRRRDJoT3JraGN2MEdqZnNjWWpIcThzUVNWLWJMUGZEaXI?oc=5"
   },
   {
-   "t": "Kai Cenat beats four GTA games in under 100 hours ahead of GTA 6 and isn't done yet",
+   "t": "GTA 6 Is 8 Days Out: $79.99, 3 Consoles [2026]",
+   "s": "shattered.io",
+   "u": "https://shattered.io",
+   "d": "2026-11-11T15:23:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzhEdE5ZbEFlTEM5NkFkT3BjaEJKRXlsUTEyN2xYXzR6SjZoXzJHcTJDR3VJcmhYSlM5MnVNR1YteF9QZTNiNk9wTTBpVkVEM3dkU0RabW9lbUJWTE5XVk53SWxPbTRQRUI2YUFrc1hSb2VKNDczZXZmTWNpR0NtSWQwMnVVLU9VMVE?oc=5"
+  },
+  {
+   "t": "GTA 6 poised to break Rockstar sales record, but there's one game it'll never defeat",
+   "s": "GAMINGbible",
+   "u": "https://www.gamingbible.com",
+   "d": "2026-11-11T14:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkhtX2todzZNYUlfMTZwWHExS0t3dDBsa19EZjBkbVdLWWtiTVJ4VG9jQkRySE5yLXk0S3JUV3VJdnVSbW5SbU5KbkZxV1A4Y0JFUzI2ZFk3bEpoQUVVelE4U2Jld2pnWHlBZWxzdzF2WW8xRlNyTVJYM3JWQXAwbV94ejFfdHdEWHc?oc=5"
+  },
+  {
+   "t": "'Grand Theft Auto 6' Poised To Steal Pop Culture Spotlight",
+   "s": "Investor's Business Daily",
+   "u": "https://www.investors.com",
+   "d": "2026-11-11T15:10:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ0s3TmJsbjJ5THVicWJyQldfME5QUFF1OXBMQXV3SXFJd1ZXSFJHaXFEQTd4NnJXWnhqNWtOTzgza0VaOGJjTzU3bDRPdWtqZ3p6OVFDWXlDdzZwaWRQVFY5N0tEcWxhUTBReUJ6cDBxUUpmZGc2Ymx6a3drUzhONA?oc=5"
+  },
+  {
+   "t": "PS5 Passes 100 Million Shipments as GTA VI Prepares to Launch",
+   "s": "Yahoo Finance",
+   "u": "https://finance.yahoo.com",
+   "d": "2026-11-11T18:21:31+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGQ4eGhUdnF2VW9rQXRlUGVremxBaTRHTEc4bk4yR254RXZ4WG9BUnBOSWRmV29iSEFMa3p1bERwcTFrUGRhZ3NiZzJ5MTVZNG4yOXlEMjdHTHZDTkdFNUlLRnVpZFZXYzE5YWdzS2R6MGt0anBkSE11UmdVTHVxaW1vWjlUZThSSGFGanZmeUZYdUhYNXBBSQ?oc=5"
+  },
+  {
+   "t": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
+   "s": "GamesIndustry.biz",
+   "u": "https://www.gamesindustry.biz",
+   "d": "2026-11-11T12:10:40+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVNnYXVNOVJkX3ZTbzlhdzZQem0tMW9Jcmd2dEM1enhyWmlsemV6WDNlaHQwam9IOC1acnFocktKOWdfeUFncjY5eG41WXBNb1NYU1RqS29lUmtUVk8xRllXTldrY280NW9yS01URzE4c0VxVEp0ZDl0RnN0cW1MQVVRVFRYWExCZzlLeDEtcDkwYkFkNUtXSHJRQl9kQ3BfeHkw?oc=5"
+  },
+  {
+   "t": "New GTA VI Interview Reveals More Gameplay Features",
+   "s": "RockstarINTEL",
+   "u": "https://rockstarintel.com",
+   "d": "2026-11-11T17:21:41+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGMtWlMtb0JLOFN6dGJOZ1VHbzZzQVRWUDZnMEk5XzdBeV9lNks1WmJhSWxweURwQzJ3dlZWNE94TDFNVW1jMjdkSlBHTzhVMmFNZF9jRUttZVROY0U4UTN4Vnd5ZmtYZTg5LWpkb0RDXzZtbkNvMW1sa3ZzYU1uYi11cmc?oc=5"
+  },
+  {
+   "t": "Where to buy 'GTA 6' Limited-Edition Controller: Live restock updates at Amazon, Walmart, and Target",
    "s": "Mashable",
    "u": "https://mashable.com",
-   "d": "2026-11-11T01:48:46+00:00",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRRlM5aVMzelpWRnFhaGpwTGEtS0NRRHVCTTlTdkNEQ0xnOVF2QXRlbmxDMTdDeTNxQWlkb1pKdkhzd0JNR2VacWRJVTVpQkxqUVJKUG9jZ3ctb0hRWVpOS3Z5VkQxeVJmRFVCOHliQ18yUm8?oc=5"
+   "d": "2026-11-11T13:06:52+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPazU3am1ScTdrdWNKYmhOSzhnUWlCLWtURDdIb0N3ODk4RnBlS3M4emhDUklIQkR0LWhHekpINDRYRGdtcTUxX0tHOG1aZkVBX19lOGxxelR3RFhYeXhBNjBDTFFoSUEtZHY5OEc3cmoydDlFMzRhN0ZrVnBVVHR6SQ?oc=5"
   },
   {
-   "t": "Record Pre-Orders on PS and MS... 'GTA 6' Pre-Downloads Begin",
-   "s": "Inven Global",
-   "u": "https://www.invenglobal.com",
-   "d": "2026-11-11T05:05:47+00:00",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDJVYVAxYnBvLWsyb2MzQVhIVjRRcnFKMEhicE1DNWdxeXVpbzNrNUpZQzVhSFFlcnZIZHgtVVpSb21oS2d6ZUxtMGk4MmF4SHNoVXVZRE1WUnprM01oSkVWQldnUVJLNm5IZFhDR2pnMjdTSml5WHZiSnBaTm1QY0kwR3RsYlZlQnJoUUxIYXF3VDd3RGlXd0dnTmw0OXI5?oc=5"
-  },
-  {
-   "t": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer",
-   "s": "IGN Southeast Asia",
-   "u": "https://sea.ign.com",
-   "d": "2026-11-10T15:57:44+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWVlQdnRFODhUWEFPNXRaZVNZSVdzbkFQZ1RWQ3VVNlZHaDBubi02QU9tRjYzSng5Q3lfRVVkSHE4YjgxLTRGRmlXaEo0SnF5MnJPdDd5Wk81LTVBR1k4ZVI5NlRhTUxPaU5HQW5OY3Z5X2lYQ0RlUU9jYzhxRW1WOV9wLV9hUzVFaXc3SDMxNnpNX0NBTklhLXU4Skk2Z0x4aGVMQ0ttYkFpWmw4V0ZDUXpoOFd6QQ?oc=5"
-  },
-  {
-   "t": "GTA 6 Breaks PlayStation and Xbox Store Pre-Order Records",
-   "s": "TechPowerUp",
-   "u": "https://www.techpowerup.com",
-   "d": "2026-11-11T00:02:51+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcVJRalpiNW50dXVQUGFLYnkyd0c3TmdRNDQ5WjMtWUYtSWJiMUF3dG5nbUY1RktnQk9xdnBoMW1aanJtRV9ZaUdvZ2NqdllVSDYyREZNVlJQUHpMVjFhNFJOZWxzUEREQWFZd2J1WU5yTE1VVWtvcUZuSWxnejhhYTNwRU8tajhFVDNEWllTWXFmc3N5WkhZ0gGcAUFVX3lxTE5VaGlGdWxXWVN5aklTWmkySk5OSVBDdThJQW0tdHBxbE5UUC1wcHE5UjhmYldJeTZoUC1melp3OFpIQ3lJSXhmZzBVcUt5eThjbU44Um1WZHZOTVR0S3Y1RVpSMFdDT2lSYXRKbDZ1V21KY3NWbFBNVGx0UXVaYzdZU1I1WGp4S0RxYUhHb0VyMkNqblpBdzBacHpkYg?oc=5"
-  },
-  {
-   "t": "As GTA 6 Is Ready to Set Records, Red Dead Redemption 2 Chases Historic Milestone",
-   "s": "Comic Book Resources",
-   "u": "https://www.cbr.com",
-   "d": "2026-11-11T01:47:39+00:00",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvX1dGZi1KUUVtRzlaUTYxUkxpcU9UdWlfelJRRlZDbUF2bG5ZdFR1RVFfRXlMUTduM2xSUlRNczlxLVBEMzdsU1o3aDNyV1llREFGbUc3OWxqMG1QajhTSHFqdjVJOU5IVW84X2R3?oc=5"
-  },
-  {
-   "t": "GTA 6: New pre-load trailer appears to take a swipe at critical fans",
+   "t": "With GTA 6 map again set in U.S., Rockstar addresses whether GTA 7 will go international",
    "s": "Notebookcheck",
    "u": "https://www.notebookcheck.net",
-   "d": "2026-11-11T06:32:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNazRLUTYta1hkRXgyS2dxek1HVktCSkRaSnlGU1dpSzh1cGllbWF5RmlnZ1ozY3E1YXhmSDNodWc1VXVTd2pWbGlQcmZabDZhU0xCQ1c2OFdRRU9Oa2lMRUJCbl8xLXJvblo0a1pBWERJS0ZBTC1JTVU2UWlqRnpGOERCdUw5T2EtdHpiWG1fdWVsQ0Q2OXJxM2pmOUM3YjJwQS13cEZKeWxsbDVTWU9tMnBn?oc=5"
+   "d": "2026-11-11T19:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON3hhdDlGUEwxVUctU0VLT2J4Y2xRamVHS0VscVIwVk9OWTAtQXFGeUxEa1BwSHlYRDltN096c3JMT1VHSkRtY3Z6RFNoczNKOGx6ZzFNRWJLTkVUQkQtVnJYeTJZZmVoUldCTUItdEQ3Z19URi1Ndnl0cmIwckVxWEVHTVJQazJrZDdFZkZKbXpnWFJSWE1nNC13cXpUT3VTS0xLMlk4a3AtWnYwRFFDVjRvdEdZMzdBOWUyVFZRdGdDcjhmdVVvMVBOSQ?oc=5"
   },
   {
-   "t": "GTA 6 on Xbox Series X will be released without FSR 4.1 support on day one.",
-   "s": "GameGPU",
-   "u": "https://en.gamegpu.com",
-   "d": "2026-11-11T05:48:33+00:00",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZU5aSG5TeWNEQTVRc3JyMWZlMXhmN0F4anlnMWNOSG9PMTRLamZ5NEJNbzl3Z2ZPY2wzYV9iWXRqZ2VzR3BMeTVSMnJOcmNnTGhIRWtwZmdhUkZwSjczMEhyTTdJX0lpeWNRN2o3NzR4eC1CanpqTU5VMzhVdEg0MVJ3blk2cjk1cVotNXg3cl9VYm5zVHhscjVxRUtSYnhONkdYM19n?oc=5"
+   "t": "GTA VI will reportedly require up to 212 GB, ship without a disc, and unlock worldwide on November 19, 2026",
+   "s": "Latin Times",
+   "u": "https://www.latintimes.com",
+   "d": "2026-11-11T17:34:48+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmptWkhWdzhEcFhJd3M4eC1wX3AxOVV2NmtvVEZld1lHdnIyZ200ZDBmQ1Z1RC1nMWM3V0pXWHFqY1BOTzBDYUwyQXVTQVpHN3FOd3FjVG9pR0VRWXpDQlBpNHVaQUw4QlV3bFhaRWgxSjV0MERpWEVDU1dIYXFvdVRzOTY2TVM0UTVKTg?oc=5"
   },
   {
-   "t": "GTA VI is targeting 30FPS on consoles, with cloud gaming enabled on Xbox",
-   "s": "GosuGamers",
-   "u": "https://www.gosugamers.net",
-   "d": "2026-11-11T04:46:30+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd1AtVE8xdTdCbHZaSFZQeGN2Wkp2TDRobkhXeUQyYVNTTzFaU3FBa3o3ZGwwc0hjc0JsNEVUT3JBZ3l3dGcxRlBaZTZ0TGZIalF0SGNvMjR1UFk3UTdzWExmRUZaZnNpLXBwU0trb0E1aEQyMmxGZzFUal9NUmNTTXJGWGN1ekREZUJoQ3YzYW1SUWgyRFpOQkN5b3BtNlotUmFGMmRCUXRIMWdyRUR3RC11V0RTd3otTWVNd2JYWWQ?oc=5"
-  },
-  {
-   "t": "GTA 6 Prepares for Star-Studded Miami Launch as Wall Street Eyes 37% Stock Rally",
-   "s": "Yahoo Finance",
-   "u": "https://finance.yahoo.com",
-   "d": "2026-11-10T14:09:25+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWhTdUY2RG44Y2UwSjVMNEZPTEtjOHpkV3M1NzFCQ3c0Rmw0SE90Uk5UV3BRX0VZXzdITzROdWNyUGxCcE1wcHRkSExaUkFTXzhPdjlDdkcwaU9XNmZjbGxPaEplZFZrb1hXWE9RbUdMa0ZzUUtURFg4NVJ2Xzg0ekdaYmFnNm0wVU1lbW5aWkJ1Q2hpVWJr?oc=5"
-  },
-  {
-   "t": "Want to Jump Into GTA 6 a Day Sooner? This Time Zone Trick Can Get You Early Access",
+   "t": "Don't Let GTA 6 Force You to Delete Your Favorite Games. Do This Instead",
    "s": "PCMag",
    "u": "https://www.pcmag.com",
-   "d": "2026-11-10T22:01:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNnpZV0FBMzRhd2F6MDRQZXRQMlFodUk0QTRZRlAwUWtfTU1JbFpZYlUycmJmLTloa2hLVlRqOGR5amUySkt2Q0k4N2lVcld2S3A5NjRPR3dveWc2SlJPcE04YVV6M2oyMW1vR21IbDc4WHh2T29nNjZ5WlJqdnZpYkFjc1BaNlJMSkYtYzgtZ040UkNyN05GMUV3UQ?oc=5"
+   "d": "2026-11-11T19:53:22+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYm5zS0VQZmROYmRWdjZYZzVtRTd0TG9rT0U3S0pabjdWdlI3UTRYUThXZWNJTUROdXAtcFBRcXcwdVZZWU5KMm9wRjYwbHpfLXRFVjZVa2hNUjA4MlByTlJkV2FIR01mUUYwRXc0MWExTXJjMkRXekZEeTJIVUtlWEJBbmVqUTJOTVY3SUdsNFdmVDJKenF2RDBaWlRteTR3R2gtQW9n?oc=5"
   },
   {
-   "t": "Meet The Bike-Riding, Mail-Delivering Raccoon Who Dares To Challenge GTA 6",
-   "s": "GameSpot",
-   "u": "https://www.gamespot.com",
-   "d": "2026-11-11T00:35:06+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbEZSTmh6RmM5cEZ3dEFPSm9oM2NwYk9mQmt4QzhTUHAxNExYRnRQd3NaenFxS2xrOW82dTd6MVVib0JTSk95ZHRRQXFOTVhRbk1LSHgyV1BVTVpNUGgtTG92ZDgxTUhCZU9IOVZMMlBiN0JJcDF4WFU1RC0tbExxa1FiT1BwNUZpS1BTekFxdlU2Y3ZRblN0OHlMYVRHYkMzZW9lTnVZSGpIamNM?oc=5"
+   "t": "PC peripheral maker Logitech giving all of its 7,000 employees the day off to play GTA 6 — company announces ‘Game Day’ initiative, dedicated vacation day to play video games",
+   "s": "Tom's Hardware",
+   "u": "https://www.tomshardware.com",
+   "d": "2026-11-11T15:55:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQN24weXBnNFVPQ08xcWNfQXdPY3A4RWFpSlVRQW9rY0dtTW9wOFRid0Naa2RQN2hLYnc3X1djc0pWVjZ0bHd4bUtDVkFlX1doOGpMV2dXYUV6XzVaWVFvSng3b0FXaElHRERja2JUb09pNnVpTEN3YU9WWVpiZXlDbll4U2hjcWR2ZzN0MjdqekdGSngtalVKdHpiNlhseWczRVU0a2xyZFh5cFFEZHhodURCWXZ4WTUxYzVXdDdBS0tSMXl1OHREZDhpUHkyeWYzc3M0TDY3OF9hS2swb2tUTS1TbEVqSERRWUlia1RyT3B6YnMxaElXNVhSZnhQRnQ0YjQ5VExnMC05X2NTdDlJbWFSdzJrRUNvUmRPWDlfQ2wtczJ1bjNvSjNRSTNLQmpHMGVyTw?oc=5"
+  },
+  {
+   "t": "GTA 6 Streams To 2013 Xbox One At Launch, Leaving PC Gamers Behind",
+   "s": "HotHardware",
+   "u": "https://hothardware.com",
+   "d": "2026-11-11T14:41:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWFvbVp6VTJxbFM3MkhsaGc4OFp1eGcwaDliTDFUS2pOWDUtUmFxTVZCV2dRMnAzODQzaUFPcjZQM2NTcVBWR0hLUW85VXhTVWpaSW9SYnVETFVxd1I0NVdicTFkanBCZm1FdV95UmM1RzFQV0VDTk1nN0tGSnZtV09YUWlLZjV1cnY5ek5NSmUtUQ?oc=5"
+  },
+  {
+   "t": "Would you take a day off work just to play GTA VI?",
+   "s": "Windows Central",
+   "u": "https://www.windowscentral.com",
+   "d": "2026-11-11T15:16:52+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNGhHWUoweXVWWFdKVWF6d0dmN0ZyUmVDa3BuUTNkN2JVVkwzTUI0cVF3cUF2RElXYmQ1cUJ0TnMtcmVGZ3diaTlDRVVpbGNadTE0X3RUV0EwMFFoc3daNlhCWkhXcksxbWJEdWliQ2tLMzZkMlNUUGhMUFZQaVZON3V4cmEyb0xnaXVNTy1lb3QwV1VWd3p4ZnRrbHo4V1lZcDlCZ3Q2S0hkaVlMandSalVoT0JhM1R5YTU1ckNucHBhQQ?oc=5"
+  },
+  {
+   "t": "What If GTA 6 Makes You Forget What Mission You Were On?",
+   "s": "GamingBolt",
+   "u": "https://gamingbolt.com",
+   "d": "2026-11-11T18:48:08+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY0pPNURmRVlrYzd5dkJCbXdPX19mbEwwVkZ1cFJhZXdKSHZiTGhUSFI1bUZfNlJKWC1oVk1PZXAwUnRaRkc5eF92a3B6WFNXUTZMOWtVWkpybF9rT1VZMTZSWEY2NER1LWNvWVpwbUlKSzkxS2l4ZXZ3d0pCLTIybm9uZFI?oc=5"
+  },
+  {
+   "t": "Tickets for the GTA VI festival go on sale today. How to get one",
+   "s": "USA Today",
+   "u": "https://www.usatoday.com",
+   "d": "2026-11-11T13:38:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVlVOMDVyeE5zNmprZTZ0UDhDVmI2RmVaLVZzcEJPZmxsdHU5enprSTBTZHdNSm9aeUcxd2toOERtTHlnZEQzTU9aSllSSlRnUVZ2VVpIbm1KLUFOWUw1cWtIUExpUENUemVNUU1wVllGVUwtQW8ycjk2UmM0NHhibUNwYnpLSVFqLXo4cWF5eXhaY2xpWDJBSEJBUW1vcV9DOEpWMVFuUGlKaUxu?oc=5"
+  },
+  {
+   "t": "‘GTA 6’ needs a whopping 212GB of storage. Here’s how to free up space on your PS5 or Xbox.",
+   "s": "Yahoo Tech",
+   "u": "https://tech.yahoo.com",
+   "d": "2026-11-11T14:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeG1WZ0xySVdacFprU2FlSVdScmQ5VkpvYkg3Tjl0MTZWWXp6dVdaaWJwRWlQQVpRT1BGOE9lcXFucTkwQ040V1c0UVJtSVZGNS1WLUxXZEY2Vm5seUdxU1FLMF9xVFlNLWxiOXdpTzBBSUVkdjhoVEZYUEpMTWlnYndFaUZSR3hrQWRmdWp4ZTIxX1kwQUQ0MThyUVJaZHlua0NIZWEzWHNHUWVXRGxfWUVEWVNYREpwR3VfR2U0SV94c2RhZzYwNHdwdHQ4N3RIYVBWOHpXaXNxd1BaZWs5Njl5bHhCY0J4N3RzNGFCdUdXbm5CRWpBTA?oc=5"
+  },
+  {
+   "t": "GTA 6 Studio Will Focus on “What Comes Next” After Launch, Says Take-Two CEO",
+   "s": "GamingBolt",
+   "u": "https://gamingbolt.com",
+   "d": "2026-11-11T13:17:51+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONy1xdHpzel8xdl9zaERXZkhSMWlTTG1ZUGNadU56TlNIN2J1cVQxb0JTUkpyX1N0cjdkTzduRU5FblFOLTNSVWF3bExpVGp2R2lKN3NVRUI1UUxTLU1RR1VTX0Yzc2R6VGRYNW8tU25FR2k2aXQ1blNSNXdIeTJyZ2tKcU5LTDRueThqRUFrWjg1dkJ3YnZLbkxXOUY?oc=5"
+  },
+  {
+   "t": "7 Things to Know About GTA 6 Before You Buy It",
+   "s": "bestlifeonline.com",
+   "u": "https://bestlifeonline.com",
+   "d": "2026-11-11T10:47:42+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Nay1VT0FrUXkzSFVkX3pGQjN2UHlzQkNqT2kwUXV2MjdVMEk5eHFyYmNGdDBodHQzWHIxRFl3T2xVUm83VjdQY00yZUhiOW5qeExTR0FtQzdYZHY3YjQwVjRvb19HZnZUSFZaeU5LVDR0by1UYWU4TzRRQzFncFE?oc=5"
+  },
+  {
+   "t": "You won’t need a PS5 or Xbox Series X to play GTA 6 anymore",
+   "s": "The Shortcut | Matt Swider",
+   "u": "https://www.theshortcut.com",
+   "d": "2026-11-11T14:11:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdmNMNlZwSmtuOVI3dGtLRl9KZFl4dkl6RWZ1dmpqVlBGQjVRMmMzUkNISld0QlRZVHhiMi1jX0UtVEowckdPaUE4OFMzeHVVOWtvZW9qMzZSSGh6eXFEdm1VUm9keS1uMWZ3OGtGeEY4dUVUMnZLSGJfV3dzdzVYT1hXMHV0NWxMR3A2Z2h6Qy14QQ?oc=5"
+  },
+  {
+   "t": "GTA 6 PS5 Pro Framerate Explained – Why the Game Runs at 30 FPS",
+   "s": "VICE",
+   "u": "https://www.vice.com",
+   "d": "2026-11-11T11:32:55+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XYk5FV0pxcFpVdl9UX0lDWklTa251NFA2SlRqWVJaUlJoalMtNV9hTXY4TkIxMWxBSEJJUmRCVmFaLS1LYjFzdElMU2d6emxHZjJlVWRDNjNYYXRyZ3hDNi1zM0hmY3FHNGJCdURYeUVnVFZw?oc=5"
+  },
+  {
+   "t": "Free-to-play GTA 6 rival is the perfect stop gap before Rockstar's launch day",
+   "s": "GAMINGbible",
+   "u": "https://www.gamingbible.com",
+   "d": "2026-11-11T11:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYkpqYnNOenRNb2pHYzluSUFfUnJ3NTg5RFY1WkRTUzl6NFpTWmtLUUZzMTlselFDNGFvLXpSbFY4OTZQT1ZLNEh0d3BLQndkc2JTR3BiQmxyY0VaWWZUWnk3ZHlvRjgyNUk3Q0RZckUyMEVVOS14RXFzd3BEZlRPWEZqTEJCQVE3R3oteGZfLV9aMmFEWE5YQW9fY2lFWUNJX3hfcnE1X0Q?oc=5"
+  },
+  {
+   "t": "Why GTA VI is still heavily influenced by Miami Vice",
+   "s": "GamingTrend",
+   "u": "https://gamingtrend.com",
+   "d": "2026-11-11T14:03:59+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZWcwV2FMVllDTlkzQTRUMHpsMjBKVklhcFFIMlVPY2ZvLVp2N2J1V1JMNjNSanpDN05ueWVER3dvbGxZSHEycFR2TGNkZjFJZzlnRkV1aWJxajl4dlBHUmtLcjYzREhCYlViaWRjVjRPTGlPRmk3bTQxaE01MF9oNnJoVQ?oc=5"
+  },
+  {
+   "t": "Rockstar explains how GTA 6 plays better on PS5 Pro in statement confirming 30fps",
+   "s": "GAMINGbible",
+   "u": "https://www.gamingbible.com",
+   "d": "2026-11-11T13:01:06+00:00",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ya1ZqNkJPRWhuZjZxVU81Q09rZzY5MnV0b1FWUUotLWJobUVSc3VTc2hmaUZtUFVwNVB4SlJfU2hFY0RMQzZwUDM5Uk9LS05RdEluZXhkb3ZnTVBhRnNpTU9FTG9UdVVyS2JGWDBsSGlEUXNYTDZzckQwTQ?oc=5"
+  },
+  {
+   "t": "GTA 6 unboxing reveals what’s inside the physical version, and there’s no paper map",
+   "s": "PC Guide",
+   "u": "https://www.pcguide.com",
+   "d": "2026-11-11T11:47:55+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHN6Skl6U29CSFZnZ0liUk1MRmpuYmNpOFV0emlIbm10S1E4bVhGUElJOVhZdjZ4amRaUklVd19MRDZpZWd3eWtwNU1RZ2ZLN2FsOUkzNUhHM0FWVXh2RjBwQlpTSEVDMzRPNS1GVzdTZFRmUnctbkc2b3F3bzFVR054dUdUd0ZIbHNOVUVFb2EwVFYyODdXRllyMlc5ekU0d1g5S3ZJNzk2TFJTenFn?oc=5"
+  },
+  {
+   "t": "GTA 6 Crosses $1 Billion Revenue and 10 Million Sales About a Week Before Launch – Rumor",
+   "s": "GamingBolt",
+   "u": "https://gamingbolt.com",
+   "d": "2026-11-11T18:53:11+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWZNa1RwZTg2emhtQzVobFFvR3RiTTJlU3A2U2JFVE81bDk3aDZtcHk0eXFLSHRvUjIwR1JBZFh3RXhKMVZBNmwtUjRtVTJnRWJScnZpbmRocWRyVWJKbnlwUUE2TlozUFJ4dHZaZDZlbG9hS3FzOGVJMFZyZXo5NDM5M1gwaFhxSjlERjMxTUV6YTFjMkxMZ3U5RTBHa01jVktOcmxhVWRMdFp5?oc=5"
+  },
+  {
+   "t": "GTA 6 file size and download times: how long will it take?",
+   "s": "Uswitch",
+   "u": "https://www.uswitch.com",
+   "d": "2026-11-11T17:33:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ1dnbl9xbFR2eXNkZC15UXY3bGVwVjNSNGYwYTNkeEREbDZYOUFYWE44dEtBclhGaU01NERyQnpPV3VsLXhLVUQ3amRLb2hvZVhNVmVBcmtVNllEXzMzallWZHVrMjdRWGNsTWVISlBWUVRSc2kwd19WSEhMX3hNcUthMW5GZlZEYTJON1cxQ21Qa3VuQUxV?oc=5"
+  },
+  {
+   "t": "GTA 6's 30 FPS Console Limit Officially Confirmed Alongside PS5 Pro Features",
+   "s": "SVG",
+   "u": "https://www.svg.com",
+   "d": "2026-11-11T13:37:57+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeGptdDBYbXpJQ1FMd0ZrLXNiZWVFdFhINDdhdThjWWp2Q3RHNW5sVmlxTjVHdU13cnhNaFNwQjdzM1Z4MmM0MTI0OHF3WVdESndxVThuMHhGekltQ2hQQ1ZRX0JZVFBtNjBXb1lDT3JqYnNnWm9yWklkcThwc09md0Y1YXNNbkZrWVE?oc=5"
+  },
+  {
+   "t": "The cheapest way to play GTA 6 well might be the console everyone forgot about",
+   "s": "MakeUseOf",
+   "u": "https://www.makeuseof.com",
+   "d": "2026-11-11T19:00:17+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeEJfNkttbnJXN0I4T2k1Q2RoUE5OLW9ycHEwZ2F6MDM4b1VYdXdnZVlMZk1FQm02bGhRejk3YlFWeUdXR3lqcmY3NXItdlFrcEJic1E0QjBKN05faGkyYkZHM3VuaHA5MWNRVGNMeTJiMk5yQng4dlFPQlR5V2p2VnZuTDNlWkU?oc=5"
+  },
+  {
+   "t": "GTA 6 is coming to Xbox One through cloud gaming, but you’ll need to buy the game",
+   "s": "MIXED News",
+   "u": "https://mixed-news.com",
+   "d": "2026-11-11T19:30:46+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82U2xmVDNqRFMtOVlPcXlqRlBwcEQzZDJtcVNkRGpzZ0pyVlVRR2FRWkY4SDc5OWRGZHhSdXdQQVJnV1N3Z292TGhibTBZNkpZTGY1Y0VsNngySUFIVllFMWcxc1Q4WkdqRDFXYWEwMVo3amJq?oc=5"
+  },
+  {
+   "t": "GTA 6 version with 60 FPS support will be the main incentive for buying PlayStation 6 and PC",
+   "s": "GameGPU",
+   "u": "https://en.gamegpu.com",
+   "d": "2026-11-11T17:31:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd3pCUHZKYlJPcktoVld4bWxRejc0UDFxQ2NicWtqRHFPUlRvTmdQYlM3THRfcUZmNkVBZWVaeGZNbDV1cFREeE1kdWxUUjlQeTJQU29jRDVyNUpLVXdiRno0a3pmeDBLZ2dlaEVMNWZEaFA4N2czU1REWl8zSWRpSEZoMEJ6VC16VTMtOEhpQlNNQnB2QmtMeGlUTmtuQnpEb3hWWjYxNm1JRGdOVmZBaGd5RkpubDdVUlR1Rg?oc=5"
+  },
+  {
+   "t": "The GTA VI Effect Is Real: PS5 Has Sold 100 Million Units, Becoming One of Sony’s Most Successful Consoles",
+   "s": "LevelUp",
+   "u": "https://www.levelup.com",
+   "d": "2026-11-11T17:29:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPXzUzX3VkSlFqYjNybUhaSHVtNUd6WmlCcWRJMzVqTnFMVGtyWmxKT0psdG1aZ1NReWpnSGQwbF9lNi1FNkk1NDVJV0Iyc0J3MUxaLTBqcXVINzJta2RXRVI1OFdLTVNib19sZEc2QjdLYjM5dGpJYmUtTWluWnZHNDJmVEVyd2Q2MHBHVUhCMDVaSDhTNWpBNkZqZHpZajJSRGFYX253YmFaa0pueVl3ZVhKT28tVmtCdUdvUmo4UzBnU1N6WHdzaS10b0J3cGoyalE?oc=5"
+  },
+  {
+   "t": "GTA 6 is days away on Xbox, and I’m watching two datamined files that could mean sharper visuals, especially on Series S",
+   "s": "Windows Central",
+   "u": "https://www.windowscentral.com",
+   "d": "2026-11-11T14:37:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Bdm8tOVB3NzBYZ1lNYXpTeFJ0NWRZbTF1emsxWGg4bVlRVUFLeF9xeXRvakJvNFFLRkRET3dzc2dhR1R3UEIxcml6bGV4akQ3Y2NadGdiSDJXSjUxNkF2QlBkTkRaSDJ1SzNPN0lIRW1rU0NCWGl3RTR4aGE?oc=5"
+  },
+  {
+   "t": "GTA 6 Pre-Orders Are ‘Far in Excess’ of Expectations, Says Strauss Zelnick as Preload Goes Live. Why TTWO Stock Could Surprise After Launch.",
+   "s": "Barchart.com",
+   "u": "https://www.barchart.com",
+   "d": "2026-11-11T16:45:05+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaUFLaVYteHA0ZnZCZEJpZ05GMVNBOEttbEh4Sjd6aFB3ZlZqdHBfMlMxalZYMFJ6NDJ4amxpRHU4MlpNRGZFUkUwNF9ObjdtUXUyTFdyNGY5MUZTMHFFUS1qaFVmRWYyZTJ6SUVKYlBRS21nWVpvaVpVN3BvSTU2Mk96WkRBSkdRN1FiZzZ4R0hyd1l4WkswdzdfZEthVTNpY29saFd2cHNZVU16S3ppMEVrSUJwdFZfVU1GZW5BbGJ6dDhUcVJFV3VFcW9yRHR3XzRlQndzS3lFMWxUelRpS215Zy1ieXdmQXB1RUl0Umo5Z3Q5R2sxQ3BJU3QyWWFWeTZKWFdQdlNNWE0?oc=5"
+  },
+  {
+   "t": "Logitech Is Giving 7,000 Employees a Day Off to Play GTA 6",
+   "s": "Yahoo",
+   "u": "https://www.yahoo.com",
+   "d": "2026-11-11T17:20:14+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWkNRTFJ6eTh2WTJGSkZhQXRFTDlDOEVzT09pX0QtS2Z3V2JvS3lmMklMUW9KaFlVT0xDY1BKbElMejRfQ2EzY2tOYzRxRjVGbUswZWhHQTI4YV9MLWVaUWhaSHpNZWlxS0tIR2xRTEoyT1pBZDJSSTZ1QUFfNTVDUzhzbDk3SkRlV3hKNXBR?oc=5"
+  },
+  {
+   "t": "What time does GTA 6 launch in the UAE? Release date, price and how to preload",
+   "s": "The National",
+   "u": "https://www.thenationalnews.com",
+   "d": "2026-11-11T13:24:11+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVWNKTEV1czZQMndhN0k3blh2cWE0WUE2YURlOGJiVHpZcXd0V0JlNlJGeEtleEhROHVZYkpzd29kQmVKR2huNmNPUEkzSmVYV0lyeU5EV0JYLXY3QUJsdG0yV18xZlZQa1lXV19UWnpHMnhNUG82a0J5bjdSbVluVXREMWZ1dllnNnBpLWxNTklqWEdpTjNTZ1dxdjdyYnRGbXZhdjlJVGNkZzE1dmZEbDFqejlHampYaXhFeGoyTl9OdHFXWi1OcnlrQ3JoMDJqcHlJUk1uODhZdWEyVWc?oc=5"
+  },
+  {
+   "t": "GTA 6 Preloading Is Causing Major Download Traffic Spikes in Europe",
+   "s": "Push Square",
+   "u": "https://www.pushsquare.com",
+   "d": "2026-11-11T16:45:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeC13eTZNdmFMakNKay1kUUZEeGpYdGpXbjdmZlRYYmZ0TjlKTWNpNElVSlZHdXVrZ1h2U1dPOEpjdm1sazVvVmdSbW5mczhkaHE3T0Zidmd2eVhienVUYWMteUpWR0wwd2dzQVFEcHhPQXVOaWp0c01jU01aUU92bTUwWnNLMG5UTEpVR3NVMWstTHVaYjduc05xVGU1R1NYTVZXOTdMSjlFWDA?oc=5"
+  },
+  {
+   "t": "Nostalgia is paying off big for video game makers",
+   "s": "Business Insider",
+   "u": "https://www.businessinsider.com",
+   "d": "2026-11-11T17:05:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGJoQ2I2Y0kybHJiNU1CYTI3aFIzWHpTUjFzWDc2ZWZPaE9SbV82VlVzcnZNTGxqaFo3aGxLOEpwdk5DN0p5M0Z2emxSUTVmTXdvSnBUdjZhSG1tOUJQQ3hzS3JKUmQ1cDQ1YnJldmZEUElaeFRmQTZpcUhDMnR2RzEwLXJSOHBLX0pSejFHaGY0bjNTZ2FlNjZETktSRURuTWhN?oc=5"
+  },
+  {
+   "t": "GTA 6 - Everything We Know About the Most Anticipated Game Ever Made",
+   "s": "Wccftech",
+   "u": "https://wccftech.com",
+   "d": "2026-11-11T01:19:36+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SMHQzcHk2UTBZUkhkUlF3NXpJVXBXMnNRNThRV1BJTl93OHRwRDdBcE05UVlKZVFDWDNKMVNRZDVDaUNRdmdJUjA2SE1hSklHVGlhaFduVzBRSmF1N0xiUG9sZjA?oc=5"
+  },
+  {
+   "t": "Selfridges goes GTA 6 merch mad – even selling a real-life Grotti Cheetah supercar for £1 million",
+   "s": "Yahoo",
+   "u": "https://shopping.yahoo.com",
+   "d": "2026-11-11T17:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbEhmNG1FdE4wMS1wczY1YTJhV1BFSGVWZUczNW5UdWZ5VV9zRVdGcXU1ODFsT0RKNkRISEdpcFpIeVk0VVZsSElSTmQzUTFGSTA3eWlMNFg0SUlSYmN2RGVBN2JqaTB2dTU4eXV4eVc1N1FNRjdzYVBOSjl3ZnNacFZ4QlhwT0g1SU9XSg?oc=5"
+  },
+  {
+   "t": "GTA 6 pre-order guide: All exclusive content and pre-order bonuses",
+   "s": "Rock Paper Shotgun",
+   "u": "https://www.rockpapershotgun.com",
+   "d": "2026-11-11T16:17:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11bEttMUo3emk5NTFHV09yYjNTdWI0a3pnRTA3Q3M3LXVPUmhrOS05R3lIMURTZDVwbXoxS0lLVVh6dUE2MXJ4NHRHY0dPb1ZlaW1ldHR1dXY0U255N21kdHF0aHM?oc=5"
+  },
+  {
+   "t": "Xbox One Owners Can Play GTA 6 On Launch Day — Here's How",
+   "s": "BGR",
+   "u": "https://www.bgr.com",
+   "d": "2026-11-11T08:18:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04UTRqMkFpZTMyenFSVHhqRXFoRmhVYW1kS1NxQmx4NGxkajZZUjVlZUJmMkt5Q042WXVzcWVIOW1YNV9HUjZ1T1FjdE1jVm5OUWVGM2hfNnExM3FhVUhGdjBVei1mX1V4R3BWdkZKY1ltSlBZNXc?oc=5"
+  },
+  {
+   "t": "GTA 6 Gets Its First Unboxing Video As Shipping Begins For Xbox & PS5",
+   "s": "Pure Xbox",
+   "u": "https://www.purexbox.com",
+   "d": "2026-11-11T13:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNempHX3JGa1lDXzY5VUY4QldYbkdaVWZoOGtweENNV2Jod29BZHRVS3E2TjljQVZGQmF5d2JLQkVvR3ROOWtxNE5lc3ZLeDd4TmZBSF8wb3pDdjdhVHQwSnVLaTdjTWZwSFNfV0QzQWZlZjc0bVdQMXJMODY2UXk5NXNsTl9RZFM2c29ndkdTNWQ4eEhqR2c5a0pvNW9FWDRZYnV1TDVFUzFHRzdtbVE?oc=5"
+  },
+  {
+   "t": "Ahead of GTA 6 Launch, Logitech Gives Employees a Day Off to Play Video Games",
+   "s": "PCMag Australia",
+   "u": "https://au.pcmag.com",
+   "d": "2026-11-11T17:44:51+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGdEOVhOd3F4QjBuV1RaYWN4ODdJLXFfbFYzSElFU1JYaUFUaVdhTThKbnZmcmxwVHgxMUs2TUtGTHBYVExzbDhiazhNYUJ5cE9TSEZleHE2UjVrTGd2UThfNS1kNWthcXlyek1vVEwzMC1hajAzNzhyMVJkR1MxRnk0Z3EzNlRUQzYwMm5LaE9oRHMxcEJhUEpfdG13RmluUTFRTVppSm41djhwb3Y0?oc=5"
+  },
+  {
+   "t": "Take-Two CEO sends strong message to investors ahead of GTA 6",
+   "s": "TheStreet",
+   "u": "https://www.thestreet.com",
+   "d": "2026-11-11T15:33:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY2NSVkRhWnIwUkdDdXkwTkZaWXlLdlh3bWRDYi1jcFBLdktHY3EzaDBsLVByNjk3bEhsR0ZrMEZ3b2JoUk5RMEUwdnlkN29wSDY1Z3lPVHBRdnl6RTVjSE9JTTFqSm92andscjF4OUJSbU9RQVRxYk5PTGN0cFFXQzRUSnotdw?oc=5"
+  },
+  {
+   "t": "Rockstar’s Parent Company Warns of AI-Assisted GTA 6 Piracy Ahead of PC Release",
+   "s": "Gadget Review",
+   "u": "https://www.gadgetreview.com",
+   "d": "2026-11-11T16:31:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2FveF9NMWNxNXpacVRTOHlCNXhWY3Z6OVAyTVF0RWJvam16emJ0RndrUVVmNHpnd3dlUEVyajRqX3dkUE4tWWk2eTBNMHl5bS1Pamh4UnduaXRQdWgtaHhtTWlEcDltZjQ4RkZVUVNtdDRTMWdSYWxVdV92QWkxZDlEelB1ZTE2NllQUk1HTFNobEJDOHA0aTl3cm03Z20wenZPdmJyUTlTbjg?oc=5"
+  },
+  {
+   "t": "GTA 6 Surpasses $1 Billion in Presales a Week Before Launch",
+   "s": "Insider Gaming",
+   "u": "https://insider-gaming.com",
+   "d": "2026-11-11T18:21:49+00:00",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aUnc2MHg5dEIzdUVYRC1aR2JtTnBidVVSWDJ4VUNCWHlrajNFeE16ODJzLU9KWnd1UnJaUjFGYy1ZYjVQMFFUbmlIRk1ZbWYyd2tDS2M0cDQzYUpMQWNHMW1Yb25BQ1l0VHcyUW5zUQ?oc=5"
+  },
+  {
+   "t": "PS5 Passes 100 Million Shipments as GTA VI Prepares to Launch",
+   "s": "Gadget Review",
+   "u": "https://www.gadgetreview.com",
+   "d": "2026-11-11T18:21:31+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWjdiOVRsY3ZOaGdLckhyV1AwbWdxQlZMV3Jmd2NJclp6eEs4U0ZkbkxPMV95TW1SOGZ3THl2emtXaUNrMVBHc3dlUG94bGk3QWR6Z2hDa1VnUVZFY2x6b2xyZXhYaUE1NzFTMnNjeDR2Vkg1UE9DZXctSWV0TTR4NU4xeVZiMTc3X04wS0Zxb2JWSy1Q?oc=5"
+  },
+  {
+   "t": "PlayStation 5 Crosses Major Sales Milestone Ahead of GTA 6 Launch",
+   "s": "DualShockers",
+   "u": "https://www.dualshockers.com",
+   "d": "2026-11-11T15:46:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmZjTDdMa2RqVG1qNU5MbDZqYldvaXRkNHRLNDJSbHNpZnpSdEgtdFByZ05xcVYtVVFJc0NsTzJBT2J6TlBLS05ldTZVZnk5cVBFQklWYkJpTEliRUNhbnk2U05aNjV5YlJRU2w0c0Z6bHh0RU0zaG10SzZQNGxyM19aeU91cm1NaWdIZFk3bTRMQUVYbW9mWjFoVQ?oc=5"
+  },
+  {
+   "t": "Downloading GTA 6? Apparently, it will take some players years – and the community is having a blast!",
+   "s": "Notebookcheck",
+   "u": "https://www.notebookcheck.net",
+   "d": "2026-11-11T18:59:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNzc0UzFmUzEtUlduN2NVV0ZDSWxVc2ozZGpJRzcyQVo3THhlemFLYWphdFhucFNDSjVuRVBLVHNZWnVpeVplU2NDc201Zm81NUpaaEw0VGM4ek9JR1U5SzR4M0hneHByVGVKcFFNY2d0MU9TVWJNdUJHN0hxcklqdVZsQjVBZ0N0eW5lVHNxUWJ6VXg3WmFVMGdpSDJ2aW96OHFGREEyVHNlV044ZmR3NmgzQkZTVW5hZ0VuY0tpdmp3NGFMLWFER1JYN25zal9RM05EaDFVSmo?oc=5"
+  },
+  {
+   "t": "GTA 6 Will Be 30FPS On Console, Confirms Rockstar",
+   "s": "Wolf's Gaming Blog",
+   "u": "https://wolfsgamingblog.com",
+   "d": "2026-11-11T13:43:55+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRC1McmZ1SWVvNWhkNkUtXzBPbGJCZ0thdnhqNDk1eldsc1BSWTRmTkRIS0t1WG9qanpFWTJpRXV1Q2JZQmRDSUU4eVJSMHNsdEp2WDRBb2JoOEtodXVmNjNCYldaSmk4Rk0zNjBDZWp0MVN3RUNiSnE5UHhxdjZlY1B6ZThaek4zbmhzSjRvZzhyQQ?oc=5"
+  },
+  {
+   "t": "GTA 6’s 212 GB Preload Caused Yorkshire Congestion and Set Virgin Media O2 Records",
+   "s": "Yahoo Tech",
+   "u": "https://tech.yahoo.com",
+   "d": "2026-11-11T17:48:23+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqSWN2N09ycWE1TXJZQms1Q1o0VXJBV1M3eWFFQTBnSlAxNGRONVpJd2pHQUFZNHktNTI3V1c1cjl6VFE1UVJKRGtCOUhBSFZwRWhscjRsbFRFaHpYQlJEaVV6dEo1eUhKQjNBT3R6UUtqelRNUzFmTDVJRFh1bjQ?oc=5"
+  },
+  {
+   "t": "‘Play is not the opposite of work’: Logitech is giving workers time off for GTA 6",
+   "s": "Video Games Chronicle",
+   "u": "https://www.videogameschronicle.com",
+   "d": "2026-11-11T17:44:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSFprblZxNWhncjNxY2xDUE9MamthMFFiMnpNczN6MWVkZVBZMGRYVmRGN194UWVvR01VRGo4R3Zab1RiOWZkMndxX2NVUEhIYkpld1hTQ3F2d2t4TWpKSTYzTkRvdzNLTVg5dkpjYUI3WkF1TWRURmNPVU03cVR3YmZlQU44SEh1RkNRNTd2a284dHlUaUtSa2tPRGFYWkN0TUV1dzI1Q2tBZldpd3RaTlhNME8tTVhpTjhvSQ?oc=5"
+  },
+  {
+   "t": "Don’t Count Out the XBOX Series X When It Comes to GTA 6",
+   "s": "The Outerhaven",
+   "u": "https://www.theouterhaven.net",
+   "d": "2026-11-11T13:26:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeTRscnpYWE1ISVVMY2swYllVX2xQa0VINzhHUmxnbXR0R0pITS1VeVpreUlmUWhHTGJmNmQ3MFhJc0JzV1JpM3duVGE4bkRxRlUxWlpiOVBOT0hZZ1dvVmVnbWdHX3pLX3VXZDFPZUduakV0S0ZkTTY0ZDdwNmRzUWo3enR1eWN6WFI2cWpIMW4?oc=5"
+  },
+  {
+   "t": "'GTA 6' Meets 'Heat' in the Most Disappointing Heist Thriller of 2026",
+   "s": "Polygon.com",
+   "u": "https://www.polygon.com",
+   "d": "2026-11-11T17:00:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vdG1TQkw5R2hORHlHcnZnV1lqd0NEYUtZN0VLV1BZNDU5eVdQQjl1VHVVX2xPV2VpNkNPQ25vTFJMUWdXSVR5T1g3MjBZQThZbndRM2tKX3JGSjVxUmc?oc=5"
+  },
+  {
+   "t": "Analyzing the integration capabilities of AMD FSR 4.1.2 in GTA VI on Xbox Series consoles",
+   "s": "GameGPU",
+   "u": "https://en.gamegpu.com",
+   "d": "2026-11-11T15:56:14+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMEtTMllHYWRnMGhiMnFadXVOcHhDYkYzaTk1cFZ2TGNibHFHdDRaUmtRMkgydlVQT3UtS3BpdXN5THNpRGhaalFOc2FMel9PUUREU1hZNlpwM1N4NHQ4NE9heHJfTEpVSXdVX3F0OFJBeDdjOGJWRjM5ZHZiOVg5RHRONTF6ZEM3ZXZBWlJpUG5aYU5EYTA4aV9ldGMwSFNEd3pBWmZnRWd5MnQxNVRnZ2xneWg?oc=5"
+  },
+  {
+   "t": "Photos: GTA VI’s six cars hit Miami streets as fictional rides become real machines",
+   "s": "Interesting Engineering",
+   "u": "https://interestingengineering.com",
+   "d": "2026-11-11T14:23:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUlRxT3FjM2ZvVlFmMy10bm42OGdqQjBEYnRnbXJEbzRMNEhDLTI2Rm05RW1PM2pqVUZiSkozU3hLeThTWmVTUkVNVncxekx0WUhnQnVYYjNTWlladERjYy1lRmdRbVBsYWQ1dkdDVmVJNUhPNGRFYjdjcTU1cGNWb3NUcld0UkJfRHJEN2kwcGE?oc=5"
+  },
+  {
+   "t": "Is the GTA 6 preload slowing down the internet? In a few places, but no wide outages",
+   "s": "Nacionale",
+   "u": "https://www.nacionale.com",
+   "d": "2026-11-11T19:31:29+00:00",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2R2bHdPbXpaQW5ZaTV5YnRmYW1CcEhZWVVjTGdMcXRCYzFrUnJCZDB6bWtKZ3NEVld2WVNsdTRPbU1TbEhUdFRScVZpMnkybk1hQlRILWRPdnBYajdNZ1lTcTNFS1UwcmNLcWpwQjVENWFVNnQyS0pUSThMMWRrMXpWSFAyM0JleW4xUnZkTEVqc3I3QV8yTUxPNkxxMFZCZEZRamMwaklmMlJTd3BBX18yR1liY29MZnpoRW1QQQ?oc=5"
+  },
+  {
+   "t": "GTA 6 Is Officially Playable On Last-Gen Hardware",
+   "s": "ScreenRant",
+   "u": "https://screenrant.com",
+   "d": "2026-11-11T12:00:18+00:00",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EajVUeVNtSWtNN25neWJYSENuSXhVVlRoOTg2eFI3cjFwRGNNdEt0MEdhbGxYNnFicmxwNWdXYllCb05BRnFYWjFGald6cHdRRUotRC15NDlWT21Pb3pGdWhINE00MUlQX096ZQ?oc=5"
+  },
+  {
+   "t": "Logitech Launches ‘Logi Game Day’ Giving Employees Paid Leave Ahead of GTA VI",
+   "s": "TechEBlog -",
+   "u": "https://www.techeblog.com",
+   "d": "2026-11-11T18:25:53+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORkVJbHhOYmdCUS13WGhWdnV5Y0RxVHZzOTlFTUtaalZld2dZT2l6cjJuQThhV1hPUVlZR2VuR2lmeEh4SUV2dVpmZ09KSzdBR2tJQzVRNTJvMjZZVEd2TV9ieWszeENrRmlibWZiZHMtUHN6UHRQeTJEMlFKS0ZERA?oc=5"
+  },
+  {
+   "t": "Is 15 hours of cloud play enough for GTA 6? Not for the story: one Rockstar run took about 80 hours",
+   "s": "Nacionale",
+   "u": "https://www.nacionale.com",
+   "d": "2026-11-11T14:39:33+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcklGRXNtUzg1TGdGbkFLX3MtbGRrZm82ZnVrSmdrOXhGOEwwT01nMlljdzNtVXlMN2x0dU5pTkJRZjM0R1hCT212UHVfdTl6QUZiTmxDcHNIbGU3T0pySUoyS2RBbFRfczBFSVdfcUp2aHNfX3NzLUg2Z3dDS2hTMjl2MmdPdnUxaTAwV3o1UkVXQ2E2XzhVR2VySWh3cFpBeDV4TFR4RF9PU21NN080WHRfWnltQQ?oc=5"
+  },
+  {
+   "t": "GTA 6 Generates $1 Billion From Pre-Orders Ahead Of Launch, 10.3 Million Copies Sold",
+   "s": "NDTV",
+   "u": "https://www.ndtv.com",
+   "d": "2026-11-11T14:23:06+00:00",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRHBaQ3JVNlZZT3lKSlNXUnJ4OWo0NXB1RG1qTVBTRDV3bERfSU1tM3Iyd2hfTGN1THRRS21ncUxJRUlVN2pkSVY5NUNjb0hDWDV5X2tFUjVpYmt3NVhFSzkzd0twWmhJVWFBbXZHSDFIUC1jVkdTMG1PVnpjTzNOaU9MaUduYVdlM2dSTk4zY1ZmLUE5WFdyZVRTS2swdDFZV2k5WTdtN0N3SExRWTRRMnBIVFZQd0hFdlY3bl9ndlh4a3BK0gHMAUFVX3lxTE8tNnBCSEIzSTlaQkNQN253S0RZYkxnTE9FXzhzTGM0OVBUSXU4NkVfZFo4Z2cxaXhCOG5GVWZlTGRkWG5pU0psd3RQVTNaM2dBT0hyLVBsMGUxSllIUkV5MktlYUlWUmlTcDRVRWtuSFp4WUtRcXRtVnZ4QlhhdVJaR19JaTBOMUI1ZlJNSmJuQ0YzdEt3Ukx6TEs4aUJrRXJZMkEwREc0QVI3OVRKbW5pZ1loMDZ3MEZUUGswdHZUM2FIWlE5VU9RbnBJZw?oc=5"
+  },
+  {
+   "t": "Making room for GTA 6? Save up to $335 on PS5-optimized Corsair SSDs",
+   "s": "PC Gamer",
+   "u": "https://www.pcgamer.com",
+   "d": "2026-11-11T17:16:24+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYk9YLWxoY3JGaTY2OGRwMWJ5bHBwRVBZci1ZVzYxVW96STdxSkY4VzFxeXVHYVhfT2hDNDdscUlYa3FvNU5TekVXQ0V5T2RPSFBZclpCel9qa1pJT2hLektwWnYwc3JBVEtNa3AzVXU2eEowb3M1d05IQkdQOVltSGVQd185XzF6cmFGS1JDN3BMYXB6T2VKWG55SVJGaXJVdzVDeHlB?oc=5"
+  },
+  {
+   "t": "GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer",
+   "s": "IGN Pakistan",
+   "u": "https://pk.ign.com",
+   "d": "2026-11-11T20:07:40+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObGd0VTlQUmN3bDd6bkFlcUc5SnQ4R1pFLU1mbWZ4YmFjdU5nWEFDVHJwQTBVRHRWWlFPRXFFZ0ZUam9fcnBjbURIR1ZVR3hfd0QwSzZKNHBybEQ0N3I1RFQ5b0EzOXRGaFl1U0dZWTNHZXVoU2ZPMm50eVlEc1ZMdW9xczVvOUZRTzBJUW5OWlVpUHVYcHFrSVYwNnpUNXZjSGVWbHNxXzVsajQ4YU5IMFVGbVpTbHNRRnk1REZ6cEVXbE9MY2ZBRHUycXN3bTd5REswT1lqcFVsM1V5R1FNeC1SN1BjZHQwdmFwZg?oc=5"
+  },
+  {
+   "t": "All GTA 6 locations in Vice City and Leonida",
+   "s": "Rock Paper Shotgun",
+   "u": "https://www.rockpapershotgun.com",
+   "d": "2026-11-11T13:08:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IUzg2QnpMVzQyeHZJZlEzeTU2emd4bUotQS1aRll0bzRHSkhRSGM2TzNhdkJrX2oxWDEyTnZwVno5WWJoMlQ5Ql9SdHVGbFZfLWNLZ05wT0FxVjZC?oc=5"
+  },
+  {
+   "t": "GTA 6 has already smashed a huge record",
+   "s": "The Independent",
+   "u": "https://www.independent.co.uk",
+   "d": "2026-11-11T16:12:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSXNUbUhlY3ZqeVZmTmZ1ZldRemh4R3hoT3pNSGljOUlzSkxFOVQ1X2ZSdldMQm92SjJNZjBsQmtOMVlrZVBDYndacnhmTGhFZVA5Y1BoOGhCc3JiSW1qOFBDRWxKb2FxLWJOMHZmb0piZUl4WDNNVFBac0taSnkzQ3FzcFJycXFhZHlsV1Nn?oc=5"
+  },
+  {
+   "t": "'GTA VI' pre-downloads mark record-breaking day in internet traffic",
+   "s": "Yahoo Tech",
+   "u": "https://tech.yahoo.com",
+   "d": "2026-11-11T15:18:29+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmZNVWprX3B1QUxRMnNpWS03NXBpd3hrS3FUb0FtN3hta2wxdGVsVmo3aHhJNl80NzdfU2xLZW15THNkQ2I3T0w2WXpsaGMwZHJSTlY3SHpZX0JETTdYOGtieHBEZWw1Ujd4T3hQX3ozOENNSEI1T2xfSGNxbXloUnVmVC1OUQ?oc=5"
+  },
+  {
+   "t": "GTA 6 is days away on Xbox, and I’m watching two datamined files that could mean sharper visuals, especially on Series S",
+   "s": "Yahoo Tech",
+   "u": "https://tech.yahoo.com",
+   "d": "2026-11-11T14:37:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUkVFRjNVS0xQeHB5dmtVYTJ1Q0VtTFZja3BYc0EtVWkxSlNNVnl1TU9PTEVjbkp4WEI5RXN3LUJ0STNpX1d4azJXMkw3THQ3T0pzM1RKWGtGcHVTNVU4TzFUQ2NRS2piVEhPRWVHaHcxUHN2alBveWdPeVRkcVk?oc=5"
+  },
+  {
+   "t": "Logitech Gives Employees a Paid Day Off to Play Games, Just in Time for GTA 6",
+   "s": "TechPowerUp",
+   "u": "https://www.techpowerup.com",
+   "d": "2026-11-11T19:16:48+00:00",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdzc1U29xeW1hNDVxYzRrcmlUaDNfOVRINzU1YU5Bc1BkeUxsZWNGZ0wwY1VGUmJUdjFwNWhNNEpqb1o4ZlgyN3FiQU9kTFJVa25qd01Fd3JTSVlGYVkyWnRKS3AtX0p0dXBRYkEzZ1JXZk52Umx3QVRfSmxjelpJV3h6bkxlNXpaWWRnRWU5bEt0cmQzNGI5NlJ0dUpkbzBVMGt0ZmhKZ0dHcno0bldfRE9xN1I3N0ZNamxVTjZKSEUyNE5DeVE?oc=5"
+  },
+  {
+   "t": "GTA 6 supercar listed for £1 million",
+   "s": "mobidevices.com",
+   "u": "https://mobidevices.com",
+   "d": "2026-11-11T19:21:11+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94R294LWotQklhdDF0SVVLZ0p6Y3dYT0xSZGxGbTJpMHVqV1loQTR1MlVJN1ZBU1JGMnI2Ui1janlBcHpKZ08tTk1BTjBNaHVpOWJEbmF0WnVBdFk?oc=5"
+  },
+  {
+   "t": "Can you play GTA 6 on Xbox One? Only by cloud streaming, and Game Pass caps it at 15 hours a month",
+   "s": "Nacionale",
+   "u": "https://www.nacionale.com",
+   "d": "2026-11-11T13:35:42+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcmYtbUIwcVo1ZElHSUVUSEowSjMwVFg2YkFkOTZIVnBPRzR4d1EtV2g3T21RVTlyNFlOeXNjNHFKT0VYbG9DTFhUNHZGUVRmOWhjeUEwNW1HRVE4SmlZQnFrN2I4aHpsTHl6d1VWdWZJS01xWWtndjJjUFFLSWdubTFiTUNpUm5ScHRtZ2lObFZvQjNtazZqbzlTcXNfRmlNUWdLMTV5U2JrU1U?oc=5"
+  },
+  {
+   "t": "How to Play GTA 6 on XBOX One—XBOX Cloud Gaming, Explained",
+   "s": "Insider Gaming",
+   "u": "https://insider-gaming.com",
+   "d": "2026-11-11T12:53:31+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmLUQzSTV0c1U4X0dudFpJWE9SNXN5ZlZFcUVMUFUyRnFrVk9Sc05VMENXQ3FBZklmV2w1THlVbW1ydmVHdHBxMzVCWFJOV2pMdURkTV9NamxwaFRjTUpUcW1IdUZQQkp2?oc=5"
+  },
+  {
+   "t": "All GTA 6 Radio Stations & Songs—Full Soundtrack",
+   "s": "Insider Gaming",
+   "u": "https://insider-gaming.com",
+   "d": "2026-11-11T13:13:28+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zLTJyaEtzTDVXVllLLTZwSFhfalV1bnZqZFJJeUJmWXpJMFZrMTFuclF6cU02dU1OTVFvUzhfeDkzNzdTUmdiWERmZDlXX3NLS1FGd1FscF9vS1pBdDFENUtXOUpuYVppQzBXVDFKZUhOYVRqLXphQUY5UGhQU2M?oc=5"
+  },
+  {
+   "t": "DA Davidson reiterates Buy on Take-Two stock ahead of GTA VI launch",
+   "s": "Investing.com",
+   "u": "https://www.investing.com",
+   "d": "2026-11-11T14:56:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMjlQLWpMNlg0RXkzLWJSY3NMaVB3N2RMblZsVDlxdVVrSFMwOUk3ZHgxZUVkZlZ2ZjlGN1JOcnFEWmFILTZZWG9keGRSWndUb1RuQkpMeHlSLXEyUXFHRUJPNXc5VWQ3RkNVYzhMbU05RTJNS05WUFZxZmt2T2ZJbjd2VHFIaEZySWZoXzctLUF0MUZJeHFWemZSMTlVSmJVeDhKZ0t2Y1NSMXJqdVlzNHdBYTM5cEJpa2s0amVvZ0liR0hK?oc=5"
+  },
+  {
+   "t": "How Big Is GTA 6 on PS5? Download Size and Storage Requirements",
+   "s": "VICE",
+   "u": "https://www.vice.com",
+   "d": "2026-11-11T11:05:52+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUVDZ6bHZiOGZIcGpiUXJWbjJ0YWZrM0wxRm1DanNVTVFOQWlablhYMm92ZC10NjBlRG5aYUoxSVpxMlVHMkhQU3BTejNZUTQ3LUQyNkYzSVk5NUd6NkIyUHc4aFFibEU?oc=5"
+  },
+  {
+   "t": "How long after GTA 5 did GTA Online come out? Two weeks, and the launch was rough",
+   "s": "Nacionale",
+   "u": "https://www.nacionale.com",
+   "d": "2026-11-11T15:31:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd3FpVC1SOXlaaXQ5TklNSXdhc3NXYlVpZlJXWklXcllHcWVNb08xbXlYMGVKb2xtR1N5eldzRHRoNFdFUnZFbS1VLXZ5RnVrM0dfczNpRW5LRmNjcGtNb0g3dVlONlNPanV4S21SVkhJSzlLOFRjdkthSXlvRzJUbUFPZXYxekRUUkFYY1hFVWJZWkhvYWdiSnBEU3c3MHFwdjBJdU5MZU9MbFJpTkNIVDlR?oc=5"
+  },
+  {
+   "t": "Insider explains why GTA 6 is 30 FPS on even the Sony PlayStation 5 Pro",
+   "s": "Notebookcheck",
+   "u": "https://www.notebookcheck.net",
+   "d": "2026-11-11T11:08:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV19WOTk5bmxlX3hlMDl3M1MwUjlSa1ozNGc0SmpnSG5vU2Q3Qy1pN1VpQ0RBbGlCZ1dBZ1JGRmlqdmcwTGZ1azlXZnZOSWpHS2xhSk9nR2Q5MHl3RnF1UmNoNGo1Vjh3YWFvX0l1dy1kaUxrSEUxb2VMZ1pnZVYwaXlGd2Nnd2lJYm1DdHBlc01OWEEzUnMxVmdBSERQU0RTTU1vUzExcTNSUlRtZ29BdDB0NGxORVE?oc=5"
+  },
+  {
+   "t": "GTA 6 Physical Edition Unboxing Videos Show Off Poster And Discless Case",
+   "s": "Insider Gaming",
+   "u": "https://insider-gaming.com",
+   "d": "2026-11-11T12:04:29+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHR1ZUxlVGw1eWN1Qm9JdW9IWWFndmNiLVVBQnNKYVhpWGRmak85bzdPNnFZWV9FVHp4Q2ZkWGR6aXhyNENIZ0g3WXEtaUFnNFhlUVo1MGc3cWJ6aUZLN2JKY3BtMWQ2TGQxa2JRN0o0MzV1emR0cjAwLThmOGhMWkpXd3Rma04zWFpVeGk1OWc1dTVXX0RGNWFrZ2pmYVp2VXc?oc=5"
   },
   {
    "t": "Ahead of GTA VI’s release, Logitech is giving 7,000 employees the day off to play video games",
@@ -233,473 +688,18 @@
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnl3U19VVF9tRFpkLVZTZDRCTFF2VW5GbG1UX1llNkc0R3laXzU5UnlTUnNucDljdzVfTGY4RDhsc0xPRkxnWWlsLTZUN1lxNUhKX0JDeG1XU0lUZ1UyZFQyM2U1RVpkZ3BMaXk3ZUt6dkNDUDVuMU91d3hXSDNJQ0F1aGxYcnROLS1sTGV3WURtbG1BUFN0ZGtzODhYdHpwVnVEdU5mUU5DcElNTXVJWjRUQU5aM0xES1pWSUNaUEF2bjFxX1dPeE13?oc=5"
   },
   {
-   "t": "Tove Lo Shares New Single “Blood In Your Eyes” From GTA VI The Album",
-   "s": "mxdwn Music",
-   "u": "https://music.mxdwn.com",
-   "d": "2026-11-10T21:31:32+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONmNzT3FnRDZ1UFA4WUR0elhkYl9sdW5ZZVJJdHR4MjczLUJqVE1SczdyNmpHMjFvN3FZdWN3UjNZeUNXVUN5OFVPQ0FtNy03RG9SWmMzN0JuR3ZRM1BIWVUxdWtJRlFKdXloUV84UEJnTWxpZ2Ytckc1WTJZdzFNUTgwek5HV2lfSHVEV0FBdHhQLUZaenVQLThRRjV1eWMyT0VWZ3lmWXdQczTSAbABQVVfeXFMTXFqLUh5OTd6eGYxNlpLUHM3R3RWUEdnRF9ZZXBYR2QxVEVTQVZpMmc5WmhJUlZ2azBDNkE1cjYyMDNzOUUtbGcwU1hTbUlkWVFYRUpXc09BSXRwSVZmX0dZaDVtbV8wZERRU19hcmpzcnZHT2NLQlRTVVRVQTZCVjFGdU9TQVUzcFdjY0Mta01WWmVPR3hXM3B4MENUVlUtLW92NjJmSTlXNGNFQWF5bHQ?oc=5"
-  },
-  {
-   "t": "I Called It Weeks Ago: Rockstar Just Confirmed the Best Console for GTA 6",
-   "s": "PCMag UK",
-   "u": "https://uk.pcmag.com",
-   "d": "2026-11-10T16:58:02+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcDhWTzBBcnlod21OTzJRb05HWkppWVNReUUtTWtJOFdMQkl0eEo5dFpaY05VSDNtUEZHTk1QRVFZR1VqSVhtbHFPN285THl4OTNHcVdfdFdMY0tZbEthTHU2eHpMd3dsb3Z4a2d1Si1wR2N4OUVxS3NYUzJ0cERWQ2RkVkdCNHZZdEFIc3JYZ25hSG5KYjdGaVlJdmtham5mOFFWVFNManVET2UzeU41akRNYWZEMWxE?oc=5"
-  },
-  {
-   "t": "GTA 6 pre-load trailer may be taking a swipe at critical fans",
-   "s": "Mezha.net",
-   "u": "https://mezha.net",
-   "d": "2026-11-11T06:46:08+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01WXhtdm1ScW5aOEdqcXJJd0l4cTl4RWN3RnhGbnoyZnBSRjZtZEl2cGRzZDBMZE9Zb016WTRfbnlwS2tPTjdOM3U1LUxuU2lTVVZmTmI2MXZydGNVV29OYlAxUlB0czQzRndKVHlDZnNfNEliTk4tbEtxMUNTQQ?oc=5"
-  },
-  {
-   "t": "Sony and Microsoft are encouraging players to start their GTA VI preloads now",
-   "s": "A.V. Club",
-   "u": "https://www.avclub.com",
-   "d": "2026-11-10T20:11:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNN3Z2VHc2aTRMZEV3M1dKWEJQR0owWi02OUpDbUU2eXhhdVFNdlpFcHB5akxRMWZiSGZGcXY0ZkRSc1BOTC1qZl9KRFFIUTRvNlkxbVllMl9RTFRnTzljUGhGbGdHYllQbkQyZzBYM202bm9sX1JCR0ZuMDhiRFE?oc=5"
-  },
-  {
-   "t": "Will GTA 6 Have a Casino? What We Know So Far",
-   "s": "Hard Rock Bet",
-   "u": "https://www.hardrock.bet",
-   "d": "2026-11-10T22:10:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQWx4Mjd3STFZbnV6S1VqUFQ4amR3VjhrWktFaW85WkpHNUxBT1c1SkMteDBXZDNhS0R3QWFEZXBXbGZ3ZnRBTzgtMEpURWEwcHVSOExIcDM1ZV9VQXBUR3djMGhfUmpfTXZQY0I4SmhpdjhFY1VyV2NxQi1FQXVCQg?oc=5"
-  },
-  {
-   "t": "Every GTA 6 PS5 and PS5 Pro Feature Detailed",
-   "s": "VICE",
-   "u": "https://www.vice.com",
-   "d": "2026-11-10T17:50:04+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM21uakJibWdfYk9tMk5OckFOTXIwU2Jya1RTUTdtVVJiVnBxQ3MtNFIwMGFvanpxWG9yNEwwTTVoMVNnU3VyNW5JZjJkN1oxN2JaTmJoUjBKZ090XzJFQkNuR0hyOTJPR1hXbHEyQkM0X2Zzc2N5clYyS3NGRDdCYXMxNA?oc=5"
-  },
-  {
-   "t": "GTA 6 Is Targeting 30 Fps And Has Ray-Tracing Support On PS5 Pro",
-   "s": "Engadget",
-   "u": "https://www.engadget.com",
-   "d": "2026-11-10T16:12:44+00:00",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTnhrOGVOLVdTeHNUN2dveVVWZlctSDVBVjZJTGZMUDRSbnhSbWVueVlyT2k3Zk1WVkhVaGhxZHY0S2ZwSWxaQUkxbzV4RWhRSzI5T1F6QmktQVNkSXVvV1hoaFNWM3pqRzJ2RWxrV0FRZ2oyaGpqX3BKbktTX21JaWtJTmdjd3dwLUtRZGNvbVVxMFRjZXViV2h5TVNQZ1E?oc=5"
-  },
-  {
-   "t": "GTA 6 Backflips Look Good Now, But There Could Be More To The Story",
-   "s": "GameSpot",
-   "u": "https://www.gamespot.com",
-   "d": "2026-11-10T20:28:03+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaV94c0NuZ3ctaS1RTG9xM2JsdDI5UlFfTnYzdUtYVUZ0bDUzVVN4U19JQnFhbmVGQWlUa3h4NWcyTmdzNXVmZnJoUFB4VTdSR2NNRTNvR0dWaG5EdDFtVjZOR1RfMEZPY3FDM1BpS19xektsYzVHVU9WNkl4NkxJUVBkbkZQNnBJYzBkOWp2bTJWbk1BTEIyUXJfOEVzNXlac2V3?oc=5"
-  },
-  {
-   "t": "It's nearly here. GTA 6 to start preloading onto consoles today",
-   "s": "USA Today",
-   "u": "https://www.usatoday.com",
-   "d": "2026-11-10T14:17:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbENWLU85SnV2eFdfMllFejZoaEstTEJ0bGJPTFVUSVJ4ajJEWWdnQnJiMlQ2dkRxQzU0d0RPdE5yekQ3aER1aWNnVm5LVjE4VzBkbGdUZnlJNHM3VmhFMTRjUzNUaUxVRFZlSDc2Q3p6TUlMWFNpbXd6d2cxcjY3Q0FkekhMbTdHbUtJSUlQdG1BUnRQRlpiZUkyT3V3bDhOUV9ZcXlHeE5FSkhJcGZHVTN3?oc=5"
-  },
-  {
-   "t": "Take-Two isn’t ready to ‘declare victory’ on GTA 6 before launch",
-   "s": "TheStreet",
-   "u": "https://www.thestreet.com",
-   "d": "2026-11-10T18:33:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRFltS05fYUt4LTBEalJtaHloLTBMRncxc3BMU1hKU1UyRnFZc25CSWNUMk94TEdoSkxsMnQtdlpDT2ZxRHdlWE03QmZ3eTdQZnJVZjc2emlnR2RyTGU2cV9QVmlNanl2V2wtcTFOVjhmdGFPeU8zcmx5X0ZBc1pqaURB?oc=5"
-  },
-  {
-   "t": "Pre-Load Grand Theft Auto VI Now",
-   "s": "Rockstar Games",
-   "u": "https://www.rockstargames.com",
-   "d": "2026-11-10T14:49:42+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG4tVTJzUTcxU1NpT05mZVpHTXlRX285MWI5VzVwc2k1UnZiQ01HbGhBOWltLVlIRm9Rb2dUM1lfTmhYcDZXbVdsWHQwdEo0NmdCbTZ4bk9qRE5MOXVfcDNGNE9oWjl6LXoxQ05TdE9zaHA3WlBNVzZxMVY3c2F3R3dVa25wdHdWOFUzcEs4WFU3cXNXaVZTRWpR?oc=5"
-  },
-  {
-   "t": "Rockstar opens GTA 6 preloads nine days before release",
-   "s": "Latest news from Azerbaijan",
-   "u": "https://news.az",
-   "d": "2026-11-11T07:42:23+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTlJSTkRadlRsdk9rSzA5UkgwaXRiN1lBbUhaV1EtTTBGX2QwTEtyNXB6cmJDa3g2enRhaUdFaFEtaEExSjNZMEpwWFBBWm40aWotdFhVOFRPU2ktZkpyUWhQUlRqRS16bzZlOVk3Q3FzNVl0VTljTGJZaHBiVlhuaw?oc=5"
-  },
-  {
-   "t": "GTA 6 Will Be Playable On At Least One Last-Gen Console",
-   "s": "Kotaku",
-   "u": "https://kotaku.com",
-   "d": "2026-11-10T21:30:53+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVThZQ1NmSFFaQm1sdGFENkNIQS1jV0YyN3NBejRFeUREcWthcDFqMmR4RGU0NUJmQU95cFBsZlNEMkNuNFp1OUw5WUNrWjM2T0x1YTBoQnhkRkdyQmxpNTZlM3NGXy1mb0RBVzJKZExMenQ0TmFoR1FIY3R4eEp6aS10MUhEU1FoM04tUWI1ZWxrby1LRGZuS2NGYkV5RXYweVh3RUU4cGFXbmpmaEJZRXYwV21XRXc?oc=5"
-  },
-  {
-   "t": "Rockstar Officially Confirms GTA 6 Regional Release Times - and They're Not What We Thought",
-   "s": "Digital Foundry",
-   "u": "https://www.digitalfoundry.net",
-   "d": "2026-11-10T12:18:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWjVPVDVCTGJsc0FZR1NZeTNEU0lZS1hIVTctbDZ5dmFIVC1EYWtTZWhvVC16TmY4M0xZU2RHUnUzT3NmcE5YS2tac25mdXFQRGpyVkQwUkVJRlVHLWc1ZGw3VUF4ZEQ2aUp2WEZlUlp6eTliZUFlcWFibmFoNk5NSldMbVYzbDE4R0dVR0VuRHJmMkRyeHM5RVJBSEtBSEdJMkJtVVkxdzQ3MlBHX2lqZGRSYjVKOE5sazFGSkpKUHh0aThyUFdNcXdZWUI?oc=5"
-  },
-  {
-   "t": "Amid Higher Gas And Grocery Prices, GTA 6 Is A \"Bargain\" At $80, Take-Two CEO Says",
-   "s": "GameSpot",
-   "u": "https://www.gamespot.com",
-   "d": "2026-11-10T20:16:09+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTFE0dDBiTTBGdFdlb3pDSlktaVZZSHd0N3Fuc3Z5cXMtaVdQdVF0am9YdzFrRW9KQzBzNmNtM2ZmaHdZSTNRdDEtVG5TazR1MVV2blpTSUZyRFBhQWowX1lSd0VNZmcwUTRVSVVMeUhPb3FmdkF2S2NVam5jVFpDOFFkRS16MFN0d3dWcEpQWnlhcG5HMXJQNGo1cVJYNDRKc1hwSjYzSE9QX3pkQklwY2ZB?oc=5"
-  },
-  {
-   "t": "You Can Play GTA 6 on Xbox One",
-   "s": "Digital Foundry",
-   "u": "https://www.digitalfoundry.net",
-   "d": "2026-11-10T14:30:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQmN2dEo4REY1cHMwMDlpLVV0NTVPaElsc0VHUEFMem5YM3FXdnJBWE9xWm95c0hzUS1XQ19JSmZrREhYQTBTWW1oTGlyVGh4SGcwc21UZDRDSnZ5b3lYcUNzcXEzb1lGbnVfSmxRcDVkRFlxc2Zndk03blpEMW8?oc=5"
-  },
-  {
-   "t": "Is the imminent GTA VI launch already priced into Take-Two stock?",
-   "s": "Yahoo Finance",
-   "u": "https://finance.yahoo.com",
-   "d": "2026-11-10T14:26:13+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWUs3cWNxU1NxOFloZzlKb3NRUlViSHZKUUxTT0k3SkZOdzEycngxQ0g1U1ptN2tSVV9oeGxPZWlUT2d0YkRGVE1ZWlVPMFRRT19SeHBJWVpoYVFUNUY4dXYtb09EZ3NkMFpRVW1ZbTI0dFBIbHBZc1BIampmS1RrYjM3N0ZSNDNkbmRSSXJzaUR6MEswWl9EZHRUYw?oc=5"
-  },
-  {
-   "t": "GTA 6 will technically be playable on Xbox One at launch",
-   "s": "Mashable SEA",
-   "u": "https://sea.mashable.com",
-   "d": "2026-11-10T20:26:55+00:00",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUERTTjFOZkdqam5SYVBwc09YdjRKTDBjcVJ5VklyY1hqX3ptaTlJejdwT2Jvb0tqYWljNkJaTjhYeW1nZXdLOUZjU2ZvNHNUSE02RG1JTjZEYTc1bEVKXzhYNnl2ejBNR0xja3ZBSmxrQVlWRV9aZ1pHeFBDcGFHY3pVVXZJRkhnX0dSWC13X2ZSMF9iZmdjanJSWnpuMWlTTkcxZ1l3?oc=5"
-  },
-  {
-   "t": "GTA 6 30 FPS Confirmed Guide: PS5 Pro Enhancements, 212GB Preload Size, and New Trailer Details",
-   "s": "MMOEXP",
-   "u": "https://www.mmoexp.com",
-   "d": "2026-11-11T04:02:20+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOekM0Z3dkZDBZOFJya2NseWRyQWxmejBRX2Z3Mk96MklqVlVuREo0STBWZmZoSFNPbzhScDh1ZTdsRUpYTVZlQ0ZhdFlZV0hwVUtNcXVad09QMFNhWG1GQkY0OHFJN2p2aXktUy1KNHdoSWRDcEVlel93WHRjcGR6cjEtWHlFdnpJcnNkSGhONWhqSjk3aTUydkFBQ18tVUptNWROV1YyQ0lpZl91TGdOMEl3RkRsR1duZUMxQ2pWV0l5T1E?oc=5"
-  },
-  {
-   "t": "The Hilarious Reason Why Police Departments Can't Wait for 'GTA 6' to Come Out Next Week",
-   "s": "VICE",
-   "u": "https://www.vice.com",
-   "d": "2026-11-10T17:35:31+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkNPQWxBZE41VHJGN0lQQU5aV1JnMk53R25qeTU0TC1Dck9Nc2pJRUdacXV5eUFNVFljS01CMFA0bWxneHlFbzJ2RGFIWklqcXEwQmNacy0ta19neU91ZTJqcmFtVGkwZU5reG1IVXMteWQ2dGI3Xy0zcTlNYmY3RDVIYWNBSmVPSDVoN3FWckpBWkM1Z3VPVWxyZk96dUc2bjFfLS1kRER0RXFQVklpU1BvOTRvOFV1bGc?oc=5"
-  },
-  {
-   "t": "How To Preload GTA 6 On PS5 And Xbox Before November 19",
-   "s": "SVG",
-   "u": "https://www.svg.com",
-   "d": "2026-11-10T17:00:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pazlRODhFYzlVaDNPdWx2WVZ0cmNfdTlDWVZTRUhXTEQyYmJGcFVheFdsamlxZG45M0hIemplWVBwQmJMRGVIVkw2bThGSGNWcDFzWkdCYkRKMzVndU1VN3VabjN6Zw?oc=5"
-  },
-  {
-   "t": "Official GTA 6 Update Is Bad News For PC Players",
-   "s": "Polygon.com",
-   "u": "https://www.polygon.com",
-   "d": "2026-11-10T16:27:20+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbUJnalVUQ1dBalI1RkhtbS1HTVhTcmlrZUowcnRRX20taEt1UFRRYkdrMmM4cFdSY3lUZ3VVWElhSlZOY2F0V0hWdXdkVVQ3a0lIR2ZiOHhPd2lqZ3Vzc2VGNFI5ZWgzcVVZRXRmZDVOYVdiV01aZGt3UGk0N19WNmpDT3BxZE5mZnZpb2J6dw?oc=5"
-  },
-  {
-   "t": "GTA 6 Comes to Xbox One at Launch via Cloud Gaming, PC Players Out of Luck",
-   "s": "TechPowerUp",
-   "u": "https://www.techpowerup.com",
-   "d": "2026-11-10T19:19:44+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlRJWE1UbHpTNldCeVp0dzkyeFI1UzNpNTVjRHhabHNMck5xbFp4RUs3cURjdVBNUG9OV25xMjR4U3JuWWhOOEk3UFNiOGZYZDlOM09UdzhDV3RKYXJwblprLVlHSGMxMk5sc21NbFhUTWZPRWV0VzV6QVFGbWVMa1huZFlIY0k2NlBrbmwxeUx5QjJ0UmtKR1d4djR2S21UdHdkY1JIaFZrLW5y0gGyAUFVX3lxTE9Ka3M0OG91c3pwOWRaQnhOV09SaEUyYkdQUC1OSUhXUDdnOTh4NkJSbFdmZS1JV200a1A2WmY5M0tWczNrS2hDTFl6YlVma0U4M2JxN0VLX0JsTjB3c3hSakp0Z1ZVclNSeFV5Z0xqWGQ4UDBqdy1XcWlwOF9ocjlwanVtcTJTN3FBY0VLbDNqZEJEYWhFeVRJcHFjcGJIWmhFbVNxNU5LUFQteVdULUZqbXc?oc=5"
-  },
-  {
-   "t": "This GTA 6 Competition Will Pay to Get Your Partner Out Of the House on Launch Weekend",
-   "s": "OpenCritic",
-   "u": "https://opencritic.com",
-   "d": "2026-11-11T06:16:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZk9venY0elloaDRZNGR3d2dJWXd6bGx1aW5FcDd1ZWFUMXJ2bmstV0hUaFNlVDVEU2xGYVhvLWdOYU1Pc2NraG93eWdXR05ZbUZzTjRCcEs0MWhqdUNpY1pYeW52aml1OEhNcF9TbXdzWDZZQ2IyeXhMQ3JiRWJjZ1p3cW1aaVRxWlRCamQ0alZsdmVjWXE0S2NDbWNSTG5yWXpEUUcwSk9qWE9oUWYzeFNTdUU5amN6Q0c0Nw?oc=5"
-  },
-  {
-   "t": "GTA 6 Is The Most Preordered Game Of All Time For PlayStation And Xbox",
-   "s": "GameSpot",
-   "u": "https://www.gamespot.com",
-   "d": "2026-11-10T16:16:56+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeE5MUDN6RV9UYU1aWXk2U3FrUGlrMS1FbC1wSkdWWlV6OG1NNkw0RURJc2tNZ3BnUktNSEtmOEphY19aRjFHOU1pZ0hEZ0d4VXFxdnRMWlZKT1hMbUJiTjNTaHMwMTRDdlpuUzNDaFMwUFIxUmYzUE95alJsaDNodGcyb09RZHQ1QVRFM0dzUTVINDllSmpUNXBqZnRPcVA4Qk1IQ2tVc0w?oc=5"
-  },
-  {
-   "t": "Logitech gives employees a day off to play games ahead of GTA 6",
-   "s": "Mezha.net",
-   "u": "https://mezha.net",
-   "d": "2026-11-11T06:33:01+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTgwNFBDVWR3Z2t6ZV93cUtaeENFdGs1UlZ0MFVlLTlMLWFWZk82QWMybVZOZ25EYzdWR1prZnRteUZsT3FtSXFhSUsxeUd2ZVVrajIxbmU2WHBWbTFrajFvTzV6RTRZS3J0T3pPREFDeEp2OFdQaTdtUHFFRTJFcFVJeTdlT1hoS0VB?oc=5"
-  },
-  {
-   "t": "GTA 6 on PS5, PS5 Pro, and Xbox: 30 FPS, PSSR, and Cloud Gaming",
-   "s": "MMOEXP",
-   "u": "https://www.mmoexp.com",
-   "d": "2026-11-11T01:26:10+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOWJxNTlFWnczOWs4ZElidWlCbEl1X0t6blpPYW53Nmdrb2tZYmFLcHVtMG1faG55NHgyVWFzSUpDdURLcldha3BfVXBZcTJ4WWxoVUFTTTN4QUVVM0VrNlZZRE1YSlZPaU5vY1N0VEt2cm14VnVSOTg3bXBHbWJsQzNzOUxVbTF6VThQVjUxRFBnejQyS3c?oc=5"
-  },
-  {
-   "t": "GTA 6 PS5 Pro Upgrades Finally Revealed: Frame-Rate, Upscaling, Ray Tracing Confirmed",
-   "s": "Digital Foundry",
-   "u": "https://www.digitalfoundry.net",
-   "d": "2026-11-10T14:50:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb2dhU1UtdjRxR2VhZmhaQUtHdzM4X0NlNFR1Xzk2SkZzd0l6MHdPcGN1eE5ISU85QzBVUUlINlV5Q0RvaTFSaXhUNllfT3Zsel8zV05KSXRzaHBVQWl3alMycGxreDBTV1cyME50bzRWLWgzWmVUV0tzclZWaDF1dXVTQ090R0w5VDZKQi1qRHNnNGFMWThPZDV5VS1qcXRtMjhjUHc5OHA5a25jaC1VXzlHakFxSFo0N0UyOHVycUNEeWFk?oc=5"
-  },
-  {
-   "t": "GTA 6 Editions Explained – Standard vs Ultimate, Physical Copies And Australian Prices",
-   "s": "Explosion Network",
-   "u": "https://explosionnetwork.com",
-   "d": "2026-11-11T01:06:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3NPTXNqSExmUHQwNG5UdjVFMXVRTHJMcEJvSG11eUdpR3A5cVZfMkJKcXR5VWVtRTg3NXRIN0JHU3pwazRnODBZMVJ6VDZxVFJBU2FSSk9QakhQSVlUbDh0QnRXN1dibmhuekFoM01objBGb0V4c0U0NWk2R1RuYlVWY1lkcENPTVBlZy1lRWREbzVDcGtrc3FpZmsxWjlKSlhIWWVYS1EtcmhQMWdRVVR6QQ?oc=5"
-  },
-  {
-   "t": "GTA 6 Will Run at 30fps and Support Xbox Cloud Streaming, But Only for Consoles",
-   "s": "PCMag",
-   "u": "https://www.pcmag.com",
-   "d": "2026-11-10T17:18:14+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbDJtYnp3T0JlQ191YlV2b1Z4cUR1aVM4dFJUMmhzbGRGU0dXU1d5MldYYWJnM3J3b0VVOU9LUUZxLURMU3VYS3MxSHlfVDN1ZEhia09wTGVGLUMyYmhZQ2xXbWNWaTFNdmU2eUs2QmlGelhCQUhJdG5jMF9SU0k5YkhLby1nN3M5VWdSMFRtTFJabHhPa1pjRFdIVUxSa0t4TnQ5alBHaTk?oc=5"
-  },
-  {
-   "t": "GTA 6 Launch Week Field Guide: What Rockstar Has Confirmed, and How to Use It",
-   "s": "MMOEXP",
-   "u": "https://www.mmoexp.com",
-   "d": "2026-11-11T01:51:37+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd1FaWnAwaFBGQ3JhdnRQZ2Y0UDNJeC1JQ0JPMVlFanpaQnBERjV2c3JMb0lYbjFyXzVlX2xyWjBWTXdSdmY2ZTlvMmVkYWItOHFTWU9LeDAtTTd6VGhkSjJ2cUZsbXpaQzZKSDNzOXNSdm9NWmtkX3l6UVFxei1lRTdoY0dTc29xRnAtYjIwa2hhcHNycGtUZG03LXVWejYxeHBfN0JkUlMzYWJC?oc=5"
-  },
-  {
-   "t": "Rockstar Lauds ‘GTA 6’ PS5 Pro Features, Issues Xbox Warning",
-   "s": "Forbes",
-   "u": "https://www.forbes.com",
-   "d": "2026-11-10T14:48:50+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkFGZk80TDhNWWFmWUdoeFh3RVktNkcxMUprN2lzMFI5STNiY3dNU1I2ZjRRYlhlS01HaDRCbFIwX2k3VDVNU2M2VnNtYkZwbVhLS1RtcUxlemJCZkhYTEVCd2FjTzNkTlgzX2xOTDBORlRHU21DUzJXcFZMUTRMRFFQeURxQll2MXcwSG1zN0NBZTBHRmtKNGhSa2I0UlBSRmNNeTgxRlJBSjFl?oc=5"
-  },
-  {
-   "t": "GTA 6's first player ratings surface early via PlayStation Store, oops",
-   "s": "GAMINGbible",
-   "u": "https://www.gamingbible.com",
-   "d": "2026-11-10T22:00:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPblk3N3BzYVZPM1JDTXZuNlB4TEZDWVZQQVUzTU1nWHE5V0hpXy03UXU5VzRRWFlSaXJyVjZ0djktWnZDVmx2Q0pncTFzVWZmYW1fQU1aQjVFblpXZjlRT3psYmMzRVoya2FjN2lkS1NHVHBRTS1ER1lWRkFPRzZpTmxOV1E2SE1INXBxSjRVMmlDTjZNZjlEUERrTWlxQWNZNmM0Z1hGY0hZNWM?oc=5"
-  },
-  {
-   "t": "GTA 6 Preload Is Live: 30 FPS, New Trailer and Global Unlock Times",
-   "s": "MMOEXP",
-   "u": "https://www.mmoexp.com",
-   "d": "2026-11-11T01:35:29+00:00",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS0FBYjVuVVI5VDBiOVBoeWJBaGo3ZmpTb3N1enJaMFV4LUNBTzd2akJBQlRMbU8xSWlTRDRfRGRGeWN2bnNiMHlSaXgzRjF4dnkzUmt3N2xtX0hwYVJpQVlBZlJnazBlNVdvVnBtUzBlQnFuMGlCSTM3bHdENUhRQmFXY0ZwRlYtZVlMc01pSjhhM1hkeDl0TUtoWXgzQQ?oc=5"
-  },
-  {
-   "t": "The games most at risk from GTA 6's engagement whirlpool",
-   "s": "The Alinea Insight newsletter",
-   "u": "https://alineaanalytics.substack.com",
-   "d": "2026-11-10T16:35:57+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81SVNrdXNPYWV5UjhTTlNybkc1SmJSYUcwMXhaSVRoc3JBcFpfRXg5Wmp0aGF0QXZNcHFnM2l6b3lMWmtzTjgtOFd5Sm43TTVmUFhycFdJWlFqSWx2azd2Q1ptaUV1QlR2ZXUwaDEwWnlmZTludVF1S1l3OFlyQQ?oc=5"
-  },
-  {
-   "t": "GTA 6: What Will Review Scores Be? You Can Win A $500 Gift Card For Getting It Right",
-   "s": "GameSpot",
-   "u": "https://www.gamespot.com",
-   "d": "2026-11-10T20:57:21+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTBzeFN0bzNIaW14Z2FvaVd0RUdtY0lqYTU2ajhwcnN5TmtPcC03ajJUbjlMOXJmQTdnVWFfd0FHUURReFV1OUJsU1ZsZ1FEMmc3dWduWVZHdjAya0J0dmlBai14SFFXRFp5R2g5aHFkYXZGci1mdU5vQ19PS0ZBRnkwVFE4ak1xOWEzcXZiclcxbHc2X2JyS1gzRzBmTnhvWnVYdVk1bjI3ejhFNnowc2t4SW5DNzQ?oc=5"
-  },
-  {
-   "t": "Rockstar confirms GTA 6 targets 30 FPS on PS5 Pro with PSSR and ray-traced shadows",
-   "s": "TweakTown",
-   "u": "https://www.tweaktown.com",
-   "d": "2026-11-10T19:40:12+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUHhjdENTOUNNYTItYTdsMmxCamNVRU5mQjlFZnd2WXgwdW9QeUZ6TS1oZDl6WHl1X2M2akRPaFY3ZjZmbWZEeXFBajNmQ0R6ek9LY0xISmFQbXJEZ0dlNzRUZmVzTmk3TkhkaVV5VUJGX21SNEJFdWdGNF9kNHJEbFFEOGhxenBvdFVYQjU5cnozVWlNZUNTcWo1N3Utcm1oTnBpbzNJVzVGcUtldlI0NVFMM2pMRFktUzF0c2hVVWlyV0NTTjlpenN4UQ?oc=5"
-  },
-  {
-   "t": "'Grand Theft Auto VI' is almost here. What to know about the characters, music and billions at stake",
-   "s": "AP News",
-   "u": "https://apnews.com",
-   "d": "2026-11-10T14:18:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbnJrbHE5SXBnU3h4ZjViR0FJNGdwYW0ybkFhQUtndEFMd0FBUUp0b2x1eWE2QWpVX2NWQWM2Q3c4NVJPcEFMaHpUQ0YtRGtOMnZoSEdPTEg3SmVCajdTam1PRVdMT0UxWXhabkZPRnhqYXBEMlF3UEJPRkVzSVpTVEZOQkdFVVhRTHc?oc=5"
-  },
-  {
-   "t": "GTA VI preloads are now live — here are the best NBN plans to help make the 212GB download seamless",
-   "s": "Tom's Guide",
-   "u": "https://www.tomsguide.com",
-   "d": "2026-11-11T01:06:26+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdFJrQnhiVm5SZ3JqNUg0R3BxUE1QdV84ZXY2ZkkzejZXQlBmTmJBSGZKdmlBUGVGT1FRTDNfNW5zSndlSzNqZEt2RkxhdGVRQUJWX1pLckZLNXh2N0RhR01xaW44QzdYYnN3SjJZUUczN25tVVNLX3dwTmR0bFBmRG9CU0ZERk0wXzFmamZ4NGZtT0hBT01tQ3loSXlRcTIzZWRiY1NPTlhyb0VQTHNxRjBMc2dUVWFYQlBiTWhSY1NzSk1qX0ZLbThYa0tKVlJVYjc1OFpiY25Xdw?oc=5"
-  },
-  {
-   "t": "I want an uglier GTA 6 that runs at 60 FPS – 30 FPS on PS5 and Xbox Series X is more reason to wait for PC",
-   "s": "GamesRadar+",
-   "u": "https://www.gamesradar.com",
-   "d": "2026-11-10T19:14:37+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbERrV3VyOWpPZTZkVXR1UWlFbzFDNDZzekFRR2ZZSUZTWDdoa2NhSFhJT3g1alFGbzgwaEwxY1dDcnREV0t5cS15QzhqNjJ6aER4dkJTdEx6ZXhWVTNPTUtpVWFKRXp0M0ZjUkk4dXlaaXZfVXFVOFp2RnE1YVJOZmFOOE8waVkwbWtMcU5sWllEMTBrOVNqYTFFUlBOY01rdDdUT3h3X3NBMHI4bFZMV3oxb0lUTmRIcnlvZWI2UWd5cXk0aldLbEFNeG5KbUx6eHYwRlNGcXhDdmM1V2NxdVRxdUdCMWl6a1Rr?oc=5"
-  },
-  {
-   "t": "GTA 6 will be playable on 2013 console after stunning partnership move is announced",
-   "s": "MARCA",
-   "u": "https://www.marca.com",
-   "d": "2026-11-10T18:03:55+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ2Q1T0pEaVlQSHZFYTRDdXRwdkRTU0FWVGlOR3BsWE9RTFE3QzJDbEhkWTBtN0JlQ1J4UWJXRy02dmItcmdsTE9tSmVtdHo5eFEtRWg5anZER1pPUFZuclE3MngxYnplWlFVQUhudjA4OHNVSlllY2xoUlVwZlA4c2N0VllFSGd3d1VQdDVhRzJBN3ROd0N3aFZuUE1mekEzR1J5WG8wRFRETjZGQnl1OGNwTC02QWtfSE5XQ0IySGQ3TTNpVHJ5Q3NlalNEWU40UzhOVmZiMm54UdIB2gFBVV95cUxPYWZoZ09rODBhU2RiekZIUmswUWxyV2syeWlzWUZ3RjFvR3ZkSEUzekl4U2NRQjEtTWFDLUo4eEJ3Uzh0ajVBbkxVbDBaQzFCRnlxSHBiTnFnYW9mQzFQM1hTdlBRdlZVcURfSmkwZ1VfemxvYXBuQTZHX1VuTXhVNndwUzZqc2hsSVp3cEl6eUpJaFdKQ2M4SGRMaF9rUGJhMExNRlhBSVdVMDA5RWRibndkZXF1V3NFdjk3T3VScU1jemNPbUFiTG52bVlESEJmLTFLcnBjQWtfQQ?oc=5"
-  },
-  {
-   "t": "GTA 6 Features Exclusive to PS5",
-   "s": "IGN",
-   "u": "https://www.ign.com",
-   "d": "2026-11-10T22:20:28+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1NE5DaEgxeENLaFY5dTdidTRlbm1GZVFTRy1nTWRFRXgwWklUWVQ3MmEta1RpbWZrUHFROVh2QlZFblpoMExYcjA3TV82VFlZd3FwdUw0T2VQaENBT3ZtQktyTUkyc05KRkE?oc=5"
-  },
-  {
-   "t": "GTA 6 Confirmed To Only Be 30FPS Including PS5 Pro, New Features Revealed",
-   "s": "RockstarINTEL",
-   "u": "https://rockstarintel.com",
-   "d": "2026-11-10T14:46:52+00:00",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZllCT19fLTBCZkl2TVV1T2k3YURxRXdVSnZUTzlmZnFwN1JReHIwdGlyNUVQdWY0SklWVjM5Z2lWN3YyMWdkYWxQaGVsV1dXUGloQ01zTUMzbGFSc0ZTNUprSHNGVmdJNFR4QkFVRUoxWkJaenZOMG9wa2FWMDVNZUs1MzFHNGQ1WXVSN0VkX1didGMtTmduOS1nQUUxRjhk?oc=5"
-  },
-  {
-   "t": "Rockstar Issues Official Statement On GTA 6's PS5 Exclusive Features",
-   "s": "Polygon.com",
-   "u": "https://www.polygon.com",
-   "d": "2026-11-10T14:54:08+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaWNrV2h3TmJmT01GeE1VT2dqUXFuZ0FnbVBGakJxc1VQREVMLXlkaDBPTTZsUUw2c1lTR0QtUzBGMXVTWkU5M1VCS1FoRmxnS3VuQTZjbDFtSVU0ZXFKUVRRbTVyMU85Tk52RlJPMnBMZGthYk1tVnNuM0ZnTlhpeDJ2bW0?oc=5"
-  },
-  {
-   "t": "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox",
-   "s": "PC Gamer",
-   "u": "https://www.pcgamer.com",
-   "d": "2026-11-10T15:41:26+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQMmtnYlFKaWE5Y3JKc2tHV2ljeEwtdzlldWtFNGk4OWZGX2NjMGlnYmlEZ3haSGIzNTB1UTZ2Y3B5RnNhQVVSQW5ya2hpeGNRQURyOFN4YllNUXhlNnpfekN0ZTdmOHFJNGVrR0lCMHlRbXJMZWV4ZHFYNHowTDNLcVVDbXI4azZ6akszQTlhV2ZoZHRzRnQ3b0VMdDRMRTljZGxOSnRiTFBoWkpWWXNfR1VyTjd2MFFVemtnSXR4YWN6cm93VnJhWkdSdFUxS3VpcnlFVWxlYmh4R1pYYktEM1ZaUXo1NnA5dFZDMEJGN21QR1lf?oc=5"
-  },
-  {
-   "t": "GTA 6 presales are 'running far in excess of our expectations,' Take-Two Interactive CEO says",
-   "s": "Polygon.com",
-   "u": "https://www.polygon.com",
-   "d": "2026-11-10T12:24:51+00:00",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95Z094d3ZjQmdVdS0tNXVSaS02cFI2aDh0UE1PcTJCUVMtOUNCZWtYYjhacGd6dGhfQk9BcF8teHlweG1GbDhhZTVRbU1xOTJkczlnclFtazlQLV9FVVRJdW5WdzQ0cWlFNVFVWi1pX3VzNjdH?oc=5"
-  },
-  {
-   "t": "GTA 6 Is Now Available For Preload If You Have A Spare 212GB",
-   "s": "Engadget",
-   "u": "https://www.engadget.com",
-   "d": "2026-11-10T10:01:45+00:00",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zVWJia3RwSVEyRHJDSzludzZ6ZjZDTDA4ZW5oNVpaQ3dWb3dSQXRoQkdNTko1ZVg3aDZFdDBOcWx2LTdlN1hhVjdOT1ZSbG5XMnJCdlNrbkFjMl9YLXZCdzlHREpxUVdXQUhNZ0pwQ3k0SUU?oc=5"
-  },
-  {
-   "t": "\"It's Terrific\" - Take-Two Boss Acknowledges Zelda Remake's High Score Ahead Of GTA VI Launch",
-   "s": "Nintendo Life",
-   "u": "https://www.nintendolife.com",
-   "d": "2026-11-11T06:45:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcG9xcVctejVFaFJRMFJ3WVR0TjdPa042RF9JR1VmSnFuQjRSQkRCVnV1N3F6dHNjNTQxaGNwUkRaMTUwY1dMTmpZRnFNOVdPaFE0SDU0Sklta04zaVBIYUNoVWhVU1Z6UUhLYzZoakVxaE9fWHFhVklkVUdSNG1udW1nU1QzZEIwNDQyLTJLV240dzlpSG1PT2N1TWdZYjJiMjVpbG82OTdzUU1qSnVYS0pvb2piREpRU2cwa3F0Q2ZaYnVXajVyRw?oc=5"
-  },
-  {
-   "t": "Here’s How Your Xbox One Can Play GTA 6",
-   "s": "GameSpot",
-   "u": "https://www.gamespot.com",
-   "d": "2026-11-10T15:04:35+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yQ3hDajMzV3JfZnJLNWZXY241RHN5YkY4WVVqRkFHLXpfTHFkdTBGYnBneUZPNmlqcmFZR0p1S01rX2t0MkpzejB5M1FFcVRmT21ldW5XRUw3MFRNTENsT1BrdmVXMVVuYkhOWFl3T1dQdUJTNjlrZkN1VDI2dw?oc=5"
-  },
-  {
-   "t": "GTA VI preloads are here, and Xfinity has a free perk",
-   "s": "TheStreet",
-   "u": "https://www.thestreet.com",
-   "d": "2026-11-11T01:17:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUmJDUlRpUVdjM2pDUmUya3FqWi1RdUN5YjVxYVpqNDBva3NPQUkwbHF1RFJBa29EZGtFaExCREl2VnR5WFNDUG56eE5pSVk1VWdlNlQ3MHN3bEhYay1zcHgtN2ZoVTFqTjdsLUZjU3BFRGp1cTRCMm03VGxCdW54TkhR?oc=5"
-  },
-  {
-   "t": "Take-Two touts 'unprecedented' GTA VI pre-sales, overshadowing lower Q2 revenue",
-   "s": "Yahoo Finance",
-   "u": "https://finance.yahoo.com",
-   "d": "2026-11-10T14:59:40+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMkpORjhHNnc4eFA4c1JpaGw4ZVZiWDcxQ282UUNMSUZDZWV5SGpra1MzaE8tVklkb1FqSE5yWUJTcFZOVUN4TWFZRFhGS2l0bEZUNjB3dDVrRmZidERoYkRkUlUwbzU1bm53WlVQT20tcXZ4Q1g3QUhrV1h3ZUdaaHkzc05JcVR1bE56MmhMWHFrTkU2LVhMYmZ3eGxReVlUeGRrV3JKRXE4VHEyalh5blNoazhTQ21oSElwbHJzTkI?oc=5"
-  },
-  {
-   "t": "GTA 6: How to avoid spoilers on PlayStation, Xbox, and social media",
-   "s": "GAMINGbible",
-   "u": "https://www.gamingbible.com",
-   "d": "2026-11-10T17:00:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORGljWWZMbnRzUU9nTUNEY1psU2FFTDZDV0lNUkR1VjhvbEx1TmpPZUFyS19KR2thU1hqUDBLQzFoclNSb0FUTXI4a0p1Vi1qa0N5dTZFdjRNSVdlMG1QS0c0M0NDaFVmclp0N3RlWWVrakpqVHVyUTNhSU9LeF9XOW84dGNTSTliU3VOY2VqbG8xR2pPQzlZd01KMk11VUxKeWh5ZXVWcnA?oc=5"
-  },
-  {
-   "t": "GTA 6 will be playable on a 13 year-old console after Rockstar drops Xbox stunner",
-   "s": "Stuff",
-   "u": "https://www.stuff.tv",
-   "d": "2026-11-10T21:02:11+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY2pLZkZURUNKaWlXWFluN2hiWTc5eVlweUl5UGM2enNENFFKOFBQRV96Zm9wQkk2SmdsRWRELXhBWkJBSEREeEowM2FUZUhOZGVtbVVEU3AwS0ZoN25HdzVoQXVwdnRBSGNKZnYtNDg0b1Nqb1VNeWVjTDJXTEdJNzhOSjJTa1V3Q3NCV1c0aTMzUGFEWkp2X1ROamZzTWMyaTVlUzhWbnNyTUNkOWc?oc=5"
-  },
-  {
-   "t": "GTA VI will be available on Xbox Cloud Gaming for Xbox One consoles",
-   "s": "The Verge",
-   "u": "https://www.theverge.com",
-   "d": "2026-11-10T14:37:09+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5Yy1hamRqX0RoRXRGeWNVcVYtN2ZfX3RFUUVtNGs1WmR5MG5yYXl5TlhVRHBKVXFCLUtyYjRfbTZHQlN3NEpoYmRBXzVFaFlJanloTF9XV3pjTWtLUk1zelRiZkVUTnVLcHZ6dFpsUjB4WU9wRnhhWnJ3?oc=5"
-  },
-  {
-   "t": "GTA 6 is Playable on Xbox One, Rockstar Officially Confirms",
-   "s": "Polygon.com",
-   "u": "https://www.polygon.com",
-   "d": "2026-11-10T17:01:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaakhiVmplQXFXT2RDSzZRbXdwTGdmeHdHN09zNS00QklucjRBd3NhZDgyRDFPYnNqSDZyRjk3T3ZBWFZySkFkbGVTcGUyR2kwLVRORWJ3Mk1PUDhMZEpDazB3?oc=5"
-  },
-  {
-   "t": "GTA 6 Will Be Playable On Xbox One Through Xbox Cloud Gaming",
-   "s": "Pure Xbox",
-   "u": "https://www.purexbox.com",
-   "d": "2026-11-10T16:03:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUFNxaUpVM2FOd1k0MUtmNThmYm9XSnQ3OWJHS1diMVhWWHFtbzJOeVJsQ2RsRWk0YWxqQUNKdDhwazdQb3B5a2M0ejlsbmRhUXZQUk5HZlljRjJyNWJuVEdzQ09MZnd2Qnh0YmpUT2t1UTZxNjhaX3lUNXlGcE1JWTFudGU0SnBycTYzVVViY05aYUZqejZVZ3NrbHZveVk?oc=5"
-  },
-  {
-   "t": "How To Play GTA 6 Early: The Secret Trick For Xbox And PS5 Players",
-   "s": "CULTR",
-   "u": "https://www.cultr.com",
-   "d": "2026-11-11T00:17:37+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMWxSZG9aLS13Smg3SmpMUXA0RDdpeFJIMkZZMklhUmwzRzVNY3FtVUNkamozeEZHbFNETmgzME01eHBKXy1za3ZIblpZanVsc0JHNW9vejVsSnpnd0Y0MFA0OXE3ZkZHdEVsS1RCbm80R21mR2FXb3RtQThuUmtVUVlyYzlHZGUwNHl3aW96eGlpOW9kMThSZg?oc=5"
-  },
-  {
-   "t": "GTA 6 pre-loads begin today for PS5 — start downloading now and get ready for these big exclusive features",
-   "s": "Tom's Guide",
-   "u": "https://www.tomsguide.com",
-   "d": "2026-11-10T19:44:01+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQk1GcHZ3UWgwa0ZTeHVUQzNLSFl5V0xjWlZpNmRKM2FEYlE5UG8tY2xVMXJXV25ESzBFSVZCMzdJNXhlUFh4Vl9tUEZVYTdITFZhQ1lrVFBGc04xR0ViZVNzeHl5X1BtWkotZzVJZE5qLTlONm5ZbGFSclVXamY5djVLMngtRDF6OXdaUmdydzBZc0hiN3NoRHVTZXg3SS1MODZDTGhmTnVHRGx5QXppYlpBR3ZmcDVJeW80bnN5Y2FIV3BwejRkSHFjWkxtUUFlUktlenptRDZ2VTNjWmxBUEdqOA?oc=5"
-  },
-  {
-   "t": "Rockstar Shows Off More GTA 6 Backflips",
-   "s": "IGN",
-   "u": "https://www.ign.com",
-   "d": "2026-11-11T01:20:26+00:00",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xendUVUxLV2VObTM5NzhRVkFmZ0pQSS1ZWW14ajVhWFdmQkN6UGRMZEQzcWZtVTVCaXpvM3dBd2NSY1ktMTRGbTBuZDl2UUQ4Z3dyZkZOdktHeE82Z3Z6bElZVmQtckJqSEgwVkJiVE1KNXVt?oc=5"
-  },
-  {
-   "t": "Take-Two Keeps Its $8B Forecast as GTA VI Launch Nears",
-   "s": "The Tech Buzz",
-   "u": "https://www.techbuzz.ai",
-   "d": "2026-11-10T22:14:02+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcElEMzA1YzVaNXlsRGZJWlJjY1BTQ1plR0hTTHJnMHU1NVlULXFqMkJYZTNEcjB2ckN3eUYxanNVOVBxNnhzWkt4ZHBVSW1Gb0VQNm5jM2V2WlR6OHBJQkhvMVU2Zi1xUjVpbnFsc0x4RGFaTkxlMjFSRy1KZTZPUg?oc=5"
-  },
-  {
-   "t": "Rockstar confirms GTA 6 targets 30fps on all consoles, with ray-traced shadows exclusive to PS5 Pro",
-   "s": "Inven Global",
-   "u": "https://www.invenglobal.com",
-   "d": "2026-11-10T21:11:10+00:00",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaFVsREpyN19fMmlxLTBpb01pc2RydlVPZVJUcUM5R2JfblJiWVdINUJMa21ZckFSLW9QTEYwMzVlLVhsMEI5LXZOWk1sZlh1cmtPWkdGTERIWlFCTXVLS0dIRzlDSWdNLVZtaGJ6Y3d4VTJXeVFrU2hZeWpoNld0WVZGekJvaVRBN3lHMFB4QmViYjRTdjNMSHJaU200WDBpRzRlaEc2eldhcGhHcWNOX3FIMFZjT0RQdWJwdjRKTkJyMzNsNElycU1sTWE1N0tVVHdDUmFfS08?oc=5"
-  },
-  {
-   "t": "GTA 6 Is The Most Pre-Ordered PlayStation and XBOX Game Ever And Sony Has A Warning",
-   "s": "RockstarINTEL",
-   "u": "https://rockstarintel.com",
-   "d": "2026-11-10T16:10:51+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmhOQVNlRHdlVGNiTW0wNlNnNzNnbFpVbDlZRmNtRDJOUWZvVUV2cldvamN6eXEwcEtKcFk0T290WXpxV005Zk9NVS15cWlKZnVLLVdyNlVyc3RSMUFMVmFWeWhiMEJ4Mk5ic1B5dExtOHpuQUZlVmVYSDk5NEVWMkgzTXZkYXJBRTZEZ3hOcHZteUd3MjF1dUs5Q1l3ZTJTRWVFNUdKOVlqTXFLRVJR?oc=5"
-  },
-  {
-   "t": "GTA 6 preload is live with up to 212GB needed, and Rockstar confirms a 30 fps target",
-   "s": "MIXED News",
-   "u": "https://mixed-news.com",
-   "d": "2026-11-10T21:20:42+00:00",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DNGI4aldXcDBJWVhWY1NXcjcwYkFSeHIwZWl0S0t1Yk01NjBMSWhGZzdpZW5zSjh5eThvTWFEbGV1cC1CdE0tLWFiZ0dBb2poblo5Y0EtYzJGY29UOTFlUjN6VUMwRkNnLVQ2cE1FVnB3Rkcw?oc=5"
-  },
-  {
-   "t": "GTA 6 Was Always Going to Run at 30fps on Consoles — Here's Why",
-   "s": "IGN",
-   "u": "https://www.ign.com",
-   "d": "2026-11-10T19:21:05+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQzgtbzVRLVk1N0p0TUU2WlE5Vy1NX2h5ZzhwUndPYXBqM2h4T3I0Y0plQXNqNXZ1V25HX1JpNndENGN3NDg5cGhtR3RzYnl1LTFEc2ZWR3FlTFlCYk9kaWpoNnZEVDFEalRKckFXN2RrMnc4N2ZuT3MtY1drZ3ZaanMwSm1sMTRxY0pMNHd0Tks5SVE?oc=5"
-  },
-  {
-   "t": "GTA 6 could get FSR 4.1 support on Xbox Series X|S to compete with PSSR on PS5 Pro",
-   "s": "Notebookcheck",
-   "u": "https://www.notebookcheck.net",
-   "d": "2026-11-10T23:41:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTUZlbzE0TjMzS2FkUy0wRkpOdFBFVDRqU3RtSHplRG1waE9wM1RoNDdKckpta2JNQWp2R0tfSk5CS2xxUzUxQnJBOFBaRGZxTFNtZWE4QjVuc0ZleF9sRVlBaERvNGgyMWRaMGpCNWtyRW9NNGRUcEtta055TjY2RjRMaXFNeE03ZzFpdncyZWtabi0tQ1RFbUlCX2VETzVqVnQ4Ny1QM2FlUGk2eFZMalVIU0dWdEFFUnhTMmxIeS1kZzA1MGc?oc=5"
-  },
-  {
-   "t": "GTA 6 Is 30fps on All Consoles, but Features Better Ray Tracing and Shadows on PS5 Pro",
-   "s": "IGN",
-   "u": "https://www.ign.com",
-   "d": "2026-11-10T14:31:08+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZEJNOWNIX25BbFVqdHduWWRlR3dLT0hGUmE2TU9vdFBvSG5Fd09ya0MwTzdHaW9LUnBscm1KRDFUMHhMakJvaWZicFRLM0IwVURaTnZkeEpHNjQ2TkxMVnhlVjY3YXdlSWYyVVNVZHdXSjF0UVE3U1ZPV091RERIX3lSSTFkMElla09ZN3JxZlE3MlRLRXBTV1NMeFhSOFRFUDBWekRvS2t3MFBFMzh1SHJ4UQ?oc=5"
-  },
-  {
-   "t": "XBOX Signs 10 Year Agreement For GTA 6 With Take-Two For Cloud Streaming",
-   "s": "RockstarINTEL",
-   "u": "https://rockstarintel.com",
-   "d": "2026-11-10T16:50:50+00:00",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVzB6dnRJYTBnSV80QXBmZ2hibkxiVXo2RU5rMk9CN0hwemh6SGt3cGVZWThHdS11Y0N1REtoak5PQUh2S1E4S040bVE0MXNxV0ZTRzhuajVFRFpBdG1iUFBrUkJpdy14ZW5kbFNUdFM3NjQ3T2ZnRWplOVhkT2tLWmNPODllbjFhT29XTUlsNEhxT2c4ZmgwR0piNTVhM1F3?oc=5"
+   "t": "GTA 6 First Review Scores Appear To Have Surfaced",
+   "s": "ScreenRant",
+   "u": "https://screenrant.com",
+   "d": "2026-11-11T10:38:29+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjMDlMRDJ3bFVOSnR1aVJhYTl6MDdYc2hqdDlTVWFRb1MzWlhrMi1QNHZ2aFptd1ZNSncyT2YtV0NSXzdyUGFMWURFQV9VYkhBcmIwZ29LSzY5Sy1nSVNnckpYSGpiTGFoOWNCYWsySmhFdHk0cU5uRg?oc=5"
+  },
+  {
+   "t": "GTA 6 breaks pre-order record on PlayStation and Xbox",
+   "s": "mobidevices.com",
+   "u": "https://mobidevices.com",
+   "d": "2026-11-11T12:07:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcHd1Y0wyRDZiUzhfa0RaRUdxMWNVcjY4UlFQOVBTMzRqTk16akdabGhFOS12S0JMLUxUZDIwcktUdGZhN2RHbXYwMmMwUzhFY1lVVzRPN1BYSEZCNWMzXzVjdERqdkVMcENtMWZzMk96VnRDZktObkVWM3U1YWtiWTln?oc=5"
   }
  ]
 }
