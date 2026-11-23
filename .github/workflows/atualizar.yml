@@ -26,7 +26,7 @@ jobs:
     timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.publicar.outputs.page_url }}
+      url: ${{ steps.publicar.outputs.page_url || steps.publicar2.outputs.page_url }}
     steps:
       - name: Buscar o repositório
         uses: actions/checkout@v5
@@ -68,6 +68,19 @@ jobs:
 
       - name: Publicar o site
         id: publicar
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site
+
+      # Às vezes o GitHub ainda não "vê" o artefacto acabado de enviar: espera e tenta outra vez.
+      - name: Esperar antes de tentar de novo
+        if: steps.publicar.outcome == 'failure'
+        run: sleep 60
+
+      - name: Publicar o site (2.ª tentativa)
+        id: publicar2
+        if: steps.publicar.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
           artifact_name: site
@@ -78,7 +91,7 @@ jobs:
     timeout-minutes: 120
     environment:
       name: github-pages
-      url: ${{ steps.publicar.outputs.page_url }}
+      url: ${{ steps.publicar.outputs.page_url || steps.publicar2.outputs.page_url }}
     steps:
       - name: Buscar o repositório (com os dados do passo anterior)
         uses: actions/checkout@v5
@@ -134,6 +147,19 @@ jobs:
 
       - name: Publicar o site
         id: publicar
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site-com-sentimento
+
+      # Às vezes o GitHub ainda não "vê" o artefacto acabado de enviar: espera e tenta outra vez.
+      - name: Esperar antes de tentar de novo
+        if: steps.publicar.outcome == 'failure'
+        run: sleep 60
+
+      - name: Publicar o site (2.ª tentativa)
+        id: publicar2
+        if: steps.publicar.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
           artifact_name: site-com-sentimento
